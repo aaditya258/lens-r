@@ -1,0 +1,15 @@
+attack,start,end,points_eval,localisable,note
+1,2017-10-09 19:25:00,2017-10-09 19:50:16,1_MV_001_STATUS,True,
+2,2017-10-10 10:24:10,2017-10-10 10:34:00,1_FIT_001_PV,True,
+3-4,2017-10-10 10:55:00,2017-10-10 11:24:00,2_LT_002_PV;1_AIT_001_PV,True,stealthy; manipulated tank level and water-quality reading
+5,2017-10-10 11:30:40,2017-10-10 11:44:50,2_MCV_101_CO;2_MCV_201_CO;2_MCV_301_CO;2_MCV_401_CO;2_MCV_501_CO;2_MCV_601_CO,True,
+6,2017-10-10 13:39:30,2017-10-10 13:50:40,2_MCV_101_CO;2_MCV_201_CO,True,
+7,2017-10-10 14:48:17,2017-10-10 14:59:55,1_AIT_002_PV;2_MV_003_STATUS,True,
+8,2017-10-10 17:40:00,2017-10-10 17:49:40,2_MCV_007_CO,True,table reports attack unsuccessful
+9,2017-10-11 10:55:00,2017-10-11 10:56:27,1_P_006_STATUS,True,
+10,2017-10-11 11:17:54,2017-10-11 11:31:20,1_MV_001_STATUS,True,raw water pump also damaged but not identified; only 1_MV_001 scored
+11,2017-10-11 11:36:31,2017-10-11 11:47:00,2_MCV_007_CO,True,similar to attack 8
+12,2017-10-11 11:59:00,2017-10-11 12:05:00,2_MCV_007_CO,True,similar to attack 8
+13,2017-10-11 12:07:30,2017-10-11 12:10:52,2_PIC_003_SP,True,booster pressure set point
+14,2017-10-11 12:16:00,2017-10-11 12:25:36,,False,chemical dosing stop; dosing pump tag not identified in description
+15,2017-10-11 15:26:30,2017-10-11 15:37:00,2_LT_002_PV;1_AIT_001_PV,True,inverse of attack 3-4
