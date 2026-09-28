@@ -1,0 +1,6 @@
+a,b,n,mean_diff,wins,losses,ties,p
+LENS-R T2 (full),GDN-style forecast residual,8,-0.006,3,4,1,0.9375
+LENS-R T2 (full),LENS-R without drift correction,8,0.003,1,0,7,1.0
+LENS-R T2 (full),Simple drift fix,8,0.066,3,4,1,0.8125
+LENS-R T2 (full),CondAttr-style kNN,8,0.141,6,2,0,0.0547
+LENS-R T2 (full),Raw deviation |z|,8,0.11,4,2,2,0.3125

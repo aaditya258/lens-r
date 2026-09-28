@@ -1,0 +1,316 @@
+attack,method,n_points,best_rank,rr,stage_hit,top1,top3,top5
+1,Raw deviation |z|,1,17.0,0.058823529411764705,0,0,0,0
+1,Entropy H only,1,7.0,0.14285714285714285,0,0,0,0
+1,Belief B only (label-free),1,25.0,0.04,0,0,0,0
+1,Relevance R only (label-free),1,16.0,0.0625,0,0,0,0
+1,"Relevance R only (supervised, static)",1,17.0,0.058823529411764705,0,0,0,0
+1,RF Gini (static),1,29.0,0.034482758620689655,1,0,0,0
+1,XGBoost gain (static),1,7.0,0.14285714285714285,0,0,0,0
+1,LENS-U fixed (equal),1,17.0,0.058823529411764705,0,0,0,0
+1,"LENS-U (equal, mode-switched)",1,17.0,0.058823529411764705,0,0,0,0
+2,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+2,Entropy H only,1,12.0,0.08333333333333333,0,0,0,0
+2,Belief B only (label-free),1,1.0,1.0,1,1,1,1
+2,Relevance R only (label-free),1,1.0,1.0,1,1,1,1
+2,"Relevance R only (supervised, static)",1,3.0,0.3333333333333333,0,0,1,1
+2,RF Gini (static),1,18.0,0.05555555555555555,1,0,0,0
+2,XGBoost gain (static),1,8.0,0.125,0,0,0,0
+2,LENS-U fixed (equal),1,1.0,1.0,1,1,1,1
+2,"LENS-U (equal, mode-switched)",1,1.0,1.0,1,1,1,1
+3,Raw deviation |z|,1,29.0,0.034482758620689655,0,0,0,0
+3,Entropy H only,1,2.0,0.5,0,0,1,1
+3,Belief B only (label-free),1,2.0,0.5,0,0,1,1
+3,Relevance R only (label-free),1,27.0,0.037037037037037035,0,0,0,0
+3,"Relevance R only (supervised, static)",1,32.0,0.03125,0,0,0,0
+3,RF Gini (static),1,1.0,1.0,1,1,1,1
+3,XGBoost gain (static),1,22.0,0.045454545454545456,0,0,0,0
+3,LENS-U fixed (equal),1,4.0,0.25,0,0,0,1
+3,"LENS-U (equal, mode-switched)",1,4.0,0.25,0,0,0,1
+6,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+6,Entropy H only,1,30.5,0.03278688524590164,0,0,0,0
+6,Belief B only (label-free),1,21.0,0.047619047619047616,0,0,0,0
+6,Relevance R only (label-free),1,1.0,1.0,1,1,1,1
+6,"Relevance R only (supervised, static)",1,15.0,0.06666666666666667,0,0,0,0
+6,RF Gini (static),1,13.0,0.07692307692307693,0,0,0,0
+6,XGBoost gain (static),1,23.0,0.043478260869565216,0,0,0,0
+6,LENS-U fixed (equal),1,1.0,1.0,1,1,1,1
+6,"LENS-U (equal, mode-switched)",1,1.0,1.0,1,1,1,1
+7,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+7,Entropy H only,1,12.5,0.08,0,0,0,0
+7,Belief B only (label-free),1,9.0,0.1111111111111111,0,0,0,0
+7,Relevance R only (label-free),1,1.0,1.0,1,1,1,1
+7,"Relevance R only (supervised, static)",1,36.0,0.027777777777777776,0,0,0,0
+7,RF Gini (static),1,2.0,0.5,0,0,1,1
+7,XGBoost gain (static),1,12.0,0.08333333333333333,0,0,0,0
+7,LENS-U fixed (equal),1,2.0,0.5,0,0,1,1
+7,"LENS-U (equal, mode-switched)",1,2.0,0.5,0,0,1,1
+8,Raw deviation |z|,1,5.0,0.2,0,0,0,1
+8,Entropy H only,1,35.0,0.02857142857142857,0,0,0,0
+8,Belief B only (label-free),1,34.0,0.029411764705882353,0,0,0,0
+8,Relevance R only (label-free),1,1.0,1.0,1,1,1,1
+8,"Relevance R only (supervised, static)",1,37.0,0.02702702702702703,0,0,0,0
+8,RF Gini (static),1,4.0,0.25,0,0,0,1
+8,XGBoost gain (static),1,20.0,0.05,0,0,0,0
+8,LENS-U fixed (equal),1,6.0,0.16666666666666666,0,0,0,0
+8,"LENS-U (equal, mode-switched)",1,6.0,0.16666666666666666,0,0,0,0
+10+11,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+10+11,Entropy H only,1,7.0,0.14285714285714285,0,0,0,0
+10+11,Belief B only (label-free),1,1.0,1.0,1,1,1,1
+10+11,Relevance R only (label-free),1,3.0,0.3333333333333333,1,0,1,1
+10+11,"Relevance R only (supervised, static)",1,42.0,0.023809523809523808,1,0,0,0
+10+11,RF Gini (static),1,8.0,0.125,0,0,0,0
+10+11,XGBoost gain (static),1,15.0,0.06666666666666667,1,0,0,0
+10+11,LENS-U fixed (equal),1,1.0,1.0,1,1,1,1
+10+11,"LENS-U (equal, mode-switched)",1,1.0,1.0,1,1,1,1
+13,Raw deviation |z|,1,29.0,0.034482758620689655,0,0,0,0
+13,Entropy H only,1,11.0,0.09090909090909091,0,0,0,0
+13,Belief B only (label-free),1,32.0,0.03125,0,0,0,0
+13,Relevance R only (label-free),1,32.0,0.03125,0,0,0,0
+13,"Relevance R only (supervised, static)",1,21.0,0.047619047619047616,0,0,0,0
+13,RF Gini (static),1,37.0,0.02702702702702703,0,0,0,0
+13,XGBoost gain (static),1,42.5,0.023529411764705882,0,0,0,0
+13,LENS-U fixed (equal),1,24.0,0.041666666666666664,0,0,0,0
+13,"LENS-U (equal, mode-switched)",1,24.0,0.041666666666666664,0,0,0,0
+14,Raw deviation |z|,1,31.0,0.03225806451612903,0,0,0,0
+14,Entropy H only,1,30.0,0.03333333333333333,0,0,0,0
+14,Belief B only (label-free),1,33.0,0.030303030303030304,0,0,0,0
+14,Relevance R only (label-free),1,28.0,0.03571428571428571,0,0,0,0
+14,"Relevance R only (supervised, static)",1,14.0,0.07142857142857142,0,0,0,0
+14,RF Gini (static),1,30.0,0.03333333333333333,0,0,0,0
+14,XGBoost gain (static),1,26.0,0.038461538461538464,0,0,0,0
+14,LENS-U fixed (equal),1,32.0,0.03125,0,0,0,0
+14,"LENS-U (equal, mode-switched)",1,32.0,0.03125,0,0,0,0
+16,Raw deviation |z|,1,3.0,0.3333333333333333,0,0,1,1
+16,Entropy H only,1,3.0,0.3333333333333333,0,0,1,1
+16,Belief B only (label-free),1,7.0,0.14285714285714285,0,0,0,0
+16,Relevance R only (label-free),1,6.0,0.16666666666666666,0,0,0,0
+16,"Relevance R only (supervised, static)",1,36.0,0.027777777777777776,0,0,0,0
+16,RF Gini (static),1,2.0,0.5,0,0,1,1
+16,XGBoost gain (static),1,12.0,0.08333333333333333,0,0,0,0
+16,LENS-U fixed (equal),1,2.0,0.5,0,0,1,1
+16,"LENS-U (equal, mode-switched)",1,2.0,0.5,0,0,1,1
+17,Raw deviation |z|,1,32.0,0.03125,0,0,0,0
+17,Entropy H only,1,30.0,0.03333333333333333,0,0,0,0
+17,Belief B only (label-free),1,33.0,0.030303030303030304,0,0,0,0
+17,Relevance R only (label-free),1,30.0,0.03333333333333333,0,0,0,0
+17,"Relevance R only (supervised, static)",1,14.0,0.07142857142857142,0,0,0,0
+17,RF Gini (static),1,30.0,0.03333333333333333,0,0,0,0
+17,XGBoost gain (static),1,26.0,0.038461538461538464,0,0,0,0
+17,LENS-U fixed (equal),1,33.0,0.030303030303030304,0,0,0,0
+17,"LENS-U (equal, mode-switched)",1,33.0,0.030303030303030304,0,0,0,0
+19,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+19,Entropy H only,1,10.0,0.1,1,0,0,0
+19,Belief B only (label-free),1,1.0,1.0,1,1,1,1
+19,Relevance R only (label-free),1,1.0,1.0,1,1,1,1
+19,"Relevance R only (supervised, static)",1,16.0,0.0625,0,0,0,0
+19,RF Gini (static),1,3.0,0.3333333333333333,0,0,1,1
+19,XGBoost gain (static),1,3.0,0.3333333333333333,0,0,1,1
+19,LENS-U fixed (equal),1,1.0,1.0,1,1,1,1
+19,"LENS-U (equal, mode-switched)",1,1.0,1.0,1,1,1,1
+20,Raw deviation |z|,1,1.0,1.0,1,1,1,1
+20,Entropy H only,1,7.0,0.14285714285714285,1,0,0,0
+20,Belief B only (label-free),1,1.0,1.0,1,1,1,1
+20,Relevance R only (label-free),1,9.0,0.1111111111111111,0,0,0,0
+20,"Relevance R only (supervised, static)",1,16.0,0.0625,0,0,0,0
+20,RF Gini (static),1,3.0,0.3333333333333333,0,0,1,1
+20,XGBoost gain (static),1,3.0,0.3333333333333333,0,0,1,1
+20,LENS-U fixed (equal),1,1.0,1.0,1,1,1,1
+20,"LENS-U (equal, mode-switched)",1,1.0,1.0,1,1,1,1
+21,Raw deviation |z|,2,12.0,0.08333333333333333,0,0,0,0
+21,Entropy H only,2,4.0,0.25,0,0,0,1
+21,Belief B only (label-free),2,4.0,0.25,0,0,0,1
+21,Relevance R only (label-free),2,1.0,1.0,1,1,1,1
+21,"Relevance R only (supervised, static)",2,17.0,0.058823529411764705,0,0,0,0
+21,RF Gini (static),2,1.0,1.0,1,1,1,1
+21,XGBoost gain (static),2,7.0,0.14285714285714285,0,0,0,0
+21,LENS-U fixed (equal),2,2.0,0.5,0,0,1,1
+21,"LENS-U (equal, mode-switched)",2,2.0,0.5,0,0,1,1
+22,Raw deviation |z|,3,2.5,0.4,1,0,1,1
+22,Entropy H only,3,13.0,0.07692307692307693,0,0,0,0
+22,Belief B only (label-free),3,17.0,0.058823529411764705,1,0,0,0
+22,Relevance R only (label-free),3,5.5,0.18181818181818182,1,0,0,0
+22,"Relevance R only (supervised, static)",3,1.5,0.6666666666666666,1,0,1,1
+22,RF Gini (static),3,17.0,0.058823529411764705,0,0,0,0
+22,XGBoost gain (static),3,24.0,0.041666666666666664,1,0,0,0
+22,LENS-U fixed (equal),3,11.5,0.08695652173913043,1,0,0,0
+22,"LENS-U (equal, mode-switched)",3,11.5,0.08695652173913043,1,0,0,0
+23,Raw deviation |z|,3,2.0,0.5,0,0,1,1
+23,Entropy H only,3,32.0,0.03125,0,0,0,0
+23,Belief B only (label-free),3,28.0,0.03571428571428571,0,0,0,0
+23,Relevance R only (label-free),3,1.0,1.0,1,1,1,1
+23,"Relevance R only (supervised, static)",3,19.0,0.05263157894736842,0,0,0,0
+23,RF Gini (static),3,4.0,0.25,0,0,0,1
+23,XGBoost gain (static),3,20.0,0.05,0,0,0,0
+23,TreeSHAP on RF,3,1.0,1.0,1,1,1,1
+23,LENS-U fixed (equal),3,3.0,0.3333333333333333,0,0,1,1
+23,"LENS-U (equal, mode-switched)",3,3.0,0.3333333333333333,0,0,1,1
+24,Raw deviation |z|,2,8.0,0.125,1,0,0,0
+24,Entropy H only,2,8.0,0.125,0,0,0,0
+24,Belief B only (label-free),2,21.0,0.047619047619047616,0,0,0,0
+24,Relevance R only (label-free),2,4.0,0.25,1,0,0,1
+24,"Relevance R only (supervised, static)",2,24.0,0.041666666666666664,0,0,0,0
+24,RF Gini (static),2,31.0,0.03225806451612903,0,0,0,0
+24,XGBoost gain (static),2,19.0,0.05263157894736842,0,0,0,0
+24,TreeSHAP on RF,2,24.0,0.041666666666666664,0,0,0,0
+24,LENS-U fixed (equal),2,9.0,0.1111111111111111,1,0,0,0
+24,"LENS-U (equal, mode-switched)",2,9.0,0.1111111111111111,1,0,0,0
+25,Raw deviation |z|,2,11.0,0.09090909090909091,0,0,0,0
+25,Entropy H only,2,10.0,0.1,0,0,0,0
+25,Belief B only (label-free),2,6.0,0.16666666666666666,0,0,0,0
+25,Relevance R only (label-free),2,16.0,0.0625,0,0,0,0
+25,"Relevance R only (supervised, static)",2,23.0,0.043478260869565216,1,0,0,0
+25,RF Gini (static),2,9.0,0.1111111111111111,0,0,0,0
+25,XGBoost gain (static),2,16.0,0.0625,1,0,0,0
+25,TreeSHAP on RF,2,2.0,0.5,0,0,1,1
+25,LENS-U fixed (equal),2,4.0,0.25,0,0,0,1
+25,"LENS-U (equal, mode-switched)",2,4.0,0.25,0,0,0,1
+26,Raw deviation |z|,2,15.0,0.06666666666666667,1,0,0,0
+26,Entropy H only,2,30.5,0.03278688524590164,0,0,0,0
+26,Belief B only (label-free),2,13.0,0.07692307692307693,1,0,0,0
+26,Relevance R only (label-free),2,7.0,0.14285714285714285,1,0,0,0
+26,"Relevance R only (supervised, static)",2,29.0,0.034482758620689655,0,0,0,0
+26,RF Gini (static),2,2.0,0.5,1,0,1,1
+26,XGBoost gain (static),2,12.0,0.08333333333333333,0,0,0,0
+26,TreeSHAP on RF,2,4.0,0.25,0,0,0,1
+26,LENS-U fixed (equal),2,16.0,0.0625,1,0,0,0
+26,"LENS-U (equal, mode-switched)",2,16.0,0.0625,1,0,0,0
+27+28,Raw deviation |z|,2,2.0,0.5,0,0,1,1
+27+28,Entropy H only,2,7.0,0.14285714285714285,0,0,0,0
+27+28,Belief B only (label-free),2,10.0,0.1,0,0,0,0
+27+28,Relevance R only (label-free),2,7.0,0.14285714285714285,0,0,0,0
+27+28,"Relevance R only (supervised, static)",2,23.0,0.043478260869565216,1,0,0,0
+27+28,RF Gini (static),2,9.0,0.1111111111111111,0,0,0,0
+27+28,XGBoost gain (static),2,16.0,0.0625,1,0,0,0
+27+28,TreeSHAP on RF,2,1.0,1.0,1,1,1,1
+27+28,LENS-U fixed (equal),2,4.0,0.25,0,0,0,1
+27+28,"LENS-U (equal, mode-switched)",2,4.0,0.25,0,0,0,1
+29,Raw deviation |z|,3,12.0,0.08333333333333333,1,0,0,0
+29,Entropy H only,3,31.0,0.03225806451612903,0,0,0,0
+29,Belief B only (label-free),3,26.0,0.038461538461538464,1,0,0,0
+29,Relevance R only (label-free),3,19.0,0.05263157894736842,1,0,0,0
+29,"Relevance R only (supervised, static)",3,24.0,0.041666666666666664,0,0,0,0
+29,RF Gini (static),3,31.0,0.03225806451612903,0,0,0,0
+29,XGBoost gain (static),3,19.0,0.05263157894736842,0,0,0,0
+29,TreeSHAP on RF,3,30.0,0.03333333333333333,0,0,0,0
+29,LENS-U fixed (equal),3,27.0,0.037037037037037035,1,0,0,0
+29,"LENS-U (equal, mode-switched)",3,27.0,0.037037037037037035,1,0,0,0
+30,Raw deviation |z|,3,18.0,0.05555555555555555,1,0,0,0
+30,Entropy H only,3,10.0,0.1,0,0,0,0
+30,Belief B only (label-free),3,4.0,0.25,1,0,0,1
+30,Relevance R only (label-free),3,14.0,0.07142857142857142,1,0,0,0
+30,"Relevance R only (supervised, static)",3,29.0,0.034482758620689655,0,0,0,0
+30,RF Gini (static),3,1.0,1.0,1,1,1,1
+30,XGBoost gain (static),3,22.0,0.045454545454545456,0,0,0,0
+30,TreeSHAP on RF,3,4.0,0.25,1,0,0,1
+30,LENS-U fixed (equal),3,7.0,0.14285714285714285,1,0,0,0
+30,"LENS-U (equal, mode-switched)",3,7.0,0.14285714285714285,1,0,0,0
+31,Raw deviation |z|,1,2.0,0.5,0,0,1,1
+31,Entropy H only,1,10.0,0.1,0,0,0,0
+31,Belief B only (label-free),1,10.0,0.1,0,0,0,0
+31,Relevance R only (label-free),1,7.0,0.14285714285714285,0,0,0,0
+31,"Relevance R only (supervised, static)",1,23.0,0.043478260869565216,1,0,0,0
+31,RF Gini (static),1,9.0,0.1111111111111111,0,0,0,0
+31,XGBoost gain (static),1,16.0,0.0625,1,0,0,0
+31,TreeSHAP on RF,1,1.0,1.0,1,1,1,1
+31,LENS-U fixed (equal),1,5.0,0.2,0,0,0,1
+31,"LENS-U (equal, mode-switched)",1,5.0,0.2,0,0,0,1
+32,Raw deviation |z|,1,8.0,0.125,0,0,0,0
+32,Entropy H only,1,9.0,0.1111111111111111,0,0,0,0
+32,Belief B only (label-free),1,10.0,0.1,0,0,0,0
+32,Relevance R only (label-free),1,10.0,0.1,0,0,0,0
+32,"Relevance R only (supervised, static)",1,36.0,0.027777777777777776,0,0,0,0
+32,RF Gini (static),1,2.0,0.5,0,0,1,1
+32,XGBoost gain (static),1,12.0,0.08333333333333333,0,0,0,0
+32,TreeSHAP on RF,1,22.0,0.045454545454545456,0,0,0,0
+32,LENS-U fixed (equal),1,7.0,0.14285714285714285,0,0,0,0
+32,"LENS-U (equal, mode-switched)",1,7.0,0.14285714285714285,0,0,0,0
+33,Raw deviation |z|,1,10.0,0.1,0,0,0,0
+33,Entropy H only,1,10.5,0.09523809523809523,0,0,0,0
+33,Belief B only (label-free),1,22.0,0.045454545454545456,0,0,0,0
+33,Relevance R only (label-free),1,12.0,0.08333333333333333,0,0,0,0
+33,"Relevance R only (supervised, static)",1,32.0,0.03125,0,0,0,0
+33,RF Gini (static),1,1.0,1.0,1,1,1,1
+33,XGBoost gain (static),1,22.0,0.045454545454545456,0,0,0,0
+33,TreeSHAP on RF,1,6.0,0.16666666666666666,0,0,0,0
+33,LENS-U fixed (equal),1,21.0,0.047619047619047616,0,0,0,0
+33,"LENS-U (equal, mode-switched)",1,21.0,0.047619047619047616,0,0,0,0
+34,Raw deviation |z|,1,15.0,0.06666666666666667,0,0,0,0
+34,Entropy H only,1,8.5,0.11764705882352941,0,0,0,0
+34,Belief B only (label-free),1,21.0,0.047619047619047616,0,0,0,0
+34,Relevance R only (label-free),1,12.0,0.08333333333333333,0,0,0,0
+34,"Relevance R only (supervised, static)",1,29.0,0.034482758620689655,0,0,0,0
+34,RF Gini (static),1,35.0,0.02857142857142857,1,0,0,0
+34,XGBoost gain (static),1,42.5,0.023529411764705882,0,0,0,0
+34,TreeSHAP on RF,1,31.0,0.03225806451612903,0,0,0,0
+34,LENS-U fixed (equal),1,19.0,0.05263157894736842,0,0,0,0
+34,"LENS-U (equal, mode-switched)",1,19.0,0.05263157894736842,0,0,0,0
+35,Raw deviation |z|,2,18.0,0.05555555555555555,0,0,0,0
+35,Entropy H only,2,16.0,0.0625,0,0,0,0
+35,Belief B only (label-free),2,30.0,0.03333333333333333,0,0,0,0
+35,Relevance R only (label-free),2,12.0,0.08333333333333333,0,0,0,0
+35,"Relevance R only (supervised, static)",2,3.0,0.3333333333333333,0,0,1,1
+35,RF Gini (static),2,18.0,0.05555555555555555,1,0,0,0
+35,XGBoost gain (static),2,8.0,0.125,0,0,0,0
+35,TreeSHAP on RF,2,30.0,0.03333333333333333,0,0,0,0
+35,LENS-U fixed (equal),2,25.0,0.04,0,0,0,0
+35,"LENS-U (equal, mode-switched)",2,25.0,0.04,0,0,0,0
+36,Raw deviation |z|,1,33.0,0.030303030303030304,0,0,0,0
+36,Entropy H only,1,14.0,0.07142857142857142,0,0,0,0
+36,Belief B only (label-free),1,4.0,0.25,0,0,0,1
+36,Relevance R only (label-free),1,13.0,0.07692307692307693,0,0,0,0
+36,"Relevance R only (supervised, static)",1,32.0,0.03125,0,0,0,0
+36,RF Gini (static),1,1.0,1.0,1,1,1,1
+36,XGBoost gain (static),1,22.0,0.045454545454545456,0,0,0,0
+36,TreeSHAP on RF,1,7.0,0.14285714285714285,0,0,0,0
+36,LENS-U fixed (equal),1,9.0,0.1111111111111111,0,0,0,0
+36,"LENS-U (equal, mode-switched)",1,9.0,0.1111111111111111,0,0,0,0
+37,Raw deviation |z|,2,7.0,0.14285714285714285,0,0,0,0
+37,Entropy H only,2,1.0,1.0,1,1,1,1
+37,Belief B only (label-free),2,13.0,0.07692307692307693,0,0,0,0
+37,Relevance R only (label-free),2,18.0,0.05555555555555555,0,0,0,0
+37,"Relevance R only (supervised, static)",2,1.5,0.6666666666666666,0,0,1,1
+37,RF Gini (static),2,25.0,0.04,0,0,0,0
+37,XGBoost gain (static),2,33.0,0.030303030303030304,0,0,0,0
+37,TreeSHAP on RF,2,26.0,0.038461538461538464,1,0,0,0
+37,LENS-U fixed (equal),2,8.0,0.125,0,0,0,0
+37,"LENS-U (equal, mode-switched)",2,8.0,0.125,0,0,0,0
+38,Raw deviation |z|,2,3.0,0.3333333333333333,0,0,1,1
+38,Entropy H only,2,9.5,0.10526315789473684,1,0,0,0
+38,Belief B only (label-free),2,11.0,0.09090909090909091,0,0,0,0
+38,Relevance R only (label-free),2,9.0,0.1111111111111111,0,0,0,0
+38,"Relevance R only (supervised, static)",2,7.0,0.14285714285714285,1,0,0,0
+38,RF Gini (static),2,14.0,0.07142857142857142,0,0,0,0
+38,XGBoost gain (static),2,17.0,0.058823529411764705,1,0,0,0
+38,TreeSHAP on RF,2,6.0,0.16666666666666666,1,0,0,0
+38,LENS-U fixed (equal),2,12.0,0.08333333333333333,0,0,0,0
+38,"LENS-U (equal, mode-switched)",2,12.0,0.08333333333333333,0,0,0,0
+39,Raw deviation |z|,2,2.0,0.5,0,0,1,1
+39,Entropy H only,2,6.0,0.16666666666666666,1,0,0,0
+39,Belief B only (label-free),2,12.0,0.08333333333333333,0,0,0,0
+39,Relevance R only (label-free),2,5.0,0.2,0,0,0,1
+39,"Relevance R only (supervised, static)",2,7.0,0.14285714285714285,1,0,0,0
+39,RF Gini (static),2,8.0,0.125,0,0,0,0
+39,XGBoost gain (static),2,15.0,0.06666666666666667,1,0,0,0
+39,TreeSHAP on RF,2,11.0,0.09090909090909091,1,0,0,0
+39,LENS-U fixed (equal),2,4.0,0.25,0,0,0,1
+39,"LENS-U (equal, mode-switched)",2,4.0,0.25,0,0,0,1
+40,Raw deviation |z|,1,3.0,0.3333333333333333,0,0,1,1
+40,Entropy H only,1,3.0,0.3333333333333333,0,0,1,1
+40,Belief B only (label-free),1,12.0,0.08333333333333333,0,0,0,0
+40,Relevance R only (label-free),1,8.0,0.125,0,0,0,0
+40,"Relevance R only (supervised, static)",1,42.0,0.023809523809523808,1,0,0,0
+40,RF Gini (static),1,8.0,0.125,0,0,0,0
+40,XGBoost gain (static),1,15.0,0.06666666666666667,1,0,0,0
+40,TreeSHAP on RF,1,23.0,0.043478260869565216,0,0,0,0
+40,LENS-U fixed (equal),1,11.0,0.09090909090909091,0,0,0,0
+40,"LENS-U (equal, mode-switched)",1,11.0,0.09090909090909091,0,0,0,0
+41,Raw deviation |z|,1,36.0,0.027777777777777776,0,0,0,0
+41,Entropy H only,1,12.0,0.08333333333333333,0,0,0,0
+41,Belief B only (label-free),1,10.0,0.1,0,0,0,0
+41,Relevance R only (label-free),1,6.0,0.16666666666666666,0,0,0,0
+41,"Relevance R only (supervised, static)",1,36.0,0.027777777777777776,0,0,0,0
+41,RF Gini (static),1,2.0,0.5,0,0,1,1
+41,XGBoost gain (static),1,12.0,0.08333333333333333,0,0,0,0
+41,TreeSHAP on RF,1,12.0,0.08333333333333333,0,0,0,0
+41,LENS-U fixed (equal),1,10.0,0.1,0,0,0,0
+41,"LENS-U (equal, mode-switched)",1,10.0,0.1,0,0,0,0

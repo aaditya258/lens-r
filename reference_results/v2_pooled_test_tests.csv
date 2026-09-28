@@ -1,0 +1,13 @@
+a,b,n,mean_diff,wins,losses,ties,p
+LENS v2 (full),"LENS-SW (state-switched, exploratory)",35,-0.134,14,20,1,0.1118
+LENS v2 (full),Linear forecast residual (GDN-style),35,-0.118,16,16,3,0.1608
+LENS v2 (full),TreeSHAP on RF,35,-0.116,16,18,1,0.3131
+LENS v2 (full),"LENS-U (original, label-free)",35,-0.083,18,17,0,0.6174
+LENS v2 (full),RF Gini (static),35,-0.062,20,12,3,0.5128
+LENS v2 (full),"Static context residual (no history, no adaptation, no CUSUM)",35,-0.058,16,18,1,0.2415
+LENS v2 (full),LENS v2 without CUSUM,35,-0.057,11,21,3,0.0096
+LENS v2 (full),Simple fix: sliding-baseline deviation,35,-0.016,22,12,1,0.407
+LENS v2 (full),Conditional reference (CondAttr-style kNN),35,0.027,19,12,4,0.217
+LENS v2 (full),Raw deviation |z|,35,0.027,23,12,0,0.0825
+LENS v2 (full),LENS v2 without own-history term,35,0.077,18,9,8,0.0057
+LENS v2 (full),LENS v2 without adaptation,35,0.098,26,8,1,0.0023

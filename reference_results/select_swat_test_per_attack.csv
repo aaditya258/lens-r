@@ -1,0 +1,78 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+31,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+31,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+31,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+31,LENS-SW (state-switched),6.0,0.16666666666666666,0,0,0,0
+31,TreeSHAP on RF,1.0,1.0,1,1,1,1
+31,Raw deviation |z|,2.0,0.5,0,0,1,1
+31,RF Gini (static),9.0,0.1111111111111111,0,0,0,0
+32,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+32,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+32,LENS-DA (drift-aware),17.0,0.058823529411764705,0,0,0,0
+32,LENS-SW (state-switched),11.0,0.09090909090909091,0,0,0,0
+32,TreeSHAP on RF,22.0,0.045454545454545456,0,0,0,0
+32,Raw deviation |z|,14.0,0.07142857142857142,0,0,0,0
+32,RF Gini (static),2.0,0.5,0,0,1,1
+33,"LENS-U (original, label-free)",20.0,0.05,0,0,0,0
+33,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,0,0,1,1
+33,LENS-DA (drift-aware),17.0,0.058823529411764705,0,0,0,0
+33,LENS-SW (state-switched),17.0,0.058823529411764705,0,0,0,0
+33,TreeSHAP on RF,6.0,0.16666666666666666,0,0,0,0
+33,Raw deviation |z|,16.0,0.0625,0,0,0,0
+33,RF Gini (static),1.0,1.0,1,1,1,1
+34,"LENS-U (original, label-free)",25.0,0.04,0,0,0,0
+34,Simple fix: sliding-baseline deviation,8.0,0.125,0,0,0,0
+34,LENS-DA (drift-aware),23.0,0.043478260869565216,0,0,0,0
+34,LENS-SW (state-switched),25.0,0.04,0,0,0,0
+34,TreeSHAP on RF,31.0,0.03225806451612903,0,0,0,0
+34,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+34,RF Gini (static),35.0,0.02857142857142857,1,0,0,0
+35,"LENS-U (original, label-free)",32.0,0.03125,0,0,0,0
+35,Simple fix: sliding-baseline deviation,1.5,0.6666666666666666,1,0,1,1
+35,LENS-DA (drift-aware),4.5,0.2222222222222222,0,0,0,1
+35,LENS-SW (state-switched),1.5,0.6666666666666666,1,0,1,1
+35,TreeSHAP on RF,30.0,0.03333333333333333,0,0,0,0
+35,Raw deviation |z|,31.0,0.03225806451612903,0,0,0,0
+35,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+36,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+36,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+36,LENS-DA (drift-aware),18.0,0.05555555555555555,0,0,0,0
+36,LENS-SW (state-switched),11.0,0.09090909090909091,0,0,0,0
+36,TreeSHAP on RF,7.0,0.14285714285714285,0,0,0,0
+36,Raw deviation |z|,33.0,0.030303030303030304,0,0,0,0
+36,RF Gini (static),1.0,1.0,1,1,1,1
+37,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+37,Simple fix: sliding-baseline deviation,16.0,0.0625,0,0,0,0
+37,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+37,LENS-SW (state-switched),3.0,0.3333333333333333,1,0,1,1
+37,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+37,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+37,RF Gini (static),25.0,0.04,0,0,0,0
+38,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+38,Simple fix: sliding-baseline deviation,33.0,0.030303030303030304,1,0,0,0
+38,LENS-DA (drift-aware),7.0,0.14285714285714285,1,0,0,0
+38,LENS-SW (state-switched),16.0,0.0625,1,0,0,0
+38,TreeSHAP on RF,6.0,0.16666666666666666,1,0,0,0
+38,Raw deviation |z|,5.0,0.2,0,0,0,1
+38,RF Gini (static),14.0,0.07142857142857142,0,0,0,0
+39,"LENS-U (original, label-free)",21.0,0.047619047619047616,0,0,0,0
+39,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+39,LENS-DA (drift-aware),4.0,0.25,1,0,0,1
+39,LENS-SW (state-switched),5.0,0.2,1,0,0,1
+39,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+39,Raw deviation |z|,9.0,0.1111111111111111,0,0,0,0
+39,RF Gini (static),8.0,0.125,0,0,0,0
+40,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+40,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+40,LENS-DA (drift-aware),2.0,0.5,0,0,1,1
+40,LENS-SW (state-switched),2.0,0.5,0,0,1,1
+40,TreeSHAP on RF,23.0,0.043478260869565216,0,0,0,0
+40,Raw deviation |z|,35.0,0.02857142857142857,0,0,0,0
+40,RF Gini (static),8.0,0.125,0,0,0,0
+41,"LENS-U (original, label-free)",3.0,0.3333333333333333,0,0,1,1
+41,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+41,LENS-DA (drift-aware),14.0,0.07142857142857142,1,0,0,0
+41,LENS-SW (state-switched),3.0,0.3333333333333333,0,0,1,1
+41,TreeSHAP on RF,12.0,0.08333333333333333,0,0,0,0
+41,Raw deviation |z|,36.0,0.027777777777777776,0,0,0,0
+41,RF Gini (static),2.0,0.5,0,0,1,1

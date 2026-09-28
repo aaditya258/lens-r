@@ -1,0 +1,11 @@
+ds,tags,method,ms
+swat,51,"LENS-R, full update",9.47479229999999
+swat,51,"LENS-R, ranking stage only",5.042549459999464
+swat,51,GDN-style residual,0.0037469649998911336
+swat,51,Conditional reference (kNN),19.520335800001476
+swat,51,TreeSHAP on RF,10.603407833332312
+hai,86,"LENS-R, full update",11.065907400000015
+hai,86,"LENS-R, ranking stage only",8.738392740001473
+hai,86,GDN-style residual,0.031160969999746154
+hai,86,Conditional reference (kNN),44.47650984999996
+hai,86,TreeSHAP on RF,9.974492366666254

@@ -1,0 +1,286 @@
+{
+ "swat": {
+  "coefs": {
+   "fixed": [
+    [
+     0.1,
+     0.0,
+     0.0,
+     0.9
+    ],
+    [
+     0.1,
+     0.0,
+     0.0,
+     0.9
+    ],
+    [
+     0.1,
+     0.0,
+     0.0,
+     0.9
+    ]
+   ],
+   "switched": [
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.2,
+     0.8
+    ],
+    [
+     0.1,
+     0.0,
+     0.0,
+     0.9
+    ]
+   ],
+   "val_mrr_fixed": 0.2078081232492997,
+   "val_mrr_switched": 0.2151360544217687,
+   "val_mode_occupancy": [
+    0.0,
+    0.586,
+    0.414
+   ],
+   "n_val": 7
+  },
+  "tests": [
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 11,
+    "mean_diff": -0.025,
+    "wins": 4,
+    "losses": 4,
+    "ties": 3,
+    "p": 0.5156
+   },
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "TreeSHAP on RF",
+    "n": 11,
+    "mean_diff": 0.009,
+    "wins": 7,
+    "losses": 4,
+    "ties": 0,
+    "p": 0.5195
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 11,
+    "mean_diff": -0.088,
+    "wins": 3,
+    "losses": 8,
+    "ties": 0,
+    "p": 0.1572
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "TreeSHAP on RF",
+    "n": 11,
+    "mean_diff": -0.055,
+    "wins": 7,
+    "losses": 4,
+    "ties": 0,
+    "p": 0.8311
+   },
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "LENS fixed (tuned)",
+    "n": 11,
+    "mean_diff": -0.0,
+    "wins": 1,
+    "losses": 1,
+    "ties": 9,
+    "p": 1.0
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 33,
+    "mean_diff": -0.038,
+    "wins": 9,
+    "losses": 18,
+    "ties": 6,
+    "p": 0.1784
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "LENS-U fixed (equal)",
+    "n": 33,
+    "mean_diff": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 33,
+    "p": 1.0
+   }
+  ],
+  "detection": {
+   "rf": {
+    "precision": 0.0680972818311874,
+    "recall": 0.1259259259259259,
+    "f1": 0.0883936861652739,
+    "auc": 0.6278072712579991,
+    "n": 52659.0,
+    "attack_share": 0.03589130063237053
+   },
+   "xgb": {
+    "precision": 0.14285714285714285,
+    "recall": 0.0021164021164021165,
+    "f1": 0.004171011470281543,
+    "auc": 0.538270411650821,
+    "n": 52659.0,
+    "attack_share": 0.03589130063237053
+   }
+  }
+ },
+ "hai": {
+  "coefs": {
+   "fixed": [
+    [
+     0.2,
+     0.0,
+     0.4,
+     0.4
+    ],
+    [
+     0.2,
+     0.0,
+     0.4,
+     0.4
+    ],
+    [
+     0.2,
+     0.0,
+     0.4,
+     0.4
+    ]
+   ],
+   "switched": [
+    [
+     0.2,
+     0.0,
+     0.3,
+     0.5
+    ],
+    [
+     0.6,
+     0.3,
+     0.0,
+     0.1
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "val_mrr_fixed": 0.3690495969685759,
+   "val_mrr_switched": 0.4288533591731266,
+   "val_mode_occupancy": [
+    0.935,
+    0.065,
+    0.0
+   ],
+   "n_val": 10
+  },
+  "tests": [
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 24,
+    "mean_diff": 0.002,
+    "wins": 11,
+    "losses": 10,
+    "ties": 3,
+    "p": 0.8757
+   },
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "TreeSHAP on RF",
+    "n": 24,
+    "mean_diff": -0.221,
+    "wins": 7,
+    "losses": 15,
+    "ties": 2,
+    "p": 0.0221
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 24,
+    "mean_diff": 0.156,
+    "wins": 15,
+    "losses": 5,
+    "ties": 4,
+    "p": 0.0187
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "TreeSHAP on RF",
+    "n": 24,
+    "mean_diff": -0.066,
+    "wins": 9,
+    "losses": 12,
+    "ties": 3,
+    "p": 0.543
+   },
+   {
+    "a": "LENS (tuned, mode-switched)",
+    "b": "LENS fixed (tuned)",
+    "n": 24,
+    "mean_diff": -0.029,
+    "wins": 11,
+    "losses": 11,
+    "ties": 2,
+    "p": 0.721
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "Raw deviation |z|",
+    "n": 58,
+    "mean_diff": 0.185,
+    "wins": 37,
+    "losses": 12,
+    "ties": 9,
+    "p": 0.0002
+   },
+   {
+    "a": "LENS-U (equal, mode-switched)",
+    "b": "LENS-U fixed (equal)",
+    "n": 58,
+    "mean_diff": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 58,
+    "p": 1.0
+   }
+  ],
+  "detection": {
+   "rf": {
+    "precision": 1.0,
+    "recall": 0.0027137042062415195,
+    "f1": 0.005412719891745603,
+    "auc": 0.7456851062140963,
+    "n": 43184.0,
+    "attack_share": 0.03413301222675065
+   },
+   "xgb": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "auc": 0.6208005736449289,
+    "n": 43184.0,
+    "attack_share": 0.03413301222675065
+   }
+  }
+ }
+}

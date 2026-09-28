@@ -1,0 +1,11 @@
+ds,tags,method,ms
+swat,51,LENS-R (drift + ranking),334.0369950666665
+swat,51,LENS-R without drift stage,333.4569597333333
+swat,51,GDN-style residual,319.0599171999982
+swat,51,Conditional reference (kNN),19.523287699996672
+swat,51,TreeSHAP on RF (100 trees),10.308472500003063
+hai,86,LENS-R (drift + ranking),168.12489659999983
+hai,86,LENS-R without drift stage,162.6405514333328
+hai,86,GDN-style residual,153.90430240000038
+hai,86,Conditional reference (kNN),49.1132691999951
+hai,86,TreeSHAP on RF (100 trees),9.622916699993311

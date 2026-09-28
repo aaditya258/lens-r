@@ -1,0 +1,456 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+swat_31,LENS v2 (full),13.0,0.07692307692307693,0,0,0,0
+swat_31,LENS v2 without own-history term,12.0,0.08333333333333333,0,0,0,0
+swat_31,LENS v2 without adaptation,8.0,0.125,0,0,0,0
+swat_31,LENS v2 without CUSUM,10.0,0.1,0,0,0,0
+swat_31,"Static context residual (no history, no adaptation, no CUSUM)",7.0,0.14285714285714285,0,0,0,0
+swat_31,Conditional reference (CondAttr-style kNN),9.0,0.1111111111111111,0,0,0,0
+swat_31,Linear forecast residual (GDN-style),3.0,0.3333333333333333,0,0,1,1
+swat_31,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+swat_31,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+swat_31,"LENS-SW (state-switched, exploratory)",6.0,0.16666666666666666,0,0,0,0
+swat_31,Raw deviation |z|,2.0,0.5,0,0,1,1
+swat_31,RF Gini (static),9.0,0.1111111111111111,0,0,0,0
+swat_31,TreeSHAP on RF,1.0,1.0,1,1,1,1
+swat_32,LENS v2 (full),31.0,0.03225806451612903,0,0,0,0
+swat_32,LENS v2 without own-history term,32.0,0.03125,0,0,0,0
+swat_32,LENS v2 without adaptation,13.0,0.07692307692307693,0,0,0,0
+swat_32,LENS v2 without CUSUM,13.0,0.07692307692307693,0,0,0,0
+swat_32,"Static context residual (no history, no adaptation, no CUSUM)",7.0,0.14285714285714285,0,0,0,0
+swat_32,Conditional reference (CondAttr-style kNN),10.0,0.1,0,0,0,0
+swat_32,Linear forecast residual (GDN-style),34.0,0.029411764705882353,0,0,0,0
+swat_32,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+swat_32,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+swat_32,"LENS-SW (state-switched, exploratory)",11.0,0.09090909090909091,0,0,0,0
+swat_32,Raw deviation |z|,14.0,0.07142857142857142,0,0,0,0
+swat_32,RF Gini (static),2.0,0.5,0,0,1,1
+swat_32,TreeSHAP on RF,22.0,0.045454545454545456,0,0,0,0
+swat_33,LENS v2 (full),28.5,0.03508771929824561,0,0,0,0
+swat_33,LENS v2 without own-history term,27.5,0.03636363636363636,0,0,0,0
+swat_33,LENS v2 without adaptation,12.0,0.08333333333333333,1,0,0,0
+swat_33,LENS v2 without CUSUM,37.0,0.02702702702702703,0,0,0,0
+swat_33,"Static context residual (no history, no adaptation, no CUSUM)",7.0,0.14285714285714285,0,0,0,0
+swat_33,Conditional reference (CondAttr-style kNN),12.0,0.08333333333333333,0,0,0,0
+swat_33,Linear forecast residual (GDN-style),30.0,0.03333333333333333,0,0,0,0
+swat_33,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,0,0,1,1
+swat_33,"LENS-U (original, label-free)",20.0,0.05,0,0,0,0
+swat_33,"LENS-SW (state-switched, exploratory)",17.0,0.058823529411764705,0,0,0,0
+swat_33,Raw deviation |z|,16.0,0.0625,0,0,0,0
+swat_33,RF Gini (static),1.0,1.0,1,1,1,1
+swat_33,TreeSHAP on RF,6.0,0.16666666666666666,0,0,0,0
+swat_34,LENS v2 (full),28.5,0.03508771929824561,0,0,0,0
+swat_34,LENS v2 without own-history term,28.5,0.03508771929824561,0,0,0,0
+swat_34,LENS v2 without adaptation,12.0,0.08333333333333333,1,0,0,0
+swat_34,LENS v2 without CUSUM,28.0,0.03571428571428571,0,0,0,0
+swat_34,"Static context residual (no history, no adaptation, no CUSUM)",20.0,0.05,0,0,0,0
+swat_34,Conditional reference (CondAttr-style kNN),28.5,0.03508771929824561,0,0,0,0
+swat_34,Linear forecast residual (GDN-style),27.0,0.037037037037037035,0,0,0,0
+swat_34,Simple fix: sliding-baseline deviation,8.0,0.125,0,0,0,0
+swat_34,"LENS-U (original, label-free)",25.0,0.04,0,0,0,0
+swat_34,"LENS-SW (state-switched, exploratory)",25.0,0.04,0,0,0,0
+swat_34,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+swat_34,RF Gini (static),35.0,0.02857142857142857,1,0,0,0
+swat_34,TreeSHAP on RF,31.0,0.03225806451612903,0,0,0,0
+swat_35,LENS v2 (full),9.0,0.1111111111111111,0,0,0,0
+swat_35,LENS v2 without own-history term,9.0,0.1111111111111111,0,0,0,0
+swat_35,LENS v2 without adaptation,10.5,0.09523809523809523,1,0,0,0
+swat_35,LENS v2 without CUSUM,37.0,0.02702702702702703,0,0,0,0
+swat_35,"Static context residual (no history, no adaptation, no CUSUM)",27.0,0.037037037037037035,0,0,0,0
+swat_35,Conditional reference (CondAttr-style kNN),32.5,0.03076923076923077,0,0,0,0
+swat_35,Linear forecast residual (GDN-style),25.0,0.04,0,0,0,0
+swat_35,Simple fix: sliding-baseline deviation,1.5,0.6666666666666666,1,0,1,1
+swat_35,"LENS-U (original, label-free)",32.0,0.03125,0,0,0,0
+swat_35,"LENS-SW (state-switched, exploratory)",1.5,0.6666666666666666,1,0,1,1
+swat_35,Raw deviation |z|,31.0,0.03225806451612903,0,0,0,0
+swat_35,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+swat_35,TreeSHAP on RF,30.0,0.03333333333333333,0,0,0,0
+swat_36,LENS v2 (full),36.5,0.0273972602739726,0,0,0,0
+swat_36,LENS v2 without own-history term,36.0,0.027777777777777776,0,0,0,0
+swat_36,LENS v2 without adaptation,11.0,0.09090909090909091,1,0,0,0
+swat_36,LENS v2 without CUSUM,34.0,0.029411764705882353,0,0,0,0
+swat_36,"Static context residual (no history, no adaptation, no CUSUM)",12.0,0.08333333333333333,0,0,0,0
+swat_36,Conditional reference (CondAttr-style kNN),10.0,0.1,0,0,0,0
+swat_36,Linear forecast residual (GDN-style),36.0,0.027777777777777776,0,0,0,0
+swat_36,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+swat_36,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+swat_36,"LENS-SW (state-switched, exploratory)",11.0,0.09090909090909091,0,0,0,0
+swat_36,Raw deviation |z|,33.0,0.030303030303030304,0,0,0,0
+swat_36,RF Gini (static),1.0,1.0,1,1,1,1
+swat_36,TreeSHAP on RF,7.0,0.14285714285714285,0,0,0,0
+swat_37,LENS v2 (full),20.0,0.05,0,0,0,0
+swat_37,LENS v2 without own-history term,21.0,0.047619047619047616,0,0,0,0
+swat_37,LENS v2 without adaptation,33.0,0.030303030303030304,0,0,0,0
+swat_37,LENS v2 without CUSUM,25.0,0.04,0,0,0,0
+swat_37,"Static context residual (no history, no adaptation, no CUSUM)",34.0,0.029411764705882353,0,0,0,0
+swat_37,Conditional reference (CondAttr-style kNN),33.0,0.030303030303030304,0,0,0,0
+swat_37,Linear forecast residual (GDN-style),21.0,0.047619047619047616,0,0,0,0
+swat_37,Simple fix: sliding-baseline deviation,16.0,0.0625,0,0,0,0
+swat_37,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+swat_37,"LENS-SW (state-switched, exploratory)",3.0,0.3333333333333333,1,0,1,1
+swat_37,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+swat_37,RF Gini (static),25.0,0.04,0,0,0,0
+swat_37,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+swat_38,LENS v2 (full),8.0,0.125,0,0,0,0
+swat_38,LENS v2 without own-history term,21.0,0.047619047619047616,0,0,0,0
+swat_38,LENS v2 without adaptation,12.0,0.08333333333333333,0,0,0,0
+swat_38,LENS v2 without CUSUM,9.0,0.1111111111111111,1,0,0,0
+swat_38,"Static context residual (no history, no adaptation, no CUSUM)",11.0,0.09090909090909091,0,0,0,0
+swat_38,Conditional reference (CondAttr-style kNN),2.5,0.4,0,0,1,1
+swat_38,Linear forecast residual (GDN-style),28.0,0.03571428571428571,1,0,0,0
+swat_38,Simple fix: sliding-baseline deviation,33.0,0.030303030303030304,1,0,0,0
+swat_38,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+swat_38,"LENS-SW (state-switched, exploratory)",16.0,0.0625,1,0,0,0
+swat_38,Raw deviation |z|,5.0,0.2,0,0,0,1
+swat_38,RF Gini (static),14.0,0.07142857142857142,0,0,0,0
+swat_38,TreeSHAP on RF,6.0,0.16666666666666666,1,0,0,0
+swat_39,LENS v2 (full),3.0,0.3333333333333333,0,0,1,1
+swat_39,LENS v2 without own-history term,6.0,0.16666666666666666,0,0,0,0
+swat_39,LENS v2 without adaptation,11.0,0.09090909090909091,0,0,0,0
+swat_39,LENS v2 without CUSUM,2.0,0.5,0,0,1,1
+swat_39,"Static context residual (no history, no adaptation, no CUSUM)",19.0,0.05263157894736842,0,0,0,0
+swat_39,Conditional reference (CondAttr-style kNN),3.5,0.2857142857142857,0,0,0,1
+swat_39,Linear forecast residual (GDN-style),19.0,0.05263157894736842,0,0,0,0
+swat_39,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+swat_39,"LENS-U (original, label-free)",21.0,0.047619047619047616,0,0,0,0
+swat_39,"LENS-SW (state-switched, exploratory)",5.0,0.2,1,0,0,1
+swat_39,Raw deviation |z|,9.0,0.1111111111111111,0,0,0,0
+swat_39,RF Gini (static),8.0,0.125,0,0,0,0
+swat_39,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+swat_40,LENS v2 (full),2.0,0.5,0,0,1,1
+swat_40,LENS v2 without own-history term,16.0,0.0625,0,0,0,0
+swat_40,LENS v2 without adaptation,11.0,0.09090909090909091,0,0,0,0
+swat_40,LENS v2 without CUSUM,1.5,0.6666666666666666,0,0,1,1
+swat_40,"Static context residual (no history, no adaptation, no CUSUM)",20.0,0.05,0,0,0,0
+swat_40,Conditional reference (CondAttr-style kNN),18.0,0.05555555555555555,0,0,0,0
+swat_40,Linear forecast residual (GDN-style),14.0,0.07142857142857142,0,0,0,0
+swat_40,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+swat_40,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+swat_40,"LENS-SW (state-switched, exploratory)",2.0,0.5,0,0,1,1
+swat_40,Raw deviation |z|,35.0,0.02857142857142857,0,0,0,0
+swat_40,RF Gini (static),8.0,0.125,0,0,0,0
+swat_40,TreeSHAP on RF,23.0,0.043478260869565216,0,0,0,0
+swat_41,LENS v2 (full),32.5,0.03076923076923077,1,0,0,0
+swat_41,LENS v2 without own-history term,34.0,0.029411764705882353,1,0,0,0
+swat_41,LENS v2 without adaptation,10.5,0.09523809523809523,0,0,0,0
+swat_41,LENS v2 without CUSUM,16.0,0.0625,1,0,0,0
+swat_41,"Static context residual (no history, no adaptation, no CUSUM)",7.0,0.14285714285714285,0,0,0,0
+swat_41,Conditional reference (CondAttr-style kNN),20.0,0.05,0,0,0,0
+swat_41,Linear forecast residual (GDN-style),33.0,0.030303030303030304,1,0,0,0
+swat_41,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+swat_41,"LENS-U (original, label-free)",3.0,0.3333333333333333,0,0,1,1
+swat_41,"LENS-SW (state-switched, exploratory)",3.0,0.3333333333333333,0,0,1,1
+swat_41,Raw deviation |z|,36.0,0.027777777777777776,0,0,0,0
+swat_41,RF Gini (static),2.0,0.5,0,0,1,1
+swat_41,TreeSHAP on RF,12.0,0.08333333333333333,0,0,0,0
+hai_A401,LENS v2 (full),6.5,0.15384615384615385,0,0,0,0
+hai_A401,LENS v2 without own-history term,6.5,0.15384615384615385,0,0,0,0
+hai_A401,LENS v2 without adaptation,7.5,0.13333333333333333,0,0,0,0
+hai_A401,LENS v2 without CUSUM,2.0,0.5,1,0,1,1
+hai_A401,"Static context residual (no history, no adaptation, no CUSUM)",2.0,0.5,1,0,1,1
+hai_A401,Conditional reference (CondAttr-style kNN),1.0,1.0,1,1,1,1
+hai_A401,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A401,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+hai_A401,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A401,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A401,Raw deviation |z|,1.0,1.0,1,1,1,1
+hai_A401,RF Gini (static),50.0,0.02,0,0,0,0
+hai_A401,TreeSHAP on RF,15.0,0.06666666666666667,1,0,0,0
+hai_A402,LENS v2 (full),8.0,0.125,1,0,0,0
+hai_A402,LENS v2 without own-history term,7.0,0.14285714285714285,1,0,0,0
+hai_A402,LENS v2 without adaptation,15.0,0.06666666666666667,1,0,0,0
+hai_A402,LENS v2 without CUSUM,6.0,0.16666666666666666,1,0,0,0
+hai_A402,"Static context residual (no history, no adaptation, no CUSUM)",25.0,0.04,1,0,0,0
+hai_A402,Conditional reference (CondAttr-style kNN),39.0,0.02564102564102564,0,0,0,0
+hai_A402,Linear forecast residual (GDN-style),4.0,0.25,1,0,0,1
+hai_A402,Simple fix: sliding-baseline deviation,39.0,0.02564102564102564,0,0,0,0
+hai_A402,"LENS-U (original, label-free)",26.0,0.038461538461538464,1,0,0,0
+hai_A402,"LENS-SW (state-switched, exploratory)",21.0,0.047619047619047616,1,0,0,0
+hai_A402,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+hai_A402,RF Gini (static),34.0,0.029411764705882353,1,0,0,0
+hai_A402,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+hai_A403,LENS v2 (full),58.0,0.017241379310344827,0,0,0,0
+hai_A403,LENS v2 without own-history term,55.5,0.018018018018018018,0,0,0,0
+hai_A403,LENS v2 without adaptation,55.0,0.01818181818181818,0,0,0,0
+hai_A403,LENS v2 without CUSUM,77.5,0.012903225806451613,0,0,0,0
+hai_A403,"Static context residual (no history, no adaptation, no CUSUM)",77.5,0.012903225806451613,0,0,0,0
+hai_A403,Conditional reference (CondAttr-style kNN),76.0,0.013157894736842105,0,0,0,0
+hai_A403,Linear forecast residual (GDN-style),77.5,0.012903225806451613,0,0,0,0
+hai_A403,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+hai_A403,"LENS-U (original, label-free)",77.5,0.012903225806451613,0,0,0,0
+hai_A403,"LENS-SW (state-switched, exploratory)",77.5,0.012903225806451613,0,0,0,0
+hai_A403,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+hai_A403,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+hai_A403,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+hai_A404,LENS v2 (full),6.0,0.16666666666666666,0,0,0,0
+hai_A404,LENS v2 without own-history term,6.0,0.16666666666666666,0,0,0,0
+hai_A404,LENS v2 without adaptation,12.0,0.08333333333333333,0,0,0,0
+hai_A404,LENS v2 without CUSUM,3.0,0.3333333333333333,0,0,1,1
+hai_A404,"Static context residual (no history, no adaptation, no CUSUM)",6.0,0.16666666666666666,0,0,0,0
+hai_A404,Conditional reference (CondAttr-style kNN),7.0,0.14285714285714285,0,0,0,0
+hai_A404,Linear forecast residual (GDN-style),4.0,0.25,1,0,0,1
+hai_A404,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+hai_A404,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A404,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A404,Raw deviation |z|,30.0,0.03333333333333333,0,0,0,0
+hai_A404,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+hai_A404,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A405,LENS v2 (full),50.5,0.019801980198019802,0,0,0,0
+hai_A405,LENS v2 without own-history term,49.5,0.020202020202020204,0,0,0,0
+hai_A405,LENS v2 without adaptation,53.0,0.018867924528301886,1,0,0,0
+hai_A405,LENS v2 without CUSUM,61.0,0.01639344262295082,0,0,0,0
+hai_A405,"Static context residual (no history, no adaptation, no CUSUM)",61.0,0.01639344262295082,1,0,0,0
+hai_A405,Conditional reference (CondAttr-style kNN),7.0,0.14285714285714285,1,0,0,0
+hai_A405,Linear forecast residual (GDN-style),62.0,0.016129032258064516,1,0,0,0
+hai_A405,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+hai_A405,"LENS-U (original, label-free)",48.0,0.020833333333333332,0,0,0,0
+hai_A405,"LENS-SW (state-switched, exploratory)",42.0,0.023809523809523808,0,0,0,0
+hai_A405,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+hai_A405,RF Gini (static),37.0,0.02702702702702703,1,0,0,0
+hai_A405,TreeSHAP on RF,8.0,0.125,1,0,0,0
+hai_A406,LENS v2 (full),7.0,0.14285714285714285,0,0,0,0
+hai_A406,LENS v2 without own-history term,7.0,0.14285714285714285,0,0,0,0
+hai_A406,LENS v2 without adaptation,13.0,0.07692307692307693,1,0,0,0
+hai_A406,LENS v2 without CUSUM,4.0,0.25,1,0,0,1
+hai_A406,"Static context residual (no history, no adaptation, no CUSUM)",8.0,0.125,1,0,0,0
+hai_A406,Conditional reference (CondAttr-style kNN),11.0,0.09090909090909091,1,0,0,0
+hai_A406,Linear forecast residual (GDN-style),6.0,0.16666666666666666,1,0,0,0
+hai_A406,Simple fix: sliding-baseline deviation,42.0,0.023809523809523808,1,0,0,0
+hai_A406,"LENS-U (original, label-free)",26.0,0.038461538461538464,1,0,0,0
+hai_A406,"LENS-SW (state-switched, exploratory)",18.0,0.05555555555555555,1,0,0,0
+hai_A406,Raw deviation |z|,11.0,0.09090909090909091,1,0,0,0
+hai_A406,RF Gini (static),26.0,0.038461538461538464,1,0,0,0
+hai_A406,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A407,LENS v2 (full),24.0,0.041666666666666664,0,0,0,0
+hai_A407,LENS v2 without own-history term,22.0,0.045454545454545456,0,0,0,0
+hai_A407,LENS v2 without adaptation,27.0,0.037037037037037035,1,0,0,0
+hai_A407,LENS v2 without CUSUM,10.0,0.1,1,0,0,0
+hai_A407,"Static context residual (no history, no adaptation, no CUSUM)",13.0,0.07692307692307693,1,0,0,0
+hai_A407,Conditional reference (CondAttr-style kNN),39.0,0.02564102564102564,1,0,0,0
+hai_A407,Linear forecast residual (GDN-style),2.0,0.5,1,0,1,1
+hai_A407,Simple fix: sliding-baseline deviation,43.0,0.023255813953488372,1,0,0,0
+hai_A407,"LENS-U (original, label-free)",46.0,0.021739130434782608,1,0,0,0
+hai_A407,"LENS-SW (state-switched, exploratory)",35.0,0.02857142857142857,0,0,0,0
+hai_A407,Raw deviation |z|,61.0,0.01639344262295082,1,0,0,0
+hai_A407,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+hai_A407,TreeSHAP on RF,23.0,0.043478260869565216,1,0,0,0
+hai_A408,LENS v2 (full),1.0,1.0,1,1,1,1
+hai_A408,LENS v2 without own-history term,4.0,0.25,0,0,0,1
+hai_A408,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A408,LENS v2 without CUSUM,3.0,0.3333333333333333,1,0,1,1
+hai_A408,"Static context residual (no history, no adaptation, no CUSUM)",6.0,0.16666666666666666,1,0,0,0
+hai_A408,Conditional reference (CondAttr-style kNN),20.0,0.05,1,0,0,0
+hai_A408,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A408,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+hai_A408,"LENS-U (original, label-free)",3.0,0.3333333333333333,1,0,1,1
+hai_A408,"LENS-SW (state-switched, exploratory)",3.0,0.3333333333333333,0,0,1,1
+hai_A408,Raw deviation |z|,4.0,0.25,1,0,0,1
+hai_A408,RF Gini (static),2.0,0.5,1,0,1,1
+hai_A408,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A409,LENS v2 (full),2.0,0.5,1,0,1,1
+hai_A409,LENS v2 without own-history term,4.0,0.25,1,0,0,1
+hai_A409,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A409,LENS v2 without CUSUM,1.0,1.0,1,1,1,1
+hai_A409,"Static context residual (no history, no adaptation, no CUSUM)",1.0,1.0,1,1,1,1
+hai_A409,Conditional reference (CondAttr-style kNN),8.0,0.125,1,0,0,0
+hai_A409,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A409,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+hai_A409,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A409,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A409,Raw deviation |z|,1.0,1.0,1,1,1,1
+hai_A409,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+hai_A409,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A410,LENS v2 (full),2.0,0.5,1,0,1,1
+hai_A410,LENS v2 without own-history term,4.0,0.25,1,0,0,1
+hai_A410,LENS v2 without adaptation,10.0,0.1,1,0,0,0
+hai_A410,LENS v2 without CUSUM,2.0,0.5,1,0,1,1
+hai_A410,"Static context residual (no history, no adaptation, no CUSUM)",1.0,1.0,1,1,1,1
+hai_A410,Conditional reference (CondAttr-style kNN),2.0,0.5,1,0,1,1
+hai_A410,Linear forecast residual (GDN-style),2.0,0.5,1,0,1,1
+hai_A410,Simple fix: sliding-baseline deviation,25.0,0.04,1,0,0,0
+hai_A410,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+hai_A410,"LENS-SW (state-switched, exploratory)",19.0,0.05263157894736842,1,0,0,0
+hai_A410,Raw deviation |z|,18.0,0.05555555555555555,1,0,0,0
+hai_A410,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+hai_A410,TreeSHAP on RF,4.0,0.25,1,0,0,1
+hai_A411,LENS v2 (full),56.5,0.017699115044247787,1,0,0,0
+hai_A411,LENS v2 without own-history term,55.0,0.01818181818181818,1,0,0,0
+hai_A411,LENS v2 without adaptation,3.0,0.3333333333333333,1,0,1,1
+hai_A411,LENS v2 without CUSUM,15.0,0.06666666666666667,1,0,0,0
+hai_A411,"Static context residual (no history, no adaptation, no CUSUM)",3.0,0.3333333333333333,1,0,1,1
+hai_A411,Conditional reference (CondAttr-style kNN),1.0,1.0,1,1,1,1
+hai_A411,Linear forecast residual (GDN-style),3.0,0.3333333333333333,1,0,1,1
+hai_A411,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+hai_A411,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A411,"LENS-SW (state-switched, exploratory)",2.0,0.5,1,0,1,1
+hai_A411,Raw deviation |z|,1.0,1.0,1,1,1,1
+hai_A411,RF Gini (static),1.0,1.0,1,1,1,1
+hai_A411,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+hai_A412,LENS v2 (full),19.0,0.05263157894736842,1,0,0,0
+hai_A412,LENS v2 without own-history term,16.0,0.0625,1,0,0,0
+hai_A412,LENS v2 without adaptation,54.0,0.018518518518518517,1,0,0,0
+hai_A412,LENS v2 without CUSUM,21.0,0.047619047619047616,1,0,0,0
+hai_A412,"Static context residual (no history, no adaptation, no CUSUM)",35.0,0.02857142857142857,1,0,0,0
+hai_A412,Conditional reference (CondAttr-style kNN),10.0,0.1,1,0,0,0
+hai_A412,Linear forecast residual (GDN-style),29.0,0.034482758620689655,1,0,0,0
+hai_A412,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+hai_A412,"LENS-U (original, label-free)",4.0,0.25,1,0,0,1
+hai_A412,"LENS-SW (state-switched, exploratory)",12.0,0.08333333333333333,0,0,0,0
+hai_A412,Raw deviation |z|,3.0,0.3333333333333333,1,0,1,1
+hai_A412,RF Gini (static),17.0,0.058823529411764705,1,0,0,0
+hai_A412,TreeSHAP on RF,5.0,0.2,1,0,0,1
+hai_A413,LENS v2 (full),3.0,0.3333333333333333,1,0,1,1
+hai_A413,LENS v2 without own-history term,4.0,0.25,1,0,0,1
+hai_A413,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A413,LENS v2 without CUSUM,2.0,0.5,1,0,1,1
+hai_A413,"Static context residual (no history, no adaptation, no CUSUM)",1.0,1.0,1,1,1,1
+hai_A413,Conditional reference (CondAttr-style kNN),19.0,0.05263157894736842,1,0,0,0
+hai_A413,Linear forecast residual (GDN-style),2.0,0.5,1,0,1,1
+hai_A413,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+hai_A413,"LENS-U (original, label-free)",2.0,0.5,0,0,1,1
+hai_A413,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A413,Raw deviation |z|,4.0,0.25,0,0,0,1
+hai_A413,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+hai_A413,TreeSHAP on RF,4.0,0.25,1,0,0,1
+hai_A414,LENS v2 (full),5.0,0.2,0,0,0,1
+hai_A414,LENS v2 without own-history term,5.0,0.2,0,0,0,1
+hai_A414,LENS v2 without adaptation,10.0,0.1,0,0,0,0
+hai_A414,LENS v2 without CUSUM,2.0,0.5,0,0,1,1
+hai_A414,"Static context residual (no history, no adaptation, no CUSUM)",4.0,0.25,0,0,0,1
+hai_A414,Conditional reference (CondAttr-style kNN),32.0,0.03125,0,0,0,0
+hai_A414,Linear forecast residual (GDN-style),5.0,0.2,1,0,0,1
+hai_A414,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+hai_A414,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A414,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A414,Raw deviation |z|,38.0,0.02631578947368421,1,0,0,0
+hai_A414,RF Gini (static),10.0,0.1,0,0,0,0
+hai_A414,TreeSHAP on RF,19.0,0.05263157894736842,0,0,0,0
+hai_A415,LENS v2 (full),53.5,0.018691588785046728,1,0,0,0
+hai_A415,LENS v2 without own-history term,54.0,0.018518518518518517,0,0,0,0
+hai_A415,LENS v2 without adaptation,55.5,0.018018018018018018,0,0,0,0
+hai_A415,LENS v2 without CUSUM,77.5,0.012903225806451613,1,0,0,0
+hai_A415,"Static context residual (no history, no adaptation, no CUSUM)",77.5,0.012903225806451613,0,0,0,0
+hai_A415,Conditional reference (CondAttr-style kNN),76.0,0.013157894736842105,0,0,0,0
+hai_A415,Linear forecast residual (GDN-style),77.5,0.012903225806451613,0,0,0,0
+hai_A415,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+hai_A415,"LENS-U (original, label-free)",77.5,0.012903225806451613,0,0,0,0
+hai_A415,"LENS-SW (state-switched, exploratory)",77.5,0.012903225806451613,0,0,0,0
+hai_A415,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+hai_A415,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+hai_A415,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+hai_A416,LENS v2 (full),5.0,0.2,1,0,0,1
+hai_A416,LENS v2 without own-history term,8.0,0.125,1,0,0,0
+hai_A416,LENS v2 without adaptation,11.0,0.09090909090909091,1,0,0,0
+hai_A416,LENS v2 without CUSUM,6.0,0.16666666666666666,1,0,0,0
+hai_A416,"Static context residual (no history, no adaptation, no CUSUM)",16.0,0.0625,1,0,0,0
+hai_A416,Conditional reference (CondAttr-style kNN),15.0,0.06666666666666667,1,0,0,0
+hai_A416,Linear forecast residual (GDN-style),2.0,0.5,1,0,1,1
+hai_A416,Simple fix: sliding-baseline deviation,28.0,0.03571428571428571,1,0,0,0
+hai_A416,"LENS-U (original, label-free)",45.0,0.022222222222222223,1,0,0,0
+hai_A416,"LENS-SW (state-switched, exploratory)",35.0,0.02857142857142857,1,0,0,0
+hai_A416,Raw deviation |z|,34.0,0.029411764705882353,1,0,0,0
+hai_A416,RF Gini (static),5.0,0.2,1,0,0,1
+hai_A416,TreeSHAP on RF,3.0,0.3333333333333333,1,0,1,1
+hai_A417,LENS v2 (full),49.0,0.02040816326530612,0,0,0,0
+hai_A417,LENS v2 without own-history term,50.0,0.02,1,0,0,0
+hai_A417,LENS v2 without adaptation,51.5,0.019417475728155338,1,0,0,0
+hai_A417,LENS v2 without CUSUM,24.0,0.041666666666666664,0,0,0,0
+hai_A417,"Static context residual (no history, no adaptation, no CUSUM)",15.0,0.06666666666666667,1,0,0,0
+hai_A417,Conditional reference (CondAttr-style kNN),26.0,0.038461538461538464,1,0,0,0
+hai_A417,Linear forecast residual (GDN-style),64.0,0.015625,1,0,0,0
+hai_A417,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,1,0,0,0
+hai_A417,"LENS-U (original, label-free)",52.0,0.019230769230769232,1,0,0,0
+hai_A417,"LENS-SW (state-switched, exploratory)",50.0,0.02,0,0,0,0
+hai_A417,Raw deviation |z|,48.0,0.020833333333333332,1,0,0,0
+hai_A417,RF Gini (static),42.0,0.023809523809523808,1,0,0,0
+hai_A417,TreeSHAP on RF,4.0,0.25,1,0,0,1
+hai_A418,LENS v2 (full),4.0,0.25,1,0,0,1
+hai_A418,LENS v2 without own-history term,8.0,0.125,1,0,0,0
+hai_A418,LENS v2 without adaptation,12.0,0.08333333333333333,1,0,0,0
+hai_A418,LENS v2 without CUSUM,6.0,0.16666666666666666,1,0,0,0
+hai_A418,"Static context residual (no history, no adaptation, no CUSUM)",14.0,0.07142857142857142,1,0,0,0
+hai_A418,Conditional reference (CondAttr-style kNN),30.0,0.03333333333333333,1,0,0,0
+hai_A418,Linear forecast residual (GDN-style),19.0,0.05263157894736842,1,0,0,0
+hai_A418,Simple fix: sliding-baseline deviation,27.0,0.037037037037037035,1,0,0,0
+hai_A418,"LENS-U (original, label-free)",45.0,0.022222222222222223,0,0,0,0
+hai_A418,"LENS-SW (state-switched, exploratory)",41.0,0.024390243902439025,1,0,0,0
+hai_A418,Raw deviation |z|,60.0,0.016666666666666666,1,0,0,0
+hai_A418,RF Gini (static),23.0,0.043478260869565216,1,0,0,0
+hai_A418,TreeSHAP on RF,43.0,0.023255813953488372,1,0,0,0
+hai_A419,LENS v2 (full),6.0,0.16666666666666666,0,0,0,0
+hai_A419,LENS v2 without own-history term,6.0,0.16666666666666666,1,0,0,0
+hai_A419,LENS v2 without adaptation,10.0,0.1,1,0,0,0
+hai_A419,LENS v2 without CUSUM,4.0,0.25,1,0,0,1
+hai_A419,"Static context residual (no history, no adaptation, no CUSUM)",4.0,0.25,1,0,0,1
+hai_A419,Conditional reference (CondAttr-style kNN),22.0,0.045454545454545456,0,0,0,0
+hai_A419,Linear forecast residual (GDN-style),2.0,0.5,1,0,1,1
+hai_A419,Simple fix: sliding-baseline deviation,20.0,0.05,1,0,0,0
+hai_A419,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+hai_A419,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A419,Raw deviation |z|,32.0,0.03125,1,0,0,0
+hai_A419,RF Gini (static),38.0,0.02631578947368421,1,0,0,0
+hai_A419,TreeSHAP on RF,31.0,0.03225806451612903,1,0,0,0
+hai_A420,LENS v2 (full),2.0,0.5,1,0,1,1
+hai_A420,LENS v2 without own-history term,6.0,0.16666666666666666,1,0,0,0
+hai_A420,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A420,LENS v2 without CUSUM,2.0,0.5,1,0,1,1
+hai_A420,"Static context residual (no history, no adaptation, no CUSUM)",1.0,1.0,1,1,1,1
+hai_A420,Conditional reference (CondAttr-style kNN),16.0,0.0625,1,0,0,0
+hai_A420,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A420,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,1,0,0,0
+hai_A420,"LENS-U (original, label-free)",3.0,0.3333333333333333,1,0,1,1
+hai_A420,"LENS-SW (state-switched, exploratory)",1.0,1.0,1,1,1,1
+hai_A420,Raw deviation |z|,12.0,0.08333333333333333,1,0,0,0
+hai_A420,RF Gini (static),2.0,0.5,1,0,1,1
+hai_A420,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A421,LENS v2 (full),3.0,0.3333333333333333,1,0,1,1
+hai_A421,LENS v2 without own-history term,4.0,0.25,1,0,0,1
+hai_A421,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A421,LENS v2 without CUSUM,2.0,0.5,1,0,1,1
+hai_A421,"Static context residual (no history, no adaptation, no CUSUM)",1.0,1.0,1,1,1,1
+hai_A421,Conditional reference (CondAttr-style kNN),4.0,0.25,1,0,0,1
+hai_A421,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A421,Simple fix: sliding-baseline deviation,5.0,0.2,0,0,0,1
+hai_A421,"LENS-U (original, label-free)",24.0,0.041666666666666664,0,0,0,0
+hai_A421,"LENS-SW (state-switched, exploratory)",8.0,0.125,0,0,0,0
+hai_A421,Raw deviation |z|,25.0,0.04,0,0,0,0
+hai_A421,RF Gini (static),1.0,1.0,1,1,1,1
+hai_A421,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A422,LENS v2 (full),5.0,0.2,1,0,0,1
+hai_A422,LENS v2 without own-history term,6.0,0.16666666666666666,1,0,0,0
+hai_A422,LENS v2 without adaptation,7.0,0.14285714285714285,1,0,0,0
+hai_A422,LENS v2 without CUSUM,2.0,0.5,0,0,1,1
+hai_A422,"Static context residual (no history, no adaptation, no CUSUM)",8.0,0.125,1,0,0,0
+hai_A422,Conditional reference (CondAttr-style kNN),5.0,0.2,1,0,0,1
+hai_A422,Linear forecast residual (GDN-style),11.0,0.09090909090909091,0,0,0,0
+hai_A422,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+hai_A422,"LENS-U (original, label-free)",36.0,0.027777777777777776,1,0,0,0
+hai_A422,"LENS-SW (state-switched, exploratory)",31.0,0.03225806451612903,1,0,0,0
+hai_A422,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+hai_A422,RF Gini (static),9.0,0.1111111111111111,1,0,0,0
+hai_A422,TreeSHAP on RF,12.0,0.08333333333333333,1,0,0,0
+hai_A423,LENS v2 (full),6.0,0.16666666666666666,1,0,0,0
+hai_A423,LENS v2 without own-history term,6.0,0.16666666666666666,1,0,0,0
+hai_A423,LENS v2 without adaptation,9.0,0.1111111111111111,1,0,0,0
+hai_A423,LENS v2 without CUSUM,3.0,0.3333333333333333,1,0,1,1
+hai_A423,"Static context residual (no history, no adaptation, no CUSUM)",3.0,0.3333333333333333,1,0,1,1
+hai_A423,Conditional reference (CondAttr-style kNN),4.0,0.25,1,0,0,1
+hai_A423,Linear forecast residual (GDN-style),8.0,0.125,1,0,0,0
+hai_A423,Simple fix: sliding-baseline deviation,16.0,0.0625,1,0,0,0
+hai_A423,"LENS-U (original, label-free)",17.0,0.058823529411764705,1,0,0,0
+hai_A423,"LENS-SW (state-switched, exploratory)",5.0,0.2,1,0,0,1
+hai_A423,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+hai_A423,RF Gini (static),8.0,0.125,1,0,0,0
+hai_A423,TreeSHAP on RF,1.0,1.0,1,1,1,1
+hai_A424,LENS v2 (full),5.0,0.2,1,0,0,1
+hai_A424,LENS v2 without own-history term,7.0,0.14285714285714285,1,0,0,0
+hai_A424,LENS v2 without adaptation,5.0,0.2,1,0,0,1
+hai_A424,LENS v2 without CUSUM,5.0,0.2,1,0,0,1
+hai_A424,"Static context residual (no history, no adaptation, no CUSUM)",10.0,0.1,1,0,0,0
+hai_A424,Conditional reference (CondAttr-style kNN),5.0,0.2,0,0,0,1
+hai_A424,Linear forecast residual (GDN-style),1.0,1.0,1,1,1,1
+hai_A424,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+hai_A424,"LENS-U (original, label-free)",2.0,0.5,1,0,1,1
+hai_A424,"LENS-SW (state-switched, exploratory)",4.0,0.25,1,0,0,1
+hai_A424,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+hai_A424,RF Gini (static),1.0,1.0,1,1,1,1
+hai_A424,TreeSHAP on RF,36.0,0.027777777777777776,1,0,0,0

@@ -1,0 +1,697 @@
+m,method,attack,best_rank,rr,stage_hit,top1,top3,top5
+0,LENS-R T2 (full),A101,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A101,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A101,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A102,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A102,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A102,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A103,5.0,0.2,1,0,0,1
+0,LENS-R T2 (no drift correction),A103,5.0,0.2,1,0,0,1
+0,Linear forecast residual (GDN-style),A103,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A104,2.0,0.5,0,0,1,1
+0,LENS-R T2 (no drift correction),A104,2.0,0.5,0,0,1,1
+0,Linear forecast residual (GDN-style),A104,7.0,0.14285714285714285,0,0,0,0
+0,LENS-R T2 (full),A105,30.0,0.03333333333333333,1,0,0,0
+0,LENS-R T2 (no drift correction),A105,30.0,0.03333333333333333,1,0,0,0
+0,Linear forecast residual (GDN-style),A105,55.0,0.01818181818181818,1,0,0,0
+0,LENS-R T2 (full),A106,4.0,0.25,1,0,0,1
+0,LENS-R T2 (no drift correction),A106,4.0,0.25,1,0,0,1
+0,Linear forecast residual (GDN-style),A106,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (full),A107,55.0,0.01818181818181818,1,0,0,0
+0,LENS-R T2 (no drift correction),A107,55.0,0.01818181818181818,1,0,0,0
+0,Linear forecast residual (GDN-style),A107,13.0,0.07692307692307693,1,0,0,0
+0,LENS-R T2 (full),A201,26.0,0.038461538461538464,0,0,0,0
+0,LENS-R T2 (no drift correction),A201,26.0,0.038461538461538464,0,0,0,0
+0,Linear forecast residual (GDN-style),A201,33.0,0.030303030303030304,1,0,0,0
+0,LENS-R T2 (full),A202,33.0,0.030303030303030304,1,0,0,0
+0,LENS-R T2 (no drift correction),A202,33.0,0.030303030303030304,1,0,0,0
+0,Linear forecast residual (GDN-style),A202,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (full),A203,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A203,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A203,59.0,0.01694915254237288,1,0,0,0
+0,LENS-R T2 (full),A204,7.0,0.14285714285714285,1,0,0,0
+0,LENS-R T2 (no drift correction),A204,7.0,0.14285714285714285,1,0,0,0
+0,Linear forecast residual (GDN-style),A204,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A205,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A205,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A205,8.0,0.125,0,0,0,0
+0,LENS-R T2 (full),A206,32.0,0.03125,1,0,0,0
+0,LENS-R T2 (no drift correction),A206,32.0,0.03125,1,0,0,0
+0,Linear forecast residual (GDN-style),A206,11.0,0.09090909090909091,1,0,0,0
+0,LENS-R T2 (full),A207,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A207,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A207,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A208,3.0,0.3333333333333333,0,0,1,1
+0,LENS-R T2 (no drift correction),A208,3.0,0.3333333333333333,0,0,1,1
+0,Linear forecast residual (GDN-style),A208,2.0,0.5,0,0,1,1
+0,LENS-R T2 (full),A209,27.0,0.037037037037037035,1,0,0,0
+0,LENS-R T2 (no drift correction),A209,27.0,0.037037037037037035,1,0,0,0
+0,Linear forecast residual (GDN-style),A209,16.0,0.0625,1,0,0,0
+0,LENS-R T2 (full),A210,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A210,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A210,57.0,0.017543859649122806,1,0,0,0
+0,LENS-R T2 (full),A211,5.0,0.2,1,0,0,1
+0,LENS-R T2 (no drift correction),A211,5.0,0.2,1,0,0,1
+0,Linear forecast residual (GDN-style),A211,2.0,0.5,0,0,1,1
+0,LENS-R T2 (full),A212,21.0,0.047619047619047616,0,0,0,0
+0,LENS-R T2 (no drift correction),A212,21.0,0.047619047619047616,0,0,0,0
+0,Linear forecast residual (GDN-style),A212,4.0,0.25,1,0,0,1
+0,LENS-R T2 (full),A213,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A213,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A213,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A214,3.0,0.3333333333333333,0,0,1,1
+0,LENS-R T2 (no drift correction),A214,3.0,0.3333333333333333,0,0,1,1
+0,Linear forecast residual (GDN-style),A214,7.0,0.14285714285714285,1,0,0,0
+0,LENS-R T2 (full),A215,19.0,0.05263157894736842,1,0,0,0
+0,LENS-R T2 (no drift correction),A215,19.0,0.05263157894736842,1,0,0,0
+0,Linear forecast residual (GDN-style),A215,9.0,0.1111111111111111,1,0,0,0
+0,LENS-R T2 (full),A216,6.0,0.16666666666666666,1,0,0,0
+0,LENS-R T2 (no drift correction),A216,6.0,0.16666666666666666,1,0,0,0
+0,Linear forecast residual (GDN-style),A216,21.0,0.047619047619047616,1,0,0,0
+0,LENS-R T2 (full),A217,18.0,0.05555555555555555,1,0,0,0
+0,LENS-R T2 (no drift correction),A217,18.0,0.05555555555555555,1,0,0,0
+0,Linear forecast residual (GDN-style),A217,6.0,0.16666666666666666,1,0,0,0
+0,LENS-R T2 (full),A301,32.0,0.03125,1,0,0,0
+0,LENS-R T2 (no drift correction),A301,32.0,0.03125,1,0,0,0
+0,Linear forecast residual (GDN-style),A301,11.0,0.09090909090909091,1,0,0,0
+0,LENS-R T2 (full),A302,6.0,0.16666666666666666,1,0,0,0
+0,LENS-R T2 (no drift correction),A302,6.0,0.16666666666666666,1,0,0,0
+0,Linear forecast residual (GDN-style),A302,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A303,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A303,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A303,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A304,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A304,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A304,5.0,0.2,1,0,0,1
+0,LENS-R T2 (full),A305,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A305,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A305,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A306,5.0,0.2,1,0,0,1
+0,LENS-R T2 (no drift correction),A306,5.0,0.2,1,0,0,1
+0,Linear forecast residual (GDN-style),A306,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A307,44.0,0.022727272727272728,1,0,0,0
+0,LENS-R T2 (no drift correction),A307,44.0,0.022727272727272728,1,0,0,0
+0,Linear forecast residual (GDN-style),A307,33.0,0.030303030303030304,1,0,0,0
+0,LENS-R T2 (full),A308,5.0,0.2,1,0,0,1
+0,LENS-R T2 (no drift correction),A308,5.0,0.2,1,0,0,1
+0,Linear forecast residual (GDN-style),A308,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A309,3.0,0.3333333333333333,0,0,1,1
+0,LENS-R T2 (no drift correction),A309,3.0,0.3333333333333333,0,0,1,1
+0,Linear forecast residual (GDN-style),A309,18.0,0.05555555555555555,1,0,0,0
+0,LENS-R T2 (full),A310,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A310,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A310,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (full),A401,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A401,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A401,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A402,50.0,0.02,1,0,0,0
+0,LENS-R T2 (no drift correction),A402,50.0,0.02,1,0,0,0
+0,Linear forecast residual (GDN-style),A402,4.0,0.25,1,0,0,1
+0,LENS-R T2 (full),A403,77.5,0.012903225806451613,0,0,0,0
+0,LENS-R T2 (no drift correction),A403,77.5,0.012903225806451613,0,0,0,0
+0,Linear forecast residual (GDN-style),A403,77.5,0.012903225806451613,0,0,0,0
+0,LENS-R T2 (full),A404,2.0,0.5,0,0,1,1
+0,LENS-R T2 (no drift correction),A404,2.0,0.5,0,0,1,1
+0,Linear forecast residual (GDN-style),A404,4.0,0.25,1,0,0,1
+0,LENS-R T2 (full),A405,56.0,0.017857142857142856,0,0,0,0
+0,LENS-R T2 (no drift correction),A405,56.0,0.017857142857142856,0,0,0,0
+0,Linear forecast residual (GDN-style),A405,62.0,0.016129032258064516,1,0,0,0
+0,LENS-R T2 (full),A406,15.0,0.06666666666666667,1,0,0,0
+0,LENS-R T2 (no drift correction),A406,15.0,0.06666666666666667,1,0,0,0
+0,Linear forecast residual (GDN-style),A406,6.0,0.16666666666666666,1,0,0,0
+0,LENS-R T2 (full),A407,13.0,0.07692307692307693,1,0,0,0
+0,LENS-R T2 (no drift correction),A407,13.0,0.07692307692307693,1,0,0,0
+0,Linear forecast residual (GDN-style),A407,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A408,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (no drift correction),A408,3.0,0.3333333333333333,1,0,1,1
+0,Linear forecast residual (GDN-style),A408,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A409,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A409,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A409,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A410,7.0,0.14285714285714285,1,0,0,0
+0,LENS-R T2 (no drift correction),A410,7.0,0.14285714285714285,1,0,0,0
+0,Linear forecast residual (GDN-style),A410,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A411,2.0,0.5,1,0,1,1
+0,LENS-R T2 (no drift correction),A411,2.0,0.5,1,0,1,1
+0,Linear forecast residual (GDN-style),A411,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (full),A412,36.0,0.027777777777777776,0,0,0,0
+0,LENS-R T2 (no drift correction),A412,33.0,0.030303030303030304,1,0,0,0
+0,Linear forecast residual (GDN-style),A412,29.0,0.034482758620689655,1,0,0,0
+0,LENS-R T2 (full),A413,4.0,0.25,1,0,0,1
+0,LENS-R T2 (no drift correction),A413,4.0,0.25,1,0,0,1
+0,Linear forecast residual (GDN-style),A413,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A414,3.0,0.3333333333333333,0,0,1,1
+0,LENS-R T2 (no drift correction),A414,3.0,0.3333333333333333,0,0,1,1
+0,Linear forecast residual (GDN-style),A414,5.0,0.2,1,0,0,1
+0,LENS-R T2 (full),A415,77.5,0.012903225806451613,0,0,0,0
+0,LENS-R T2 (no drift correction),A415,77.5,0.012903225806451613,0,0,0,0
+0,Linear forecast residual (GDN-style),A415,77.5,0.012903225806451613,0,0,0,0
+0,LENS-R T2 (full),A416,18.0,0.05555555555555555,1,0,0,0
+0,LENS-R T2 (no drift correction),A416,18.0,0.05555555555555555,1,0,0,0
+0,Linear forecast residual (GDN-style),A416,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A417,11.0,0.09090909090909091,1,0,0,0
+0,LENS-R T2 (no drift correction),A417,11.0,0.09090909090909091,1,0,0,0
+0,Linear forecast residual (GDN-style),A417,64.0,0.015625,1,0,0,0
+0,LENS-R T2 (full),A418,34.0,0.029411764705882353,1,0,0,0
+0,LENS-R T2 (no drift correction),A418,34.0,0.029411764705882353,1,0,0,0
+0,Linear forecast residual (GDN-style),A418,19.0,0.05263157894736842,1,0,0,0
+0,LENS-R T2 (full),A419,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (no drift correction),A419,3.0,0.3333333333333333,1,0,1,1
+0,Linear forecast residual (GDN-style),A419,2.0,0.5,1,0,1,1
+0,LENS-R T2 (full),A420,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A420,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A420,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A421,1.0,1.0,1,1,1,1
+0,LENS-R T2 (no drift correction),A421,1.0,1.0,1,1,1,1
+0,Linear forecast residual (GDN-style),A421,1.0,1.0,1,1,1,1
+0,LENS-R T2 (full),A422,13.0,0.07692307692307693,1,0,0,0
+0,LENS-R T2 (no drift correction),A422,13.0,0.07692307692307693,1,0,0,0
+0,Linear forecast residual (GDN-style),A422,11.0,0.09090909090909091,0,0,0,0
+0,LENS-R T2 (full),A423,3.0,0.3333333333333333,1,0,1,1
+0,LENS-R T2 (no drift correction),A423,3.0,0.3333333333333333,1,0,1,1
+0,Linear forecast residual (GDN-style),A423,8.0,0.125,1,0,0,0
+0,LENS-R T2 (full),A424,6.0,0.16666666666666666,1,0,0,0
+0,LENS-R T2 (no drift correction),A424,6.0,0.16666666666666666,1,0,0,0
+0,Linear forecast residual (GDN-style),A424,1.0,1.0,1,1,1,1
+3,LENS-R T2 (full),A101,3.0,0.3333333333333333,1,0,1,1
+3,LENS-R T2 (no drift correction),A101,7.0,0.14285714285714285,1,0,0,0
+3,Linear forecast residual (GDN-style),A101,16.0,0.0625,0,0,0,0
+3,LENS-R T2 (full),A102,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A102,4.0,0.25,1,0,0,1
+3,Linear forecast residual (GDN-style),A102,6.0,0.16666666666666666,0,0,0,0
+3,LENS-R T2 (full),A103,6.0,0.16666666666666666,0,0,0,0
+3,LENS-R T2 (no drift correction),A103,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A103,10.0,0.1,0,0,0,0
+3,LENS-R T2 (full),A104,3.0,0.3333333333333333,0,0,1,1
+3,LENS-R T2 (no drift correction),A104,9.0,0.1111111111111111,0,0,0,0
+3,Linear forecast residual (GDN-style),A104,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A105,29.0,0.034482758620689655,0,0,0,0
+3,LENS-R T2 (no drift correction),A105,37.0,0.02702702702702703,1,0,0,0
+3,Linear forecast residual (GDN-style),A105,43.0,0.023255813953488372,0,0,0,0
+3,LENS-R T2 (full),A106,7.0,0.14285714285714285,0,0,0,0
+3,LENS-R T2 (no drift correction),A106,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A106,31.0,0.03225806451612903,0,0,0,0
+3,LENS-R T2 (full),A107,56.0,0.017857142857142856,0,0,0,0
+3,LENS-R T2 (no drift correction),A107,55.0,0.01818181818181818,1,0,0,0
+3,Linear forecast residual (GDN-style),A107,44.0,0.022727272727272728,0,0,0,0
+3,LENS-R T2 (full),A201,28.0,0.03571428571428571,0,0,0,0
+3,LENS-R T2 (no drift correction),A201,28.0,0.03571428571428571,1,0,0,0
+3,Linear forecast residual (GDN-style),A201,15.0,0.06666666666666667,0,0,0,0
+3,LENS-R T2 (full),A202,32.0,0.03125,0,0,0,0
+3,LENS-R T2 (no drift correction),A202,33.0,0.030303030303030304,1,0,0,0
+3,Linear forecast residual (GDN-style),A202,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (full),A203,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A203,5.0,0.2,0,0,0,1
+3,Linear forecast residual (GDN-style),A203,63.0,0.015873015873015872,0,0,0,0
+3,LENS-R T2 (full),A204,7.0,0.14285714285714285,1,0,0,0
+3,LENS-R T2 (no drift correction),A204,8.0,0.125,1,0,0,0
+3,Linear forecast residual (GDN-style),A204,33.0,0.030303030303030304,0,0,0,0
+3,LENS-R T2 (full),A205,2.0,0.5,0,0,1,1
+3,LENS-R T2 (no drift correction),A205,8.0,0.125,0,0,0,0
+3,Linear forecast residual (GDN-style),A205,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A206,33.0,0.030303030303030304,1,0,0,0
+3,LENS-R T2 (no drift correction),A206,33.0,0.030303030303030304,1,0,0,0
+3,Linear forecast residual (GDN-style),A206,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A207,3.0,0.3333333333333333,0,0,1,1
+3,LENS-R T2 (no drift correction),A207,6.0,0.16666666666666666,1,0,0,0
+3,Linear forecast residual (GDN-style),A207,7.0,0.14285714285714285,0,0,0,0
+3,LENS-R T2 (full),A208,2.0,0.5,1,0,1,1
+3,LENS-R T2 (no drift correction),A208,6.0,0.16666666666666666,0,0,0,0
+3,Linear forecast residual (GDN-style),A208,33.0,0.030303030303030304,0,0,0,0
+3,LENS-R T2 (full),A209,32.0,0.03125,0,0,0,0
+3,LENS-R T2 (no drift correction),A209,37.0,0.02702702702702703,1,0,0,0
+3,Linear forecast residual (GDN-style),A209,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A210,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A210,4.0,0.25,0,0,0,1
+3,Linear forecast residual (GDN-style),A210,65.0,0.015384615384615385,0,0,0,0
+3,LENS-R T2 (full),A211,5.0,0.2,0,0,0,1
+3,LENS-R T2 (no drift correction),A211,11.0,0.09090909090909091,1,0,0,0
+3,Linear forecast residual (GDN-style),A211,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (full),A212,24.0,0.041666666666666664,0,0,0,0
+3,LENS-R T2 (no drift correction),A212,9.0,0.1111111111111111,0,0,0,0
+3,Linear forecast residual (GDN-style),A212,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A213,3.0,0.3333333333333333,0,0,1,1
+3,LENS-R T2 (no drift correction),A213,7.0,0.14285714285714285,1,0,0,0
+3,Linear forecast residual (GDN-style),A213,19.0,0.05263157894736842,0,0,0,0
+3,LENS-R T2 (full),A214,4.0,0.25,0,0,0,1
+3,LENS-R T2 (no drift correction),A214,16.0,0.0625,0,0,0,0
+3,Linear forecast residual (GDN-style),A214,5.0,0.2,1,0,0,1
+3,LENS-R T2 (full),A215,18.0,0.05555555555555555,0,0,0,0
+3,LENS-R T2 (no drift correction),A215,32.0,0.03125,1,0,0,0
+3,Linear forecast residual (GDN-style),A215,8.0,0.125,0,0,0,0
+3,LENS-R T2 (full),A216,9.0,0.1111111111111111,0,0,0,0
+3,LENS-R T2 (no drift correction),A216,18.0,0.05555555555555555,1,0,0,0
+3,Linear forecast residual (GDN-style),A216,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A217,18.0,0.05555555555555555,0,0,0,0
+3,LENS-R T2 (no drift correction),A217,24.0,0.041666666666666664,1,0,0,0
+3,Linear forecast residual (GDN-style),A217,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A301,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A301,3.0,0.3333333333333333,1,0,1,1
+3,Linear forecast residual (GDN-style),A301,6.0,0.16666666666666666,1,0,0,0
+3,LENS-R T2 (full),A302,7.0,0.14285714285714285,1,0,0,0
+3,LENS-R T2 (no drift correction),A302,10.0,0.1,1,0,0,0
+3,Linear forecast residual (GDN-style),A302,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A303,3.0,0.3333333333333333,0,0,1,1
+3,LENS-R T2 (no drift correction),A303,6.0,0.16666666666666666,1,0,0,0
+3,Linear forecast residual (GDN-style),A303,5.0,0.2,1,0,0,1
+3,LENS-R T2 (full),A304,3.0,0.3333333333333333,1,0,1,1
+3,LENS-R T2 (no drift correction),A304,10.0,0.1,1,0,0,0
+3,Linear forecast residual (GDN-style),A304,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A305,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A305,4.0,0.25,1,0,0,1
+3,Linear forecast residual (GDN-style),A305,5.0,0.2,1,0,0,1
+3,LENS-R T2 (full),A306,6.0,0.16666666666666666,0,0,0,0
+3,LENS-R T2 (no drift correction),A306,10.0,0.1,1,0,0,0
+3,Linear forecast residual (GDN-style),A306,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A307,47.0,0.02127659574468085,0,0,0,0
+3,LENS-R T2 (no drift correction),A307,40.0,0.025,1,0,0,0
+3,Linear forecast residual (GDN-style),A307,21.0,0.047619047619047616,0,0,0,0
+3,LENS-R T2 (full),A308,7.0,0.14285714285714285,0,0,0,0
+3,LENS-R T2 (no drift correction),A308,8.0,0.125,1,0,0,0
+3,Linear forecast residual (GDN-style),A308,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (full),A309,3.0,0.3333333333333333,0,0,1,1
+3,LENS-R T2 (no drift correction),A309,10.0,0.1,1,0,0,0
+3,Linear forecast residual (GDN-style),A309,28.0,0.03571428571428571,0,0,0,0
+3,LENS-R T2 (full),A310,2.0,0.5,0,0,1,1
+3,LENS-R T2 (no drift correction),A310,7.0,0.14285714285714285,0,0,0,0
+3,Linear forecast residual (GDN-style),A310,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A401,2.0,0.5,1,0,1,1
+3,LENS-R T2 (no drift correction),A401,2.0,0.5,1,0,1,1
+3,Linear forecast residual (GDN-style),A401,4.0,0.25,0,0,0,1
+3,LENS-R T2 (full),A402,45.0,0.022222222222222223,0,0,0,0
+3,LENS-R T2 (no drift correction),A402,50.0,0.02,1,0,0,0
+3,Linear forecast residual (GDN-style),A402,38.0,0.02631578947368421,0,0,0,0
+3,LENS-R T2 (full),A403,77.5,0.012903225806451613,0,0,0,0
+3,LENS-R T2 (no drift correction),A403,77.5,0.012903225806451613,0,0,0,0
+3,Linear forecast residual (GDN-style),A403,77.5,0.012903225806451613,0,0,0,0
+3,LENS-R T2 (full),A404,2.0,0.5,1,0,1,1
+3,LENS-R T2 (no drift correction),A404,13.0,0.07692307692307693,0,0,0,0
+3,Linear forecast residual (GDN-style),A404,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A405,55.0,0.01818181818181818,0,0,0,0
+3,LENS-R T2 (no drift correction),A405,58.0,0.017241379310344827,1,0,0,0
+3,Linear forecast residual (GDN-style),A405,45.0,0.022222222222222223,0,0,0,0
+3,LENS-R T2 (full),A406,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (no drift correction),A406,26.0,0.038461538461538464,1,0,0,0
+3,Linear forecast residual (GDN-style),A406,9.0,0.1111111111111111,0,0,0,0
+3,LENS-R T2 (full),A407,14.0,0.07142857142857142,0,0,0,0
+3,LENS-R T2 (no drift correction),A407,15.0,0.06666666666666667,1,0,0,0
+3,Linear forecast residual (GDN-style),A407,14.0,0.07142857142857142,0,0,0,0
+3,LENS-R T2 (full),A408,4.0,0.25,0,0,0,1
+3,LENS-R T2 (no drift correction),A408,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A408,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A409,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A409,4.0,0.25,1,0,0,1
+3,Linear forecast residual (GDN-style),A409,5.0,0.2,0,0,0,1
+3,LENS-R T2 (full),A410,11.0,0.09090909090909091,1,0,0,0
+3,LENS-R T2 (no drift correction),A410,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A410,9.0,0.1111111111111111,0,0,0,0
+3,LENS-R T2 (full),A411,3.0,0.3333333333333333,1,0,1,1
+3,LENS-R T2 (no drift correction),A411,7.0,0.14285714285714285,1,0,0,0
+3,Linear forecast residual (GDN-style),A411,32.0,0.03125,0,0,0,0
+3,LENS-R T2 (full),A412,34.0,0.029411764705882353,0,0,0,0
+3,LENS-R T2 (no drift correction),A412,40.0,0.025,1,0,0,0
+3,Linear forecast residual (GDN-style),A412,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (full),A413,6.0,0.16666666666666666,1,0,0,0
+3,LENS-R T2 (no drift correction),A413,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A413,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A414,4.0,0.25,1,0,0,1
+3,LENS-R T2 (no drift correction),A414,10.0,0.1,0,0,0,0
+3,Linear forecast residual (GDN-style),A414,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A415,77.5,0.012903225806451613,1,0,0,0
+3,LENS-R T2 (no drift correction),A415,77.5,0.012903225806451613,0,0,0,0
+3,Linear forecast residual (GDN-style),A415,77.5,0.012903225806451613,0,0,0,0
+3,LENS-R T2 (full),A416,19.0,0.05263157894736842,0,0,0,0
+3,LENS-R T2 (no drift correction),A416,25.0,0.04,1,0,0,0
+3,Linear forecast residual (GDN-style),A416,9.0,0.1111111111111111,0,0,0,0
+3,LENS-R T2 (full),A417,19.0,0.05263157894736842,1,0,0,0
+3,LENS-R T2 (no drift correction),A417,25.0,0.04,1,0,0,0
+3,Linear forecast residual (GDN-style),A417,62.0,0.016129032258064516,0,0,0,0
+3,LENS-R T2 (full),A418,34.0,0.029411764705882353,0,0,0,0
+3,LENS-R T2 (no drift correction),A418,25.0,0.04,1,0,0,0
+3,Linear forecast residual (GDN-style),A418,13.0,0.07692307692307693,0,0,0,0
+3,LENS-R T2 (full),A419,4.0,0.25,0,0,0,1
+3,LENS-R T2 (no drift correction),A419,9.0,0.1111111111111111,1,0,0,0
+3,Linear forecast residual (GDN-style),A419,4.0,0.25,1,0,0,1
+3,LENS-R T2 (full),A420,1.0,1.0,1,1,1,1
+3,LENS-R T2 (no drift correction),A420,5.0,0.2,1,0,0,1
+3,Linear forecast residual (GDN-style),A420,7.0,0.14285714285714285,0,0,0,0
+3,LENS-R T2 (full),A421,2.0,0.5,1,0,1,1
+3,LENS-R T2 (no drift correction),A421,6.0,0.16666666666666666,1,0,0,0
+3,Linear forecast residual (GDN-style),A421,32.0,0.03125,0,0,0,0
+3,LENS-R T2 (full),A422,15.0,0.06666666666666667,1,0,0,0
+3,LENS-R T2 (no drift correction),A422,23.0,0.043478260869565216,1,0,0,0
+3,Linear forecast residual (GDN-style),A422,12.0,0.08333333333333333,0,0,0,0
+3,LENS-R T2 (full),A423,4.0,0.25,1,0,0,1
+3,LENS-R T2 (no drift correction),A423,8.0,0.125,1,0,0,0
+3,Linear forecast residual (GDN-style),A423,30.0,0.03333333333333333,0,0,0,0
+3,LENS-R T2 (full),A424,7.0,0.14285714285714285,0,0,0,0
+3,LENS-R T2 (no drift correction),A424,12.0,0.08333333333333333,1,0,0,0
+3,Linear forecast residual (GDN-style),A424,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A101,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A101,8.0,0.125,1,0,0,0
+6,Linear forecast residual (GDN-style),A101,26.0,0.038461538461538464,0,0,0,0
+6,LENS-R T2 (full),A102,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A102,5.0,0.2,1,0,0,1
+6,Linear forecast residual (GDN-style),A102,10.0,0.1,0,0,0,0
+6,LENS-R T2 (full),A103,6.0,0.16666666666666666,1,0,0,0
+6,LENS-R T2 (no drift correction),A103,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A103,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A104,2.0,0.5,0,0,1,1
+6,LENS-R T2 (no drift correction),A104,9.0,0.1111111111111111,0,0,0,0
+6,Linear forecast residual (GDN-style),A104,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A105,26.0,0.038461538461538464,1,0,0,0
+6,LENS-R T2 (no drift correction),A105,37.0,0.02702702702702703,1,0,0,0
+6,Linear forecast residual (GDN-style),A105,43.0,0.023255813953488372,0,0,0,0
+6,LENS-R T2 (full),A106,5.0,0.2,1,0,0,1
+6,LENS-R T2 (no drift correction),A106,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A106,27.0,0.037037037037037035,0,0,0,0
+6,LENS-R T2 (full),A107,52.0,0.019230769230769232,0,0,0,0
+6,LENS-R T2 (no drift correction),A107,55.0,0.01818181818181818,1,0,0,0
+6,Linear forecast residual (GDN-style),A107,49.0,0.02040816326530612,0,0,0,0
+6,LENS-R T2 (full),A201,26.0,0.038461538461538464,0,0,0,0
+6,LENS-R T2 (no drift correction),A201,26.0,0.038461538461538464,1,0,0,0
+6,Linear forecast residual (GDN-style),A201,14.0,0.07142857142857142,0,0,0,0
+6,LENS-R T2 (full),A202,32.0,0.03125,1,0,0,0
+6,LENS-R T2 (no drift correction),A202,32.0,0.03125,1,0,0,0
+6,Linear forecast residual (GDN-style),A202,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A203,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A203,6.0,0.16666666666666666,0,0,0,0
+6,Linear forecast residual (GDN-style),A203,63.0,0.015873015873015872,0,0,0,0
+6,LENS-R T2 (full),A204,8.0,0.125,1,0,0,0
+6,LENS-R T2 (no drift correction),A204,7.0,0.14285714285714285,1,0,0,0
+6,Linear forecast residual (GDN-style),A204,39.0,0.02564102564102564,0,0,0,0
+6,LENS-R T2 (full),A205,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A205,8.0,0.125,0,0,0,0
+6,Linear forecast residual (GDN-style),A205,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A206,31.0,0.03225806451612903,1,0,0,0
+6,LENS-R T2 (no drift correction),A206,20.0,0.05,1,0,0,0
+6,Linear forecast residual (GDN-style),A206,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A207,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A207,6.0,0.16666666666666666,1,0,0,0
+6,Linear forecast residual (GDN-style),A207,11.0,0.09090909090909091,0,0,0,0
+6,LENS-R T2 (full),A208,3.0,0.3333333333333333,0,0,1,1
+6,LENS-R T2 (no drift correction),A208,6.0,0.16666666666666666,0,0,0,0
+6,Linear forecast residual (GDN-style),A208,41.0,0.024390243902439025,0,0,0,0
+6,LENS-R T2 (full),A209,26.0,0.038461538461538464,1,0,0,0
+6,LENS-R T2 (no drift correction),A209,36.0,0.027777777777777776,1,0,0,0
+6,Linear forecast residual (GDN-style),A209,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A210,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A210,5.0,0.2,0,0,0,1
+6,Linear forecast residual (GDN-style),A210,64.0,0.015625,0,0,0,0
+6,LENS-R T2 (full),A211,5.0,0.2,1,0,0,1
+6,LENS-R T2 (no drift correction),A211,11.0,0.09090909090909091,1,0,0,0
+6,Linear forecast residual (GDN-style),A211,15.0,0.06666666666666667,0,0,0,0
+6,LENS-R T2 (full),A212,21.0,0.047619047619047616,0,0,0,0
+6,LENS-R T2 (no drift correction),A212,9.0,0.1111111111111111,0,0,0,0
+6,Linear forecast residual (GDN-style),A212,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A213,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A213,7.0,0.14285714285714285,1,0,0,0
+6,Linear forecast residual (GDN-style),A213,25.0,0.04,0,0,0,0
+6,LENS-R T2 (full),A214,3.0,0.3333333333333333,0,0,1,1
+6,LENS-R T2 (no drift correction),A214,16.0,0.0625,0,0,0,0
+6,Linear forecast residual (GDN-style),A214,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A215,18.0,0.05555555555555555,1,0,0,0
+6,LENS-R T2 (no drift correction),A215,31.0,0.03225806451612903,1,0,0,0
+6,Linear forecast residual (GDN-style),A215,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A216,6.0,0.16666666666666666,1,0,0,0
+6,LENS-R T2 (no drift correction),A216,18.0,0.05555555555555555,1,0,0,0
+6,Linear forecast residual (GDN-style),A216,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A217,16.0,0.0625,1,0,0,0
+6,LENS-R T2 (no drift correction),A217,24.0,0.041666666666666664,1,0,0,0
+6,Linear forecast residual (GDN-style),A217,13.0,0.07692307692307693,0,0,0,0
+6,LENS-R T2 (full),A301,4.0,0.25,1,0,0,1
+6,LENS-R T2 (no drift correction),A301,10.0,0.1,1,0,0,0
+6,Linear forecast residual (GDN-style),A301,5.0,0.2,1,0,0,1
+6,LENS-R T2 (full),A302,6.0,0.16666666666666666,1,0,0,0
+6,LENS-R T2 (no drift correction),A302,10.0,0.1,1,0,0,0
+6,Linear forecast residual (GDN-style),A302,13.0,0.07692307692307693,0,0,0,0
+6,LENS-R T2 (full),A303,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A303,6.0,0.16666666666666666,1,0,0,0
+6,Linear forecast residual (GDN-style),A303,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A304,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A304,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A304,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A305,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A305,5.0,0.2,1,0,0,1
+6,Linear forecast residual (GDN-style),A305,3.0,0.3333333333333333,1,0,1,1
+6,LENS-R T2 (full),A306,5.0,0.2,1,0,0,1
+6,LENS-R T2 (no drift correction),A306,10.0,0.1,1,0,0,0
+6,Linear forecast residual (GDN-style),A306,14.0,0.07142857142857142,0,0,0,0
+6,LENS-R T2 (full),A307,44.0,0.022727272727272728,1,0,0,0
+6,LENS-R T2 (no drift correction),A307,40.0,0.025,1,0,0,0
+6,Linear forecast residual (GDN-style),A307,20.0,0.05,0,0,0,0
+6,LENS-R T2 (full),A308,6.0,0.16666666666666666,1,0,0,0
+6,LENS-R T2 (no drift correction),A308,8.0,0.125,1,0,0,0
+6,Linear forecast residual (GDN-style),A308,16.0,0.0625,0,0,0,0
+6,LENS-R T2 (full),A309,2.0,0.5,0,0,1,1
+6,LENS-R T2 (no drift correction),A309,10.0,0.1,1,0,0,0
+6,Linear forecast residual (GDN-style),A309,29.0,0.034482758620689655,0,0,0,0
+6,LENS-R T2 (full),A310,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A310,7.0,0.14285714285714285,0,0,0,0
+6,Linear forecast residual (GDN-style),A310,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A401,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A401,3.0,0.3333333333333333,1,0,1,1
+6,Linear forecast residual (GDN-style),A401,7.0,0.14285714285714285,0,0,0,0
+6,LENS-R T2 (full),A402,47.0,0.02127659574468085,1,0,0,0
+6,LENS-R T2 (no drift correction),A402,47.0,0.02127659574468085,1,0,0,0
+6,Linear forecast residual (GDN-style),A402,45.0,0.022222222222222223,0,0,0,0
+6,LENS-R T2 (full),A403,77.5,0.012903225806451613,0,0,0,0
+6,LENS-R T2 (no drift correction),A403,77.5,0.012903225806451613,0,0,0,0
+6,Linear forecast residual (GDN-style),A403,77.5,0.012903225806451613,0,0,0,0
+6,LENS-R T2 (full),A404,2.0,0.5,0,0,1,1
+6,LENS-R T2 (no drift correction),A404,14.0,0.07142857142857142,0,0,0,0
+6,Linear forecast residual (GDN-style),A404,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A405,54.0,0.018518518518518517,0,0,0,0
+6,LENS-R T2 (no drift correction),A405,58.0,0.017241379310344827,1,0,0,0
+6,Linear forecast residual (GDN-style),A405,44.0,0.022727272727272728,0,0,0,0
+6,LENS-R T2 (full),A406,13.0,0.07692307692307693,1,0,0,0
+6,LENS-R T2 (no drift correction),A406,26.0,0.038461538461538464,1,0,0,0
+6,Linear forecast residual (GDN-style),A406,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A407,13.0,0.07692307692307693,1,0,0,0
+6,LENS-R T2 (no drift correction),A407,15.0,0.06666666666666667,1,0,0,0
+6,Linear forecast residual (GDN-style),A407,13.0,0.07692307692307693,0,0,0,0
+6,LENS-R T2 (full),A408,3.0,0.3333333333333333,1,0,1,1
+6,LENS-R T2 (no drift correction),A408,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A408,17.0,0.058823529411764705,0,0,0,0
+6,LENS-R T2 (full),A409,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A409,5.0,0.2,1,0,0,1
+6,Linear forecast residual (GDN-style),A409,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A410,7.0,0.14285714285714285,1,0,0,0
+6,LENS-R T2 (no drift correction),A410,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A410,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A411,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A411,7.0,0.14285714285714285,1,0,0,0
+6,Linear forecast residual (GDN-style),A411,28.0,0.03571428571428571,0,0,0,0
+6,LENS-R T2 (full),A412,36.0,0.027777777777777776,0,0,0,0
+6,LENS-R T2 (no drift correction),A412,40.0,0.025,1,0,0,0
+6,Linear forecast residual (GDN-style),A412,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A413,4.0,0.25,1,0,0,1
+6,LENS-R T2 (no drift correction),A413,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A413,16.0,0.0625,0,0,0,0
+6,LENS-R T2 (full),A414,3.0,0.3333333333333333,0,0,1,1
+6,LENS-R T2 (no drift correction),A414,10.0,0.1,0,0,0,0
+6,Linear forecast residual (GDN-style),A414,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A415,77.5,0.012903225806451613,0,0,0,0
+6,LENS-R T2 (no drift correction),A415,77.5,0.012903225806451613,0,0,0,0
+6,Linear forecast residual (GDN-style),A415,77.5,0.012903225806451613,0,0,0,0
+6,LENS-R T2 (full),A416,20.0,0.05,1,0,0,0
+6,LENS-R T2 (no drift correction),A416,24.0,0.041666666666666664,1,0,0,0
+6,Linear forecast residual (GDN-style),A416,9.0,0.1111111111111111,0,0,0,0
+6,LENS-R T2 (full),A417,20.0,0.05,1,0,0,0
+6,LENS-R T2 (no drift correction),A417,27.0,0.037037037037037035,1,0,0,0
+6,Linear forecast residual (GDN-style),A417,61.0,0.01639344262295082,0,0,0,0
+6,LENS-R T2 (full),A418,40.0,0.025,1,0,0,0
+6,LENS-R T2 (no drift correction),A418,25.0,0.04,1,0,0,0
+6,Linear forecast residual (GDN-style),A418,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A419,2.0,0.5,1,0,1,1
+6,LENS-R T2 (no drift correction),A419,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A419,3.5,0.2857142857142857,1,0,0,1
+6,LENS-R T2 (full),A420,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A420,6.0,0.16666666666666666,1,0,0,0
+6,Linear forecast residual (GDN-style),A420,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A421,1.0,1.0,1,1,1,1
+6,LENS-R T2 (no drift correction),A421,6.0,0.16666666666666666,1,0,0,0
+6,Linear forecast residual (GDN-style),A421,27.0,0.037037037037037035,0,0,0,0
+6,LENS-R T2 (full),A422,11.0,0.09090909090909091,1,0,0,0
+6,LENS-R T2 (no drift correction),A422,23.0,0.043478260869565216,1,0,0,0
+6,Linear forecast residual (GDN-style),A422,12.0,0.08333333333333333,0,0,0,0
+6,LENS-R T2 (full),A423,3.0,0.3333333333333333,1,0,1,1
+6,LENS-R T2 (no drift correction),A423,9.0,0.1111111111111111,1,0,0,0
+6,Linear forecast residual (GDN-style),A423,28.0,0.03571428571428571,0,0,0,0
+6,LENS-R T2 (full),A424,6.0,0.16666666666666666,1,0,0,0
+6,LENS-R T2 (no drift correction),A424,12.0,0.08333333333333333,1,0,0,0
+6,Linear forecast residual (GDN-style),A424,13.0,0.07692307692307693,0,0,0,0
+10,LENS-R T2 (full),A101,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A101,8.0,0.125,1,0,0,0
+10,Linear forecast residual (GDN-style),A101,33.0,0.030303030303030304,1,0,0,0
+10,LENS-R T2 (full),A102,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A102,5.0,0.2,1,0,0,1
+10,Linear forecast residual (GDN-style),A102,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A103,6.0,0.16666666666666666,1,0,0,0
+10,LENS-R T2 (no drift correction),A103,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A103,5.0,0.2,1,0,0,1
+10,LENS-R T2 (full),A104,2.0,0.5,0,0,1,1
+10,LENS-R T2 (no drift correction),A104,9.0,0.1111111111111111,0,0,0,0
+10,Linear forecast residual (GDN-style),A104,5.0,0.2,0,0,0,1
+10,LENS-R T2 (full),A105,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (no drift correction),A105,37.0,0.02702702702702703,1,0,0,0
+10,Linear forecast residual (GDN-style),A105,44.0,0.022727272727272728,1,0,0,0
+10,LENS-R T2 (full),A106,5.0,0.2,1,0,0,1
+10,LENS-R T2 (no drift correction),A106,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A106,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (full),A107,52.0,0.019230769230769232,0,0,0,0
+10,LENS-R T2 (no drift correction),A107,55.0,0.01818181818181818,1,0,0,0
+10,Linear forecast residual (GDN-style),A107,51.0,0.0196078431372549,1,0,0,0
+10,LENS-R T2 (full),A201,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (no drift correction),A201,26.0,0.038461538461538464,1,0,0,0
+10,Linear forecast residual (GDN-style),A201,12.0,0.08333333333333333,0,0,0,0
+10,LENS-R T2 (full),A202,34.0,0.029411764705882353,1,0,0,0
+10,LENS-R T2 (no drift correction),A202,32.0,0.03125,1,0,0,0
+10,Linear forecast residual (GDN-style),A202,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A203,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A203,6.0,0.16666666666666666,0,0,0,0
+10,Linear forecast residual (GDN-style),A203,60.0,0.016666666666666666,0,0,0,0
+10,LENS-R T2 (full),A204,8.0,0.125,1,0,0,0
+10,LENS-R T2 (no drift correction),A204,7.0,0.14285714285714285,1,0,0,0
+10,Linear forecast residual (GDN-style),A204,44.0,0.022727272727272728,1,0,0,0
+10,LENS-R T2 (full),A205,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A205,8.0,0.125,0,0,0,0
+10,Linear forecast residual (GDN-style),A205,5.0,0.2,0,0,0,1
+10,LENS-R T2 (full),A206,31.0,0.03225806451612903,1,0,0,0
+10,LENS-R T2 (no drift correction),A206,10.0,0.1,1,0,0,0
+10,Linear forecast residual (GDN-style),A206,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A207,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A207,6.0,0.16666666666666666,1,0,0,0
+10,Linear forecast residual (GDN-style),A207,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A208,3.0,0.3333333333333333,0,0,1,1
+10,LENS-R T2 (no drift correction),A208,6.0,0.16666666666666666,0,0,0,0
+10,Linear forecast residual (GDN-style),A208,48.0,0.020833333333333332,0,0,0,0
+10,LENS-R T2 (full),A209,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (no drift correction),A209,36.0,0.027777777777777776,1,0,0,0
+10,Linear forecast residual (GDN-style),A209,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A210,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A210,5.0,0.2,0,0,0,1
+10,Linear forecast residual (GDN-style),A210,63.0,0.015873015873015872,0,0,0,0
+10,LENS-R T2 (full),A211,5.0,0.2,1,0,0,1
+10,LENS-R T2 (no drift correction),A211,11.0,0.09090909090909091,1,0,0,0
+10,Linear forecast residual (GDN-style),A211,16.0,0.0625,1,0,0,0
+10,LENS-R T2 (full),A212,21.0,0.047619047619047616,0,0,0,0
+10,LENS-R T2 (no drift correction),A212,9.0,0.1111111111111111,0,0,0,0
+10,Linear forecast residual (GDN-style),A212,5.5,0.18181818181818182,0,0,0,0
+10,LENS-R T2 (full),A213,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A213,7.0,0.14285714285714285,1,0,0,0
+10,Linear forecast residual (GDN-style),A213,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (full),A214,3.0,0.3333333333333333,0,0,1,1
+10,LENS-R T2 (no drift correction),A214,16.0,0.0625,0,0,0,0
+10,Linear forecast residual (GDN-style),A214,5.5,0.18181818181818182,0,0,0,0
+10,LENS-R T2 (full),A215,18.0,0.05555555555555555,1,0,0,0
+10,LENS-R T2 (no drift correction),A215,31.0,0.03225806451612903,1,0,0,0
+10,Linear forecast residual (GDN-style),A215,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A216,6.0,0.16666666666666666,1,0,0,0
+10,LENS-R T2 (no drift correction),A216,18.0,0.05555555555555555,1,0,0,0
+10,Linear forecast residual (GDN-style),A216,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A217,16.0,0.0625,1,0,0,0
+10,LENS-R T2 (no drift correction),A217,24.0,0.041666666666666664,1,0,0,0
+10,Linear forecast residual (GDN-style),A217,13.0,0.07692307692307693,1,0,0,0
+10,LENS-R T2 (full),A301,4.0,0.25,1,0,0,1
+10,LENS-R T2 (no drift correction),A301,10.0,0.1,1,0,0,0
+10,Linear forecast residual (GDN-style),A301,5.0,0.2,1,0,0,1
+10,LENS-R T2 (full),A302,6.0,0.16666666666666666,1,0,0,0
+10,LENS-R T2 (no drift correction),A302,10.0,0.1,1,0,0,0
+10,Linear forecast residual (GDN-style),A302,18.0,0.05555555555555555,1,0,0,0
+10,LENS-R T2 (full),A303,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A303,6.0,0.16666666666666666,1,0,0,0
+10,Linear forecast residual (GDN-style),A303,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A304,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A304,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A304,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A305,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A305,5.0,0.2,1,0,0,1
+10,Linear forecast residual (GDN-style),A305,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A306,5.0,0.2,1,0,0,1
+10,LENS-R T2 (no drift correction),A306,10.0,0.1,1,0,0,0
+10,Linear forecast residual (GDN-style),A306,18.0,0.05555555555555555,1,0,0,0
+10,LENS-R T2 (full),A307,44.0,0.022727272727272728,1,0,0,0
+10,LENS-R T2 (no drift correction),A307,40.0,0.025,1,0,0,0
+10,Linear forecast residual (GDN-style),A307,20.0,0.05,1,0,0,0
+10,LENS-R T2 (full),A308,6.0,0.16666666666666666,1,0,0,0
+10,LENS-R T2 (no drift correction),A308,8.0,0.125,1,0,0,0
+10,Linear forecast residual (GDN-style),A308,16.0,0.0625,1,0,0,0
+10,LENS-R T2 (full),A309,2.0,0.5,0,0,1,1
+10,LENS-R T2 (no drift correction),A309,10.0,0.1,1,0,0,0
+10,Linear forecast residual (GDN-style),A309,29.0,0.034482758620689655,1,0,0,0
+10,LENS-R T2 (full),A310,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A310,7.0,0.14285714285714285,0,0,0,0
+10,Linear forecast residual (GDN-style),A310,5.5,0.18181818181818182,0,0,0,0
+10,LENS-R T2 (full),A401,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A401,5.0,0.2,1,0,0,1
+10,Linear forecast residual (GDN-style),A401,11.0,0.09090909090909091,0,0,0,0
+10,LENS-R T2 (full),A402,52.0,0.019230769230769232,1,0,0,0
+10,LENS-R T2 (no drift correction),A402,47.0,0.02127659574468085,1,0,0,0
+10,Linear forecast residual (GDN-style),A402,50.0,0.02,0,0,0,0
+10,LENS-R T2 (full),A403,77.5,0.012903225806451613,0,0,0,0
+10,LENS-R T2 (no drift correction),A403,77.5,0.012903225806451613,0,0,0,0
+10,Linear forecast residual (GDN-style),A403,77.5,0.012903225806451613,0,0,0,0
+10,LENS-R T2 (full),A404,2.0,0.5,0,0,1,1
+10,LENS-R T2 (no drift correction),A404,15.0,0.06666666666666667,0,0,0,0
+10,Linear forecast residual (GDN-style),A404,5.5,0.18181818181818182,0,0,0,0
+10,LENS-R T2 (full),A405,54.0,0.018518518518518517,0,0,0,0
+10,LENS-R T2 (no drift correction),A405,58.0,0.017241379310344827,1,0,0,0
+10,Linear forecast residual (GDN-style),A405,44.0,0.022727272727272728,1,0,0,0
+10,LENS-R T2 (full),A406,13.0,0.07692307692307693,1,0,0,0
+10,LENS-R T2 (no drift correction),A406,26.0,0.038461538461538464,1,0,0,0
+10,Linear forecast residual (GDN-style),A406,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A407,13.0,0.07692307692307693,1,0,0,0
+10,LENS-R T2 (no drift correction),A407,15.0,0.06666666666666667,1,0,0,0
+10,Linear forecast residual (GDN-style),A407,13.0,0.07692307692307693,1,0,0,0
+10,LENS-R T2 (full),A408,3.0,0.3333333333333333,1,0,1,1
+10,LENS-R T2 (no drift correction),A408,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A408,17.0,0.058823529411764705,1,0,0,0
+10,LENS-R T2 (full),A409,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A409,5.0,0.2,1,0,0,1
+10,Linear forecast residual (GDN-style),A409,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A410,7.0,0.14285714285714285,1,0,0,0
+10,LENS-R T2 (no drift correction),A410,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A410,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A411,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A411,7.0,0.14285714285714285,1,0,0,0
+10,Linear forecast residual (GDN-style),A411,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (full),A412,36.0,0.027777777777777776,0,0,0,0
+10,LENS-R T2 (no drift correction),A412,40.0,0.025,1,0,0,0
+10,Linear forecast residual (GDN-style),A412,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A413,4.0,0.25,1,0,0,1
+10,LENS-R T2 (no drift correction),A413,8.0,0.125,1,0,0,0
+10,Linear forecast residual (GDN-style),A413,19.0,0.05263157894736842,1,0,0,0
+10,LENS-R T2 (full),A414,3.0,0.3333333333333333,0,0,1,1
+10,LENS-R T2 (no drift correction),A414,10.0,0.1,0,0,0,0
+10,Linear forecast residual (GDN-style),A414,5.5,0.18181818181818182,0,0,0,0
+10,LENS-R T2 (full),A415,77.5,0.012903225806451613,0,0,0,0
+10,LENS-R T2 (no drift correction),A415,77.5,0.012903225806451613,0,0,0,0
+10,Linear forecast residual (GDN-style),A415,77.5,0.012903225806451613,0,0,0,0
+10,LENS-R T2 (full),A416,20.0,0.05,1,0,0,0
+10,LENS-R T2 (no drift correction),A416,24.0,0.041666666666666664,1,0,0,0
+10,Linear forecast residual (GDN-style),A416,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A417,20.0,0.05,1,0,0,0
+10,LENS-R T2 (no drift correction),A417,27.0,0.037037037037037035,1,0,0,0
+10,Linear forecast residual (GDN-style),A417,61.0,0.01639344262295082,1,0,0,0
+10,LENS-R T2 (full),A418,40.0,0.025,1,0,0,0
+10,LENS-R T2 (no drift correction),A418,25.0,0.04,1,0,0,0
+10,Linear forecast residual (GDN-style),A418,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A419,2.0,0.5,1,0,1,1
+10,LENS-R T2 (no drift correction),A419,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A419,5.5,0.18181818181818182,1,0,0,0
+10,LENS-R T2 (full),A420,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A420,6.0,0.16666666666666666,1,0,0,0
+10,Linear forecast residual (GDN-style),A420,18.0,0.05555555555555555,1,0,0,0
+10,LENS-R T2 (full),A421,1.0,1.0,1,1,1,1
+10,LENS-R T2 (no drift correction),A421,6.0,0.16666666666666666,1,0,0,0
+10,Linear forecast residual (GDN-style),A421,26.0,0.038461538461538464,1,0,0,0
+10,LENS-R T2 (full),A422,11.0,0.09090909090909091,1,0,0,0
+10,LENS-R T2 (no drift correction),A422,23.0,0.043478260869565216,1,0,0,0
+10,Linear forecast residual (GDN-style),A422,12.0,0.08333333333333333,1,0,0,0
+10,LENS-R T2 (full),A423,3.0,0.3333333333333333,1,0,1,1
+10,LENS-R T2 (no drift correction),A423,9.0,0.1111111111111111,1,0,0,0
+10,Linear forecast residual (GDN-style),A423,28.0,0.03571428571428571,1,0,0,0
+10,LENS-R T2 (full),A424,6.0,0.16666666666666666,1,0,0,0
+10,LENS-R T2 (no drift correction),A424,12.0,0.08333333333333333,1,0,0,0
+10,Linear forecast residual (GDN-style),A424,13.0,0.07692307692307693,1,0,0,0

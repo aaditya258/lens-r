@@ -1,0 +1,451 @@
+{
+ "test": {
+  "summary": {
+   "attacks": {
+    "LENS-SW (state-switched, exploratory)": 35,
+    "Linear forecast residual (GDN-style)": 35,
+    "TreeSHAP on RF": 35,
+    "LENS-U (original, label-free)": 35,
+    "RF Gini (static)": 35,
+    "Static context residual (no history, no adaptation, no CUSUM)": 35,
+    "LENS v2 without CUSUM": 35,
+    "Simple fix: sliding-baseline deviation": 35,
+    "LENS v2 (full)": 35,
+    "Conditional reference (CondAttr-style kNN)": 35,
+    "Raw deviation |z|": 35,
+    "LENS v2 without own-history term": 35,
+    "LENS v2 without adaptation": 35
+   },
+   "MRR": {
+    "LENS-SW (state-switched, exploratory)": 0.325,
+    "Linear forecast residual (GDN-style)": 0.3085,
+    "TreeSHAP on RF": 0.3068,
+    "LENS-U (original, label-free)": 0.2745,
+    "RF Gini (static)": 0.2527,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.2487,
+    "LENS v2 without CUSUM": 0.2478,
+    "Simple fix: sliding-baseline deviation": 0.207,
+    "LENS v2 (full)": 0.191,
+    "Conditional reference (CondAttr-style kNN)": 0.164,
+    "Raw deviation |z|": 0.1638,
+    "LENS v2 without own-history term": 0.1142,
+    "LENS v2 without adaptation": 0.0929
+   },
+   "Top@1": {
+    "LENS-SW (state-switched, exploratory)": 0.2,
+    "Linear forecast residual (GDN-style)": 0.1714,
+    "TreeSHAP on RF": 0.2286,
+    "LENS-U (original, label-free)": 0.1714,
+    "RF Gini (static)": 0.1429,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.1429,
+    "LENS v2 without CUSUM": 0.0286,
+    "Simple fix: sliding-baseline deviation": 0.0857,
+    "LENS v2 (full)": 0.0286,
+    "Conditional reference (CondAttr-style kNN)": 0.0571,
+    "Raw deviation |z|": 0.0857,
+    "LENS v2 without own-history term": 0.0,
+    "LENS v2 without adaptation": 0.0
+   },
+   "Top@3": {
+    "LENS-SW (state-switched, exploratory)": 0.3714,
+    "Linear forecast residual (GDN-style)": 0.3714,
+    "TreeSHAP on RF": 0.2571,
+    "LENS-U (original, label-free)": 0.3143,
+    "RF Gini (static)": 0.2571,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.2286,
+    "LENS v2 without CUSUM": 0.3714,
+    "Simple fix: sliding-baseline deviation": 0.2,
+    "LENS v2 (full)": 0.2286,
+    "Conditional reference (CondAttr-style kNN)": 0.1143,
+    "Raw deviation |z|": 0.1429,
+    "LENS v2 without own-history term": 0.0,
+    "LENS v2 without adaptation": 0.0286
+   },
+   "Top@5": {
+    "LENS-SW (state-switched, exploratory)": 0.4571,
+    "Linear forecast residual (GDN-style)": 0.4571,
+    "TreeSHAP on RF": 0.3714,
+    "LENS-U (original, label-free)": 0.3429,
+    "RF Gini (static)": 0.2857,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.2857,
+    "LENS v2 without CUSUM": 0.4571,
+    "Simple fix: sliding-baseline deviation": 0.3143,
+    "LENS v2 (full)": 0.3714,
+    "Conditional reference (CondAttr-style kNN)": 0.2571,
+    "Raw deviation |z|": 0.2286,
+    "LENS v2 without own-history term": 0.1714,
+    "LENS v2 without adaptation": 0.0571
+   },
+   "Stage hit": {
+    "LENS-SW (state-switched, exploratory)": 0.5714,
+    "Linear forecast residual (GDN-style)": 0.6571,
+    "TreeSHAP on RF": 0.7143,
+    "LENS-U (original, label-free)": 0.4857,
+    "RF Gini (static)": 0.6571,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.5714,
+    "LENS v2 without CUSUM": 0.5714,
+    "Simple fix: sliding-baseline deviation": 0.4571,
+    "LENS v2 (full)": 0.4571,
+    "Conditional reference (CondAttr-style kNN)": 0.4857,
+    "Raw deviation |z|": 0.5429,
+    "LENS v2 without own-history term": 0.4571,
+    "LENS v2 without adaptation": 0.6571
+   }
+  },
+  "tests": [
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS-SW (state-switched, exploratory)",
+    "n": 35,
+    "mean_diff": -0.134,
+    "wins": 14,
+    "losses": 20,
+    "ties": 1,
+    "p": 0.1118
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Linear forecast residual (GDN-style)",
+    "n": 35,
+    "mean_diff": -0.118,
+    "wins": 16,
+    "losses": 16,
+    "ties": 3,
+    "p": 0.1608
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "TreeSHAP on RF",
+    "n": 35,
+    "mean_diff": -0.116,
+    "wins": 16,
+    "losses": 18,
+    "ties": 1,
+    "p": 0.3131
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS-U (original, label-free)",
+    "n": 35,
+    "mean_diff": -0.083,
+    "wins": 18,
+    "losses": 17,
+    "ties": 0,
+    "p": 0.6174
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "RF Gini (static)",
+    "n": 35,
+    "mean_diff": -0.062,
+    "wins": 20,
+    "losses": 12,
+    "ties": 3,
+    "p": 0.5128
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Static context residual (no history, no adaptation, no CUSUM)",
+    "n": 35,
+    "mean_diff": -0.058,
+    "wins": 16,
+    "losses": 18,
+    "ties": 1,
+    "p": 0.2415
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without CUSUM",
+    "n": 35,
+    "mean_diff": -0.057,
+    "wins": 11,
+    "losses": 21,
+    "ties": 3,
+    "p": 0.0096
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Simple fix: sliding-baseline deviation",
+    "n": 35,
+    "mean_diff": -0.016,
+    "wins": 22,
+    "losses": 12,
+    "ties": 1,
+    "p": 0.407
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Conditional reference (CondAttr-style kNN)",
+    "n": 35,
+    "mean_diff": 0.027,
+    "wins": 19,
+    "losses": 12,
+    "ties": 4,
+    "p": 0.217
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Raw deviation |z|",
+    "n": 35,
+    "mean_diff": 0.027,
+    "wins": 23,
+    "losses": 12,
+    "ties": 0,
+    "p": 0.0825
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without own-history term",
+    "n": 35,
+    "mean_diff": 0.077,
+    "wins": 18,
+    "losses": 9,
+    "ties": 8,
+    "p": 0.0057
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without adaptation",
+    "n": 35,
+    "mean_diff": 0.098,
+    "wins": 26,
+    "losses": 8,
+    "ties": 1,
+    "p": 0.0023
+   }
+  ]
+ },
+ "all": {
+  "summary": {
+   "attacks": {
+    "TreeSHAP on RF": 52,
+    "LENS-SW (state-switched, exploratory)": 91,
+    "Linear forecast residual (GDN-style)": 91,
+    "LENS v2 without CUSUM": 91,
+    "LENS-U (original, label-free)": 91,
+    "Simple fix: sliding-baseline deviation": 91,
+    "Static context residual (no history, no adaptation, no CUSUM)": 91,
+    "RF Gini (static)": 91,
+    "LENS v2 (full)": 91,
+    "Conditional reference (CondAttr-style kNN)": 91,
+    "Raw deviation |z|": 91,
+    "LENS v2 without own-history term": 91,
+    "LENS v2 without adaptation": 91
+   },
+   "MRR": {
+    "TreeSHAP on RF": 0.3683,
+    "LENS-SW (state-switched, exploratory)": 0.3552,
+    "Linear forecast residual (GDN-style)": 0.3447,
+    "LENS v2 without CUSUM": 0.3253,
+    "LENS-U (original, label-free)": 0.3102,
+    "Simple fix: sliding-baseline deviation": 0.2832,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.2678,
+    "RF Gini (static)": 0.2516,
+    "LENS v2 (full)": 0.2427,
+    "Conditional reference (CondAttr-style kNN)": 0.2173,
+    "Raw deviation |z|": 0.213,
+    "LENS v2 without own-history term": 0.1948,
+    "LENS v2 without adaptation": 0.1277
+   },
+   "Top@1": {
+    "TreeSHAP on RF": 0.2885,
+    "LENS-SW (state-switched, exploratory)": 0.2308,
+    "Linear forecast residual (GDN-style)": 0.1978,
+    "LENS v2 without CUSUM": 0.1209,
+    "LENS-U (original, label-free)": 0.2088,
+    "Simple fix: sliding-baseline deviation": 0.1648,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.1319,
+    "RF Gini (static)": 0.1209,
+    "LENS v2 (full)": 0.0769,
+    "Conditional reference (CondAttr-style kNN)": 0.1099,
+    "Raw deviation |z|": 0.1209,
+    "LENS v2 without own-history term": 0.033,
+    "LENS v2 without adaptation": 0.022
+   },
+   "Top@3": {
+    "TreeSHAP on RF": 0.3269,
+    "LENS-SW (state-switched, exploratory)": 0.3846,
+    "Linear forecast residual (GDN-style)": 0.3956,
+    "LENS v2 without CUSUM": 0.4725,
+    "LENS-U (original, label-free)": 0.3297,
+    "Simple fix: sliding-baseline deviation": 0.3077,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.2747,
+    "RF Gini (static)": 0.2637,
+    "LENS v2 (full)": 0.2418,
+    "Conditional reference (CondAttr-style kNN)": 0.1758,
+    "Raw deviation |z|": 0.2198,
+    "LENS v2 without own-history term": 0.1538,
+    "LENS v2 without adaptation": 0.0879
+   },
+   "Top@5": {
+    "TreeSHAP on RF": 0.4423,
+    "LENS-SW (state-switched, exploratory)": 0.4945,
+    "Linear forecast residual (GDN-style)": 0.5055,
+    "LENS v2 without CUSUM": 0.5604,
+    "LENS-U (original, label-free)": 0.3956,
+    "Simple fix: sliding-baseline deviation": 0.3956,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.3626,
+    "RF Gini (static)": 0.3297,
+    "LENS v2 (full)": 0.4725,
+    "Conditional reference (CondAttr-style kNN)": 0.3077,
+    "Raw deviation |z|": 0.2747,
+    "LENS v2 without own-history term": 0.3846,
+    "LENS v2 without adaptation": 0.1319
+   },
+   "Stage hit": {
+    "TreeSHAP on RF": 0.7115,
+    "LENS-SW (state-switched, exploratory)": 0.6374,
+    "Linear forecast residual (GDN-style)": 0.6923,
+    "LENS v2 without CUSUM": 0.5824,
+    "LENS-U (original, label-free)": 0.5824,
+    "Simple fix: sliding-baseline deviation": 0.5824,
+    "Static context residual (no history, no adaptation, no CUSUM)": 0.6593,
+    "RF Gini (static)": 0.6044,
+    "LENS v2 (full)": 0.5385,
+    "Conditional reference (CondAttr-style kNN)": 0.5824,
+    "Raw deviation |z|": 0.6044,
+    "LENS v2 without own-history term": 0.5495,
+    "LENS v2 without adaptation": 0.6154
+   }
+  },
+  "tests": [
+   {
+    "a": "LENS v2 (full)",
+    "b": "TreeSHAP on RF",
+    "n": 52,
+    "mean_diff": -0.158,
+    "wins": 24,
+    "losses": 26,
+    "ties": 2,
+    "p": 0.1069
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS-SW (state-switched, exploratory)",
+    "n": 91,
+    "mean_diff": -0.113,
+    "wins": 41,
+    "losses": 43,
+    "ties": 7,
+    "p": 0.0705
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Linear forecast residual (GDN-style)",
+    "n": 91,
+    "mean_diff": -0.102,
+    "wins": 35,
+    "losses": 46,
+    "ties": 10,
+    "p": 0.0159
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without CUSUM",
+    "n": 91,
+    "mean_diff": -0.083,
+    "wins": 24,
+    "losses": 57,
+    "ties": 10,
+    "p": 0.0
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS-U (original, label-free)",
+    "n": 91,
+    "mean_diff": -0.068,
+    "wins": 51,
+    "losses": 35,
+    "ties": 5,
+    "p": 0.8717
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Simple fix: sliding-baseline deviation",
+    "n": 91,
+    "mean_diff": -0.041,
+    "wins": 51,
+    "losses": 36,
+    "ties": 4,
+    "p": 0.8956
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Static context residual (no history, no adaptation, no CUSUM)",
+    "n": 91,
+    "mean_diff": -0.025,
+    "wins": 44,
+    "losses": 36,
+    "ties": 11,
+    "p": 0.7137
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "RF Gini (static)",
+    "n": 91,
+    "mean_diff": -0.009,
+    "wins": 51,
+    "losses": 32,
+    "ties": 8,
+    "p": 0.3234
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Conditional reference (CondAttr-style kNN)",
+    "n": 91,
+    "mean_diff": 0.025,
+    "wins": 55,
+    "losses": 30,
+    "ties": 6,
+    "p": 0.0471
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "Raw deviation |z|",
+    "n": 91,
+    "mean_diff": 0.03,
+    "wins": 61,
+    "losses": 26,
+    "ties": 4,
+    "p": 0.0058
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without own-history term",
+    "n": 91,
+    "mean_diff": 0.048,
+    "wins": 37,
+    "losses": 24,
+    "ties": 30,
+    "p": 0.0096
+   },
+   {
+    "a": "LENS v2 (full)",
+    "b": "LENS v2 without adaptation",
+    "n": 91,
+    "mean_diff": 0.115,
+    "wins": 64,
+    "losses": 21,
+    "ties": 6,
+    "p": 0.0
+   }
+  ]
+ },
+ "criterion": {
+  "comparisons": {
+   "Simple fix: sliding-baseline deviation": {
+    "mean_diff": -0.016,
+    "p": 0.407
+   },
+   "Conditional reference (CondAttr-style kNN)": {
+    "mean_diff": 0.027,
+    "p": 0.217
+   },
+   "TreeSHAP on RF": {
+    "mean_diff": -0.116,
+    "p": 0.3131
+   }
+  },
+  "met": false
+ }
+}

@@ -1,0 +1,1418 @@
+ds,split,attack,method,localisability,best_rank,rr,stage_hit,top1,top3,top5
+swat,train,swat_1,LENS v2 without CUSUM,0.9253151660380553,12.0,0.08333333333333333,1,0,0,0
+swat,train,swat_1,Conditional reference (CondAttr-style kNN),0.9253151660380553,1.0,1.0,1,1,1,1
+swat,train,swat_1,Linear forecast residual (GDN-style),0.9253151660380553,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_1,Simple fix: sliding-baseline deviation,0.9253151660380553,13.0,0.07692307692307693,0,0,0,0
+swat,train,swat_1,"LENS-U (original, label-free)",0.9253151660380553,11.0,0.09090909090909091,0,0,0,0
+swat,train,swat_1,"LENS-SW (state-switched, exploratory)",0.9253151660380553,6.0,0.16666666666666666,0,0,0,0
+swat,train,swat_1,Raw deviation |z|,0.9253151660380553,16.0,0.0625,0,0,0,0
+swat,train,swat_1,LENS-R T2 (full),0.9253151660380553,17.0,0.058823529411764705,0,0,0,0
+swat,train,swat_1,LENS-R T2 (no drift correction),0.9253151660380553,17.0,0.058823529411764705,0,0,0,0
+swat,train,swat_1,LENS-R T2 (no sparse repair),0.9253151660380553,13.0,0.07692307692307693,0,0,0,0
+swat,train,swat_1,LENS-R T2 (classic single-tag RBC),0.9253151660380553,13.0,0.07692307692307693,0,0,0,0
+swat,train,swat_1,LENS-R SPE (full),0.9253151660380553,27.0,0.037037037037037035,0,0,0,0
+swat,train,swat_1,LENS-R SPE (no drift correction),0.9253151660380553,27.0,0.037037037037037035,0,0,0,0
+swat,train,swat_1,LENS-R SPE (no sparse repair),0.9253151660380553,14.0,0.07142857142857142,0,0,0,0
+swat,train,swat_1,LENS-R SPE (classic single-tag RBC),0.9253151660380553,14.0,0.07142857142857142,0,0,0,0
+swat,train,swat_2,LENS v2 without CUSUM,0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,Conditional reference (CondAttr-style kNN),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,Linear forecast residual (GDN-style),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,Simple fix: sliding-baseline deviation,0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,"LENS-U (original, label-free)",0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,"LENS-SW (state-switched, exploratory)",0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,Raw deviation |z|,0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R T2 (full),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R T2 (no drift correction),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R T2 (no sparse repair),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R T2 (classic single-tag RBC),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R SPE (full),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R SPE (no drift correction),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R SPE (no sparse repair),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_2,LENS-R SPE (classic single-tag RBC),0.99,1.0,1.0,1,1,1,1
+swat,train,swat_3,LENS v2 without CUSUM,0.8011572642276193,30.0,0.03333333333333333,0,0,0,0
+swat,train,swat_3,Conditional reference (CondAttr-style kNN),0.8011572642276193,4.0,0.25,0,0,0,1
+swat,train,swat_3,Linear forecast residual (GDN-style),0.8011572642276193,16.0,0.0625,0,0,0,0
+swat,train,swat_3,Simple fix: sliding-baseline deviation,0.8011572642276193,9.0,0.1111111111111111,1,0,0,0
+swat,train,swat_3,"LENS-U (original, label-free)",0.8011572642276193,4.0,0.25,0,0,0,1
+swat,train,swat_3,"LENS-SW (state-switched, exploratory)",0.8011572642276193,3.0,0.3333333333333333,1,0,1,1
+swat,train,swat_3,Raw deviation |z|,0.8011572642276193,32.0,0.03125,0,0,0,0
+swat,train,swat_3,LENS-R T2 (full),0.8011572642276193,4.0,0.25,1,0,0,1
+swat,train,swat_3,LENS-R T2 (no drift correction),0.8011572642276193,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_3,LENS-R T2 (no sparse repair),0.8011572642276193,20.0,0.05,1,0,0,0
+swat,train,swat_3,LENS-R T2 (classic single-tag RBC),0.8011572642276193,18.0,0.05555555555555555,0,0,0,0
+swat,train,swat_3,LENS-R SPE (full),0.8011572642276193,4.0,0.25,1,0,0,1
+swat,train,swat_3,LENS-R SPE (no drift correction),0.8011572642276193,2.0,0.5,0,0,1,1
+swat,train,swat_3,LENS-R SPE (no sparse repair),0.8011572642276193,8.0,0.125,1,0,0,0
+swat,train,swat_3,LENS-R SPE (classic single-tag RBC),0.8011572642276193,9.0,0.1111111111111111,0,0,0,0
+swat,train,swat_6,LENS v2 without CUSUM,0.5018873449942731,3.5,0.2857142857142857,1,0,0,1
+swat,train,swat_6,Conditional reference (CondAttr-style kNN),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,Linear forecast residual (GDN-style),0.5018873449942731,7.0,0.14285714285714285,1,0,0,0
+swat,train,swat_6,Simple fix: sliding-baseline deviation,0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,"LENS-U (original, label-free)",0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,"LENS-SW (state-switched, exploratory)",0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,Raw deviation |z|,0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R T2 (full),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R T2 (no drift correction),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R T2 (no sparse repair),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R T2 (classic single-tag RBC),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R SPE (full),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R SPE (no drift correction),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R SPE (no sparse repair),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_6,LENS-R SPE (classic single-tag RBC),0.5018873449942731,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS v2 without CUSUM,0.6864499217173594,2.0,0.5,0,0,1,1
+swat,train,swat_7,Conditional reference (CondAttr-style kNN),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,Linear forecast residual (GDN-style),0.6864499217173594,13.0,0.07692307692307693,0,0,0,0
+swat,train,swat_7,Simple fix: sliding-baseline deviation,0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,"LENS-U (original, label-free)",0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,"LENS-SW (state-switched, exploratory)",0.6864499217173594,2.0,0.5,0,0,1,1
+swat,train,swat_7,Raw deviation |z|,0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R T2 (full),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R T2 (no drift correction),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R T2 (no sparse repair),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R T2 (classic single-tag RBC),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R SPE (full),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R SPE (no drift correction),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R SPE (no sparse repair),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_7,LENS-R SPE (classic single-tag RBC),0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS v2 without CUSUM,0.9709177012809693,3.0,0.3333333333333333,1,0,1,1
+swat,train,swat_8,Conditional reference (CondAttr-style kNN),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,Linear forecast residual (GDN-style),0.9709177012809693,5.0,0.2,1,0,0,1
+swat,train,swat_8,Simple fix: sliding-baseline deviation,0.9709177012809693,5.0,0.2,0,0,0,1
+swat,train,swat_8,"LENS-U (original, label-free)",0.9709177012809693,8.0,0.125,0,0,0,0
+swat,train,swat_8,"LENS-SW (state-switched, exploratory)",0.9709177012809693,5.0,0.2,0,0,0,1
+swat,train,swat_8,Raw deviation |z|,0.9709177012809693,5.0,0.2,0,0,0,1
+swat,train,swat_8,LENS-R T2 (full),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R T2 (no drift correction),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R T2 (no sparse repair),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R T2 (classic single-tag RBC),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R SPE (full),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R SPE (no drift correction),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R SPE (no sparse repair),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_8,LENS-R SPE (classic single-tag RBC),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS v2 without CUSUM,0.9604437777051456,2.5,0.4,0,0,1,1
+swat,train,swat_10+11,Conditional reference (CondAttr-style kNN),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,Linear forecast residual (GDN-style),0.9604437777051456,2.0,0.5,0,0,1,1
+swat,train,swat_10+11,Simple fix: sliding-baseline deviation,0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,"LENS-U (original, label-free)",0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,"LENS-SW (state-switched, exploratory)",0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,Raw deviation |z|,0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R T2 (full),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R T2 (no drift correction),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R T2 (no sparse repair),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R T2 (classic single-tag RBC),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R SPE (full),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R SPE (no drift correction),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R SPE (no sparse repair),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_10+11,LENS-R SPE (classic single-tag RBC),0.9604437777051456,1.0,1.0,1,1,1,1
+swat,train,swat_13,LENS v2 without CUSUM,0.4745185956699949,34.0,0.029411764705882353,0,0,0,0
+swat,train,swat_13,Conditional reference (CondAttr-style kNN),0.4745185956699949,5.0,0.2,0,0,0,1
+swat,train,swat_13,Linear forecast residual (GDN-style),0.4745185956699949,10.0,0.1,0,0,0,0
+swat,train,swat_13,Simple fix: sliding-baseline deviation,0.4745185956699949,13.0,0.07692307692307693,0,0,0,0
+swat,train,swat_13,"LENS-U (original, label-free)",0.4745185956699949,16.0,0.0625,0,0,0,0
+swat,train,swat_13,"LENS-SW (state-switched, exploratory)",0.4745185956699949,15.0,0.06666666666666667,0,0,0,0
+swat,train,swat_13,Raw deviation |z|,0.4745185956699949,27.0,0.037037037037037035,0,0,0,0
+swat,train,swat_13,LENS-R T2 (full),0.4745185956699949,32.0,0.03125,0,0,0,0
+swat,train,swat_13,LENS-R T2 (no drift correction),0.4745185956699949,32.0,0.03125,0,0,0,0
+swat,train,swat_13,LENS-R T2 (no sparse repair),0.4745185956699949,31.0,0.03225806451612903,0,0,0,0
+swat,train,swat_13,LENS-R T2 (classic single-tag RBC),0.4745185956699949,31.0,0.03225806451612903,0,0,0,0
+swat,train,swat_13,LENS-R SPE (full),0.4745185956699949,34.0,0.029411764705882353,0,0,0,0
+swat,train,swat_13,LENS-R SPE (no drift correction),0.4745185956699949,34.0,0.029411764705882353,0,0,0,0
+swat,train,swat_13,LENS-R SPE (no sparse repair),0.4745185956699949,18.0,0.05555555555555555,0,0,0,0
+swat,train,swat_13,LENS-R SPE (classic single-tag RBC),0.4745185956699949,18.0,0.05555555555555555,0,0,0,0
+swat,train,swat_14,LENS v2 without CUSUM,0.4967089188963487,8.0,0.125,0,0,0,0
+swat,train,swat_14,Conditional reference (CondAttr-style kNN),0.4967089188963487,32.5,0.03076923076923077,0,0,0,0
+swat,train,swat_14,Linear forecast residual (GDN-style),0.4967089188963487,16.0,0.0625,0,0,0,0
+swat,train,swat_14,Simple fix: sliding-baseline deviation,0.4967089188963487,6.0,0.16666666666666666,0,0,0,0
+swat,train,swat_14,"LENS-U (original, label-free)",0.4967089188963487,32.0,0.03125,0,0,0,0
+swat,train,swat_14,"LENS-SW (state-switched, exploratory)",0.4967089188963487,32.0,0.03125,0,0,0,0
+swat,train,swat_14,Raw deviation |z|,0.4967089188963487,31.0,0.03225806451612903,0,0,0,0
+swat,train,swat_14,LENS-R T2 (full),0.4967089188963487,24.0,0.041666666666666664,0,0,0,0
+swat,train,swat_14,LENS-R T2 (no drift correction),0.4967089188963487,24.0,0.041666666666666664,0,0,0,0
+swat,train,swat_14,LENS-R T2 (no sparse repair),0.4967089188963487,27.0,0.037037037037037035,0,0,0,0
+swat,train,swat_14,LENS-R T2 (classic single-tag RBC),0.4967089188963487,27.0,0.037037037037037035,0,0,0,0
+swat,train,swat_14,LENS-R SPE (full),0.4967089188963487,32.0,0.03125,0,0,0,0
+swat,train,swat_14,LENS-R SPE (no drift correction),0.4967089188963487,32.0,0.03125,0,0,0,0
+swat,train,swat_14,LENS-R SPE (no sparse repair),0.4967089188963487,20.0,0.05,0,0,0,0
+swat,train,swat_14,LENS-R SPE (classic single-tag RBC),0.4967089188963487,20.0,0.05,0,0,0,0
+swat,train,swat_16,LENS v2 without CUSUM,0.6864499217173594,6.0,0.16666666666666666,0,0,0,0
+swat,train,swat_16,Conditional reference (CondAttr-style kNN),0.6864499217173594,2.0,0.5,0,0,1,1
+swat,train,swat_16,Linear forecast residual (GDN-style),0.6864499217173594,9.0,0.1111111111111111,0,0,0,0
+swat,train,swat_16,Simple fix: sliding-baseline deviation,0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_16,"LENS-U (original, label-free)",0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_16,"LENS-SW (state-switched, exploratory)",0.6864499217173594,1.0,1.0,1,1,1,1
+swat,train,swat_16,Raw deviation |z|,0.6864499217173594,10.0,0.1,0,0,0,0
+swat,train,swat_16,LENS-R T2 (full),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_16,LENS-R T2 (no drift correction),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_16,LENS-R T2 (no sparse repair),0.6864499217173594,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_16,LENS-R T2 (classic single-tag RBC),0.6864499217173594,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_16,LENS-R SPE (full),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_16,LENS-R SPE (no drift correction),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_16,LENS-R SPE (no sparse repair),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_16,LENS-R SPE (classic single-tag RBC),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,train,swat_17,LENS v2 without CUSUM,0.4967089188963487,33.0,0.030303030303030304,0,0,0,0
+swat,train,swat_17,Conditional reference (CondAttr-style kNN),0.4967089188963487,32.5,0.03076923076923077,0,0,0,0
+swat,train,swat_17,Linear forecast residual (GDN-style),0.4967089188963487,22.0,0.045454545454545456,0,0,0,0
+swat,train,swat_17,Simple fix: sliding-baseline deviation,0.4967089188963487,41.5,0.024096385542168676,0,0,0,0
+swat,train,swat_17,"LENS-U (original, label-free)",0.4967089188963487,33.0,0.030303030303030304,0,0,0,0
+swat,train,swat_17,"LENS-SW (state-switched, exploratory)",0.4967089188963487,33.0,0.030303030303030304,0,0,0,0
+swat,train,swat_17,Raw deviation |z|,0.4967089188963487,32.0,0.03125,0,0,0,0
+swat,train,swat_17,LENS-R T2 (full),0.4967089188963487,31.0,0.03225806451612903,0,0,0,0
+swat,train,swat_17,LENS-R T2 (no drift correction),0.4967089188963487,31.0,0.03225806451612903,0,0,0,0
+swat,train,swat_17,LENS-R T2 (no sparse repair),0.4967089188963487,28.0,0.03571428571428571,0,0,0,0
+swat,train,swat_17,LENS-R T2 (classic single-tag RBC),0.4967089188963487,28.0,0.03571428571428571,0,0,0,0
+swat,train,swat_17,LENS-R SPE (full),0.4967089188963487,25.0,0.04,0,0,0,0
+swat,train,swat_17,LENS-R SPE (no drift correction),0.4967089188963487,25.0,0.04,0,0,0,0
+swat,train,swat_17,LENS-R SPE (no sparse repair),0.4967089188963487,26.0,0.038461538461538464,0,0,0,0
+swat,train,swat_17,LENS-R SPE (classic single-tag RBC),0.4967089188963487,26.0,0.038461538461538464,0,0,0,0
+swat,train,swat_19,LENS v2 without CUSUM,0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,Conditional reference (CondAttr-style kNN),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,Linear forecast residual (GDN-style),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,Simple fix: sliding-baseline deviation,0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,"LENS-U (original, label-free)",0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,"LENS-SW (state-switched, exploratory)",0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,Raw deviation |z|,0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R T2 (full),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R T2 (no drift correction),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R T2 (no sparse repair),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R T2 (classic single-tag RBC),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R SPE (full),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R SPE (no drift correction),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R SPE (no sparse repair),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_19,LENS-R SPE (classic single-tag RBC),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS v2 without CUSUM,0.9667316992030558,14.0,0.07142857142857142,0,0,0,0
+swat,train,swat_20,Conditional reference (CondAttr-style kNN),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,Linear forecast residual (GDN-style),0.9667316992030558,5.5,0.18181818181818182,0,0,0,0
+swat,train,swat_20,Simple fix: sliding-baseline deviation,0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,"LENS-U (original, label-free)",0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,"LENS-SW (state-switched, exploratory)",0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,Raw deviation |z|,0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R T2 (full),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R T2 (no drift correction),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R T2 (no sparse repair),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R T2 (classic single-tag RBC),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R SPE (full),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R SPE (no drift correction),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R SPE (no sparse repair),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_20,LENS-R SPE (classic single-tag RBC),0.9667316992030558,1.0,1.0,1,1,1,1
+swat,train,swat_21,LENS v2 without CUSUM,0.9253151660380553,2.0,0.5,0,0,1,1
+swat,train,swat_21,Conditional reference (CondAttr-style kNN),0.9253151660380553,2.0,0.5,0,0,1,1
+swat,train,swat_21,Linear forecast residual (GDN-style),0.9253151660380553,1.0,1.0,1,1,1,1
+swat,train,swat_21,Simple fix: sliding-baseline deviation,0.9253151660380553,2.0,0.5,0,0,1,1
+swat,train,swat_21,"LENS-U (original, label-free)",0.9253151660380553,2.0,0.5,0,0,1,1
+swat,train,swat_21,"LENS-SW (state-switched, exploratory)",0.9253151660380553,4.0,0.25,0,0,0,1
+swat,train,swat_21,Raw deviation |z|,0.9253151660380553,12.0,0.08333333333333333,0,0,0,0
+swat,train,swat_21,LENS-R T2 (full),0.9253151660380553,4.0,0.25,0,0,0,1
+swat,train,swat_21,LENS-R T2 (no drift correction),0.9253151660380553,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_21,LENS-R T2 (no sparse repair),0.9253151660380553,9.0,0.1111111111111111,0,0,0,0
+swat,train,swat_21,LENS-R T2 (classic single-tag RBC),0.9253151660380553,2.0,0.5,0,0,1,1
+swat,train,swat_21,LENS-R SPE (full),0.9253151660380553,4.0,0.25,0,0,0,1
+swat,train,swat_21,LENS-R SPE (no drift correction),0.9253151660380553,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_21,LENS-R SPE (no sparse repair),0.9253151660380553,22.0,0.045454545454545456,0,0,0,0
+swat,train,swat_21,LENS-R SPE (classic single-tag RBC),0.9253151660380553,3.0,0.3333333333333333,0,0,1,1
+swat,train,swat_22,LENS v2 without CUSUM,0.99,6.0,0.16666666666666666,0,0,0,0
+swat,train,swat_22,Conditional reference (CondAttr-style kNN),0.99,5.0,0.2,0,0,0,1
+swat,train,swat_22,Linear forecast residual (GDN-style),0.99,4.5,0.2222222222222222,0,0,0,1
+swat,train,swat_22,Simple fix: sliding-baseline deviation,0.99,2.5,0.4,1,0,1,1
+swat,train,swat_22,"LENS-U (original, label-free)",0.99,11.5,0.08695652173913043,1,0,0,0
+swat,train,swat_22,"LENS-SW (state-switched, exploratory)",0.99,6.5,0.15384615384615385,1,0,0,0
+swat,train,swat_22,Raw deviation |z|,0.99,2.5,0.4,1,0,1,1
+swat,train,swat_22,LENS-R T2 (full),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R T2 (no drift correction),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R T2 (no sparse repair),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R T2 (classic single-tag RBC),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R SPE (full),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R SPE (no drift correction),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R SPE (no sparse repair),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,train,swat_22,LENS-R SPE (classic single-tag RBC),0.99,1.5,0.6666666666666666,1,0,1,1
+swat,val,swat_23,LENS v2 without CUSUM,0.9709177012809693,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_23,Conditional reference (CondAttr-style kNN),0.9709177012809693,2.5,0.4,0,0,1,1
+swat,val,swat_23,Linear forecast residual (GDN-style),0.9709177012809693,4.0,0.25,1,0,0,1
+swat,val,swat_23,Simple fix: sliding-baseline deviation,0.9709177012809693,2.0,0.5,0,0,1,1
+swat,val,swat_23,"LENS-U (original, label-free)",0.9709177012809693,4.0,0.25,0,0,0,1
+swat,val,swat_23,"LENS-SW (state-switched, exploratory)",0.9709177012809693,2.0,0.5,1,0,1,1
+swat,val,swat_23,Raw deviation |z|,0.9709177012809693,2.0,0.5,0,0,1,1
+swat,val,swat_23,TreeSHAP on RF,0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R T2 (full),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R T2 (no drift correction),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R T2 (no sparse repair),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R T2 (classic single-tag RBC),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R SPE (full),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R SPE (no drift correction),0.9709177012809693,2.0,0.5,0,0,1,1
+swat,val,swat_23,LENS-R SPE (no sparse repair),0.9709177012809693,1.0,1.0,1,1,1,1
+swat,val,swat_23,LENS-R SPE (classic single-tag RBC),0.9709177012809693,2.0,0.5,0,0,1,1
+swat,val,swat_24,LENS v2 without CUSUM,0.98140708167074,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_24,Conditional reference (CondAttr-style kNN),0.98140708167074,5.0,0.2,1,0,0,1
+swat,val,swat_24,Linear forecast residual (GDN-style),0.98140708167074,4.0,0.25,1,0,0,1
+swat,val,swat_24,Simple fix: sliding-baseline deviation,0.98140708167074,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_24,"LENS-U (original, label-free)",0.98140708167074,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_24,"LENS-SW (state-switched, exploratory)",0.98140708167074,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_24,Raw deviation |z|,0.98140708167074,8.0,0.125,1,0,0,0
+swat,val,swat_24,TreeSHAP on RF,0.98140708167074,24.0,0.041666666666666664,0,0,0,0
+swat,val,swat_24,LENS-R T2 (full),0.98140708167074,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_24,LENS-R T2 (no drift correction),0.98140708167074,5.0,0.2,1,0,0,1
+swat,val,swat_24,LENS-R T2 (no sparse repair),0.98140708167074,3.0,0.3333333333333333,1,0,1,1
+swat,val,swat_24,LENS-R T2 (classic single-tag RBC),0.98140708167074,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_24,LENS-R SPE (full),0.98140708167074,5.0,0.2,1,0,0,1
+swat,val,swat_24,LENS-R SPE (no drift correction),0.98140708167074,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_24,LENS-R SPE (no sparse repair),0.98140708167074,5.0,0.2,1,0,0,1
+swat,val,swat_24,LENS-R SPE (classic single-tag RBC),0.98140708167074,17.0,0.058823529411764705,1,0,0,0
+swat,val,swat_25,LENS v2 without CUSUM,0.99,3.0,0.3333333333333333,0,0,1,1
+swat,val,swat_25,Conditional reference (CondAttr-style kNN),0.99,9.0,0.1111111111111111,0,0,0,0
+swat,val,swat_25,Linear forecast residual (GDN-style),0.99,22.0,0.045454545454545456,0,0,0,0
+swat,val,swat_25,Simple fix: sliding-baseline deviation,0.99,14.0,0.07142857142857142,0,0,0,0
+swat,val,swat_25,"LENS-U (original, label-free)",0.99,3.0,0.3333333333333333,0,0,1,1
+swat,val,swat_25,"LENS-SW (state-switched, exploratory)",0.99,9.0,0.1111111111111111,0,0,0,0
+swat,val,swat_25,Raw deviation |z|,0.99,10.0,0.1,0,0,0,0
+swat,val,swat_25,TreeSHAP on RF,0.99,2.0,0.5,0,0,1,1
+swat,val,swat_25,LENS-R T2 (full),0.99,4.0,0.25,0,0,0,1
+swat,val,swat_25,LENS-R T2 (no drift correction),0.99,5.0,0.2,0,0,0,1
+swat,val,swat_25,LENS-R T2 (no sparse repair),0.99,5.0,0.2,0,0,0,1
+swat,val,swat_25,LENS-R T2 (classic single-tag RBC),0.99,15.0,0.06666666666666667,0,0,0,0
+swat,val,swat_25,LENS-R SPE (full),0.99,3.0,0.3333333333333333,0,0,1,1
+swat,val,swat_25,LENS-R SPE (no drift correction),0.99,4.0,0.25,0,0,0,1
+swat,val,swat_25,LENS-R SPE (no sparse repair),0.99,4.0,0.25,0,0,0,1
+swat,val,swat_25,LENS-R SPE (classic single-tag RBC),0.99,12.0,0.08333333333333333,0,0,0,0
+swat,val,swat_26,LENS v2 without CUSUM,0.9796999698074098,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_26,Conditional reference (CondAttr-style kNN),0.9796999698074098,20.0,0.05,1,0,0,0
+swat,val,swat_26,Linear forecast residual (GDN-style),0.9796999698074098,4.0,0.25,1,0,0,1
+swat,val,swat_26,Simple fix: sliding-baseline deviation,0.9796999698074098,5.0,0.2,1,0,0,1
+swat,val,swat_26,"LENS-U (original, label-free)",0.9796999698074098,16.0,0.0625,1,0,0,0
+swat,val,swat_26,"LENS-SW (state-switched, exploratory)",0.9796999698074098,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_26,Raw deviation |z|,0.9796999698074098,14.0,0.07142857142857142,1,0,0,0
+swat,val,swat_26,TreeSHAP on RF,0.9796999698074098,4.0,0.25,0,0,0,1
+swat,val,swat_26,LENS-R T2 (full),0.9796999698074098,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_26,LENS-R T2 (no drift correction),0.9796999698074098,14.0,0.07142857142857142,1,0,0,0
+swat,val,swat_26,LENS-R T2 (no sparse repair),0.9796999698074098,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_26,LENS-R T2 (classic single-tag RBC),0.9796999698074098,5.0,0.2,1,0,0,1
+swat,val,swat_26,LENS-R SPE (full),0.9796999698074098,5.0,0.2,1,0,0,1
+swat,val,swat_26,LENS-R SPE (no drift correction),0.9796999698074098,18.0,0.05555555555555555,1,0,0,0
+swat,val,swat_26,LENS-R SPE (no sparse repair),0.9796999698074098,18.0,0.05555555555555555,1,0,0,0
+swat,val,swat_26,LENS-R SPE (classic single-tag RBC),0.9796999698074098,30.0,0.03333333333333333,1,0,0,0
+swat,val,swat_27+28,LENS v2 without CUSUM,0.9597481087211186,1.0,1.0,1,1,1,1
+swat,val,swat_27+28,Conditional reference (CondAttr-style kNN),0.9597481087211186,7.0,0.14285714285714285,0,0,0,0
+swat,val,swat_27+28,Linear forecast residual (GDN-style),0.9597481087211186,1.0,1.0,1,1,1,1
+swat,val,swat_27+28,Simple fix: sliding-baseline deviation,0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,"LENS-U (original, label-free)",0.9597481087211186,4.0,0.25,0,0,0,1
+swat,val,swat_27+28,"LENS-SW (state-switched, exploratory)",0.9597481087211186,4.0,0.25,0,0,0,1
+swat,val,swat_27+28,Raw deviation |z|,0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,TreeSHAP on RF,0.9597481087211186,1.0,1.0,1,1,1,1
+swat,val,swat_27+28,LENS-R T2 (full),0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,LENS-R T2 (no drift correction),0.9597481087211186,4.0,0.25,0,0,0,1
+swat,val,swat_27+28,LENS-R T2 (no sparse repair),0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,LENS-R T2 (classic single-tag RBC),0.9597481087211186,5.0,0.2,0,0,0,1
+swat,val,swat_27+28,LENS-R SPE (full),0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,LENS-R SPE (no drift correction),0.9597481087211186,4.0,0.25,0,0,0,1
+swat,val,swat_27+28,LENS-R SPE (no sparse repair),0.9597481087211186,2.0,0.5,0,0,1,1
+swat,val,swat_27+28,LENS-R SPE (classic single-tag RBC),0.9597481087211186,5.0,0.2,0,0,0,1
+swat,val,swat_29,LENS v2 without CUSUM,0.99,8.0,0.125,0,0,0,0
+swat,val,swat_29,Conditional reference (CondAttr-style kNN),0.99,41.5,0.024096385542168676,1,0,0,0
+swat,val,swat_29,Linear forecast residual (GDN-style),0.99,17.0,0.058823529411764705,0,0,0,0
+swat,val,swat_29,Simple fix: sliding-baseline deviation,0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,"LENS-U (original, label-free)",0.99,27.0,0.037037037037037035,1,0,0,0
+swat,val,swat_29,"LENS-SW (state-switched, exploratory)",0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,Raw deviation |z|,0.99,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_29,TreeSHAP on RF,0.99,30.0,0.03333333333333333,0,0,0,0
+swat,val,swat_29,LENS-R T2 (full),0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,LENS-R T2 (no drift correction),0.99,16.0,0.0625,1,0,0,0
+swat,val,swat_29,LENS-R T2 (no sparse repair),0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,LENS-R T2 (classic single-tag RBC),0.99,19.0,0.05263157894736842,1,0,0,0
+swat,val,swat_29,LENS-R SPE (full),0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,LENS-R SPE (no drift correction),0.99,5.0,0.2,1,0,0,1
+swat,val,swat_29,LENS-R SPE (no sparse repair),0.99,1.0,1.0,1,1,1,1
+swat,val,swat_29,LENS-R SPE (classic single-tag RBC),0.99,22.0,0.045454545454545456,1,0,0,0
+swat,val,swat_30,LENS v2 without CUSUM,0.9796999698074098,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_30,Conditional reference (CondAttr-style kNN),0.9796999698074098,18.0,0.05555555555555555,1,0,0,0
+swat,val,swat_30,Linear forecast residual (GDN-style),0.9796999698074098,2.0,0.5,1,0,1,1
+swat,val,swat_30,Simple fix: sliding-baseline deviation,0.9796999698074098,9.0,0.1111111111111111,1,0,0,0
+swat,val,swat_30,"LENS-U (original, label-free)",0.9796999698074098,7.0,0.14285714285714285,1,0,0,0
+swat,val,swat_30,"LENS-SW (state-switched, exploratory)",0.9796999698074098,11.0,0.09090909090909091,1,0,0,0
+swat,val,swat_30,Raw deviation |z|,0.9796999698074098,17.0,0.058823529411764705,1,0,0,0
+swat,val,swat_30,TreeSHAP on RF,0.9796999698074098,4.0,0.25,1,0,0,1
+swat,val,swat_30,LENS-R T2 (full),0.9796999698074098,16.0,0.0625,1,0,0,0
+swat,val,swat_30,LENS-R T2 (no drift correction),0.9796999698074098,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_30,LENS-R T2 (no sparse repair),0.9796999698074098,12.0,0.08333333333333333,1,0,0,0
+swat,val,swat_30,LENS-R T2 (classic single-tag RBC),0.9796999698074098,13.0,0.07692307692307693,1,0,0,0
+swat,val,swat_30,LENS-R SPE (full),0.9796999698074098,6.0,0.16666666666666666,1,0,0,0
+swat,val,swat_30,LENS-R SPE (no drift correction),0.9796999698074098,14.0,0.07142857142857142,1,0,0,0
+swat,val,swat_30,LENS-R SPE (no sparse repair),0.9796999698074098,15.0,0.06666666666666667,1,0,0,0
+swat,val,swat_30,LENS-R SPE (classic single-tag RBC),0.9796999698074098,26.0,0.038461538461538464,1,0,0,0
+swat,test,swat_31,LENS v2 without CUSUM,0.7103641022748601,10.0,0.1,0,0,0,0
+swat,test,swat_31,Conditional reference (CondAttr-style kNN),0.7103641022748601,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_31,Linear forecast residual (GDN-style),0.7103641022748601,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_31,Simple fix: sliding-baseline deviation,0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,"LENS-U (original, label-free)",0.7103641022748601,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_31,"LENS-SW (state-switched, exploratory)",0.7103641022748601,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_31,Raw deviation |z|,0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,TreeSHAP on RF,0.7103641022748601,1.0,1.0,1,1,1,1
+swat,test,swat_31,LENS-R T2 (full),0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,LENS-R T2 (no drift correction),0.7103641022748601,4.0,0.25,0,0,0,1
+swat,test,swat_31,LENS-R T2 (no sparse repair),0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,LENS-R T2 (classic single-tag RBC),0.7103641022748601,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_31,LENS-R SPE (full),0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,LENS-R SPE (no drift correction),0.7103641022748601,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_31,LENS-R SPE (no sparse repair),0.7103641022748601,2.0,0.5,0,0,1,1
+swat,test,swat_31,LENS-R SPE (classic single-tag RBC),0.7103641022748601,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_32,LENS v2 without CUSUM,0.6864499217173594,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_32,Conditional reference (CondAttr-style kNN),0.6864499217173594,10.0,0.1,0,0,0,0
+swat,test,swat_32,Linear forecast residual (GDN-style),0.6864499217173594,34.0,0.029411764705882353,0,0,0,0
+swat,test,swat_32,Simple fix: sliding-baseline deviation,0.6864499217173594,4.0,0.25,0,0,0,1
+swat,test,swat_32,"LENS-U (original, label-free)",0.6864499217173594,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_32,"LENS-SW (state-switched, exploratory)",0.6864499217173594,11.0,0.09090909090909091,0,0,0,0
+swat,test,swat_32,Raw deviation |z|,0.6864499217173594,14.0,0.07142857142857142,0,0,0,0
+swat,test,swat_32,TreeSHAP on RF,0.6864499217173594,22.0,0.045454545454545456,0,0,0,0
+swat,test,swat_32,LENS-R T2 (full),0.6864499217173594,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_32,LENS-R T2 (no drift correction),0.6864499217173594,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_32,LENS-R T2 (no sparse repair),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,test,swat_32,LENS-R T2 (classic single-tag RBC),0.6864499217173594,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_32,LENS-R SPE (full),0.6864499217173594,27.0,0.037037037037037035,0,0,0,0
+swat,test,swat_32,LENS-R SPE (no drift correction),0.6864499217173594,21.0,0.047619047619047616,0,0,0,0
+swat,test,swat_32,LENS-R SPE (no sparse repair),0.6864499217173594,15.0,0.06666666666666667,0,0,0,0
+swat,test,swat_32,LENS-R SPE (classic single-tag RBC),0.6864499217173594,31.0,0.03225806451612903,0,0,0,0
+swat,test,swat_33,LENS v2 without CUSUM,0.8011572642276193,37.0,0.02702702702702703,0,0,0,0
+swat,test,swat_33,Conditional reference (CondAttr-style kNN),0.8011572642276193,12.0,0.08333333333333333,0,0,0,0
+swat,test,swat_33,Linear forecast residual (GDN-style),0.8011572642276193,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_33,Simple fix: sliding-baseline deviation,0.8011572642276193,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_33,"LENS-U (original, label-free)",0.8011572642276193,20.0,0.05,0,0,0,0
+swat,test,swat_33,"LENS-SW (state-switched, exploratory)",0.8011572642276193,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_33,Raw deviation |z|,0.8011572642276193,16.0,0.0625,0,0,0,0
+swat,test,swat_33,TreeSHAP on RF,0.8011572642276193,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_33,LENS-R T2 (full),0.8011572642276193,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_33,LENS-R T2 (no drift correction),0.8011572642276193,20.0,0.05,0,0,0,0
+swat,test,swat_33,LENS-R T2 (no sparse repair),0.8011572642276193,16.0,0.0625,0,0,0,0
+swat,test,swat_33,LENS-R T2 (classic single-tag RBC),0.8011572642276193,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_33,LENS-R SPE (full),0.8011572642276193,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_33,LENS-R SPE (no drift correction),0.8011572642276193,23.0,0.043478260869565216,0,0,0,0
+swat,test,swat_33,LENS-R SPE (no sparse repair),0.8011572642276193,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_33,LENS-R SPE (classic single-tag RBC),0.8011572642276193,35.0,0.02857142857142857,0,0,0,0
+swat,test,swat_34,LENS v2 without CUSUM,0.9796999698074098,28.0,0.03571428571428571,0,0,0,0
+swat,test,swat_34,Conditional reference (CondAttr-style kNN),0.9796999698074098,28.5,0.03508771929824561,0,0,0,0
+swat,test,swat_34,Linear forecast residual (GDN-style),0.9796999698074098,27.0,0.037037037037037035,0,0,0,0
+swat,test,swat_34,Simple fix: sliding-baseline deviation,0.9796999698074098,8.0,0.125,0,0,0,0
+swat,test,swat_34,"LENS-U (original, label-free)",0.9796999698074098,25.0,0.04,0,0,0,0
+swat,test,swat_34,"LENS-SW (state-switched, exploratory)",0.9796999698074098,25.0,0.04,0,0,0,0
+swat,test,swat_34,Raw deviation |z|,0.9796999698074098,24.0,0.041666666666666664,0,0,0,0
+swat,test,swat_34,TreeSHAP on RF,0.9796999698074098,31.0,0.03225806451612903,0,0,0,0
+swat,test,swat_34,LENS-R T2 (full),0.9796999698074098,27.0,0.037037037037037035,0,0,0,0
+swat,test,swat_34,LENS-R T2 (no drift correction),0.9796999698074098,28.0,0.03571428571428571,0,0,0,0
+swat,test,swat_34,LENS-R T2 (no sparse repair),0.9796999698074098,26.0,0.038461538461538464,0,0,0,0
+swat,test,swat_34,LENS-R T2 (classic single-tag RBC),0.9796999698074098,23.0,0.043478260869565216,0,0,0,0
+swat,test,swat_34,LENS-R SPE (full),0.9796999698074098,38.0,0.02631578947368421,0,0,0,0
+swat,test,swat_34,LENS-R SPE (no drift correction),0.9796999698074098,29.0,0.034482758620689655,0,0,0,0
+swat,test,swat_34,LENS-R SPE (no sparse repair),0.9796999698074098,22.0,0.045454545454545456,0,0,0,0
+swat,test,swat_34,LENS-R SPE (classic single-tag RBC),0.9796999698074098,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_35,LENS v2 without CUSUM,0.99,37.0,0.02702702702702703,0,0,0,0
+swat,test,swat_35,Conditional reference (CondAttr-style kNN),0.99,32.5,0.03076923076923077,0,0,0,0
+swat,test,swat_35,Linear forecast residual (GDN-style),0.99,25.0,0.04,0,0,0,0
+swat,test,swat_35,Simple fix: sliding-baseline deviation,0.99,1.5,0.6666666666666666,1,0,1,1
+swat,test,swat_35,"LENS-U (original, label-free)",0.99,32.0,0.03125,0,0,0,0
+swat,test,swat_35,"LENS-SW (state-switched, exploratory)",0.99,1.5,0.6666666666666666,1,0,1,1
+swat,test,swat_35,Raw deviation |z|,0.99,31.0,0.03225806451612903,0,0,0,0
+swat,test,swat_35,TreeSHAP on RF,0.99,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_35,LENS-R T2 (full),0.99,2.0,0.5,0,0,1,1
+swat,test,swat_35,LENS-R T2 (no drift correction),0.99,34.0,0.029411764705882353,0,0,0,0
+swat,test,swat_35,LENS-R T2 (no sparse repair),0.99,2.0,0.5,0,0,1,1
+swat,test,swat_35,LENS-R T2 (classic single-tag RBC),0.99,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_35,LENS-R SPE (full),0.99,2.0,0.5,0,0,1,1
+swat,test,swat_35,LENS-R SPE (no drift correction),0.99,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_35,LENS-R SPE (no sparse repair),0.99,2.0,0.5,0,0,1,1
+swat,test,swat_35,LENS-R SPE (classic single-tag RBC),0.99,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_36,LENS v2 without CUSUM,0.8011572642276193,34.0,0.029411764705882353,0,0,0,0
+swat,test,swat_36,Conditional reference (CondAttr-style kNN),0.8011572642276193,10.0,0.1,0,0,0,0
+swat,test,swat_36,Linear forecast residual (GDN-style),0.8011572642276193,36.0,0.027777777777777776,0,0,0,0
+swat,test,swat_36,Simple fix: sliding-baseline deviation,0.8011572642276193,14.0,0.07142857142857142,0,0,0,0
+swat,test,swat_36,"LENS-U (original, label-free)",0.8011572642276193,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_36,"LENS-SW (state-switched, exploratory)",0.8011572642276193,11.0,0.09090909090909091,0,0,0,0
+swat,test,swat_36,Raw deviation |z|,0.8011572642276193,33.0,0.030303030303030304,0,0,0,0
+swat,test,swat_36,TreeSHAP on RF,0.8011572642276193,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_36,LENS-R T2 (full),0.8011572642276193,28.0,0.03571428571428571,0,0,0,0
+swat,test,swat_36,LENS-R T2 (no drift correction),0.8011572642276193,29.0,0.034482758620689655,0,0,0,0
+swat,test,swat_36,LENS-R T2 (no sparse repair),0.8011572642276193,25.0,0.04,0,0,0,0
+swat,test,swat_36,LENS-R T2 (classic single-tag RBC),0.8011572642276193,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_36,LENS-R SPE (full),0.8011572642276193,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_36,LENS-R SPE (no drift correction),0.8011572642276193,10.0,0.1,0,0,0,0
+swat,test,swat_36,LENS-R SPE (no sparse repair),0.8011572642276193,16.0,0.0625,0,0,0,0
+swat,test,swat_36,LENS-R SPE (classic single-tag RBC),0.8011572642276193,29.0,0.034482758620689655,0,0,0,0
+swat,test,swat_37,LENS v2 without CUSUM,0.99,25.0,0.04,0,0,0,0
+swat,test,swat_37,Conditional reference (CondAttr-style kNN),0.99,33.0,0.030303030303030304,0,0,0,0
+swat,test,swat_37,Linear forecast residual (GDN-style),0.99,21.0,0.047619047619047616,0,0,0,0
+swat,test,swat_37,Simple fix: sliding-baseline deviation,0.99,16.0,0.0625,0,0,0,0
+swat,test,swat_37,"LENS-U (original, label-free)",0.99,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_37,"LENS-SW (state-switched, exploratory)",0.99,3.0,0.3333333333333333,1,0,1,1
+swat,test,swat_37,Raw deviation |z|,0.99,24.0,0.041666666666666664,0,0,0,0
+swat,test,swat_37,TreeSHAP on RF,0.99,26.0,0.038461538461538464,1,0,0,0
+swat,test,swat_37,LENS-R T2 (full),0.99,27.0,0.037037037037037035,0,0,0,0
+swat,test,swat_37,LENS-R T2 (no drift correction),0.99,28.0,0.03571428571428571,0,0,0,0
+swat,test,swat_37,LENS-R T2 (no sparse repair),0.99,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_37,LENS-R T2 (classic single-tag RBC),0.99,26.0,0.038461538461538464,0,0,0,0
+swat,test,swat_37,LENS-R SPE (full),0.99,23.0,0.043478260869565216,0,0,0,0
+swat,test,swat_37,LENS-R SPE (no drift correction),0.99,15.0,0.06666666666666667,0,0,0,0
+swat,test,swat_37,LENS-R SPE (no sparse repair),0.99,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_37,LENS-R SPE (classic single-tag RBC),0.99,5.0,0.2,0,0,0,1
+swat,test,swat_38,LENS v2 without CUSUM,0.9642309662989141,9.0,0.1111111111111111,1,0,0,0
+swat,test,swat_38,Conditional reference (CondAttr-style kNN),0.9642309662989141,2.5,0.4,0,0,1,1
+swat,test,swat_38,Linear forecast residual (GDN-style),0.9642309662989141,28.0,0.03571428571428571,1,0,0,0
+swat,test,swat_38,Simple fix: sliding-baseline deviation,0.9642309662989141,33.0,0.030303030303030304,1,0,0,0
+swat,test,swat_38,"LENS-U (original, label-free)",0.9642309662989141,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_38,"LENS-SW (state-switched, exploratory)",0.9642309662989141,16.0,0.0625,1,0,0,0
+swat,test,swat_38,Raw deviation |z|,0.9642309662989141,5.0,0.2,0,0,0,1
+swat,test,swat_38,TreeSHAP on RF,0.9642309662989141,6.0,0.16666666666666666,1,0,0,0
+swat,test,swat_38,LENS-R T2 (full),0.9642309662989141,6.0,0.16666666666666666,1,0,0,0
+swat,test,swat_38,LENS-R T2 (no drift correction),0.9642309662989141,6.0,0.16666666666666666,0,0,0,0
+swat,test,swat_38,LENS-R T2 (no sparse repair),0.9642309662989141,6.0,0.16666666666666666,1,0,0,0
+swat,test,swat_38,LENS-R T2 (classic single-tag RBC),0.9642309662989141,8.0,0.125,0,0,0,0
+swat,test,swat_38,LENS-R SPE (full),0.9642309662989141,6.0,0.16666666666666666,1,0,0,0
+swat,test,swat_38,LENS-R SPE (no drift correction),0.9642309662989141,11.0,0.09090909090909091,0,0,0,0
+swat,test,swat_38,LENS-R SPE (no sparse repair),0.9642309662989141,9.0,0.1111111111111111,1,0,0,0
+swat,test,swat_38,LENS-R SPE (classic single-tag RBC),0.9642309662989141,4.0,0.25,0,0,0,1
+swat,test,swat_39,LENS v2 without CUSUM,0.9642309662989141,2.0,0.5,0,0,1,1
+swat,test,swat_39,Conditional reference (CondAttr-style kNN),0.9642309662989141,3.5,0.2857142857142857,0,0,0,1
+swat,test,swat_39,Linear forecast residual (GDN-style),0.9642309662989141,19.0,0.05263157894736842,0,0,0,0
+swat,test,swat_39,Simple fix: sliding-baseline deviation,0.9642309662989141,4.0,0.25,0,0,0,1
+swat,test,swat_39,"LENS-U (original, label-free)",0.9642309662989141,21.0,0.047619047619047616,0,0,0,0
+swat,test,swat_39,"LENS-SW (state-switched, exploratory)",0.9642309662989141,5.0,0.2,1,0,0,1
+swat,test,swat_39,Raw deviation |z|,0.9642309662989141,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_39,TreeSHAP on RF,0.9642309662989141,11.0,0.09090909090909091,1,0,0,0
+swat,test,swat_39,LENS-R T2 (full),0.9642309662989141,8.0,0.125,0,0,0,0
+swat,test,swat_39,LENS-R T2 (no drift correction),0.9642309662989141,12.0,0.08333333333333333,0,0,0,0
+swat,test,swat_39,LENS-R T2 (no sparse repair),0.9642309662989141,5.0,0.2,0,0,0,1
+swat,test,swat_39,LENS-R T2 (classic single-tag RBC),0.9642309662989141,15.0,0.06666666666666667,0,0,0,0
+swat,test,swat_39,LENS-R SPE (full),0.9642309662989141,7.0,0.14285714285714285,0,0,0,0
+swat,test,swat_39,LENS-R SPE (no drift correction),0.9642309662989141,15.0,0.06666666666666667,0,0,0,0
+swat,test,swat_39,LENS-R SPE (no sparse repair),0.9642309662989141,4.0,0.25,0,0,0,1
+swat,test,swat_39,LENS-R SPE (classic single-tag RBC),0.9642309662989141,8.0,0.125,0,0,0,0
+swat,test,swat_40,LENS v2 without CUSUM,0.9604437777051456,1.5,0.6666666666666666,0,0,1,1
+swat,test,swat_40,Conditional reference (CondAttr-style kNN),0.9604437777051456,18.0,0.05555555555555555,0,0,0,0
+swat,test,swat_40,Linear forecast residual (GDN-style),0.9604437777051456,14.0,0.07142857142857142,0,0,0,0
+swat,test,swat_40,Simple fix: sliding-baseline deviation,0.9604437777051456,2.0,0.5,0,0,1,1
+swat,test,swat_40,"LENS-U (original, label-free)",0.9604437777051456,13.0,0.07692307692307693,0,0,0,0
+swat,test,swat_40,"LENS-SW (state-switched, exploratory)",0.9604437777051456,2.0,0.5,0,0,1,1
+swat,test,swat_40,Raw deviation |z|,0.9604437777051456,35.0,0.02857142857142857,0,0,0,0
+swat,test,swat_40,TreeSHAP on RF,0.9604437777051456,23.0,0.043478260869565216,0,0,0,0
+swat,test,swat_40,LENS-R T2 (full),0.9604437777051456,2.0,0.5,0,0,1,1
+swat,test,swat_40,LENS-R T2 (no drift correction),0.9604437777051456,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_40,LENS-R T2 (no sparse repair),0.9604437777051456,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_40,LENS-R T2 (classic single-tag RBC),0.9604437777051456,15.0,0.06666666666666667,0,0,0,0
+swat,test,swat_40,LENS-R SPE (full),0.9604437777051456,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_40,LENS-R SPE (no drift correction),0.9604437777051456,11.0,0.09090909090909091,0,0,0,0
+swat,test,swat_40,LENS-R SPE (no sparse repair),0.9604437777051456,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_40,LENS-R SPE (classic single-tag RBC),0.9604437777051456,10.0,0.1,0,0,0,0
+swat,test,swat_41,LENS v2 without CUSUM,0.6864499217173594,16.0,0.0625,1,0,0,0
+swat,test,swat_41,Conditional reference (CondAttr-style kNN),0.6864499217173594,20.0,0.05,0,0,0,0
+swat,test,swat_41,Linear forecast residual (GDN-style),0.6864499217173594,33.0,0.030303030303030304,1,0,0,0
+swat,test,swat_41,Simple fix: sliding-baseline deviation,0.6864499217173594,9.0,0.1111111111111111,0,0,0,0
+swat,test,swat_41,"LENS-U (original, label-free)",0.6864499217173594,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_41,"LENS-SW (state-switched, exploratory)",0.6864499217173594,3.0,0.3333333333333333,0,0,1,1
+swat,test,swat_41,Raw deviation |z|,0.6864499217173594,36.0,0.027777777777777776,0,0,0,0
+swat,test,swat_41,TreeSHAP on RF,0.6864499217173594,12.0,0.08333333333333333,0,0,0,0
+swat,test,swat_41,LENS-R T2 (full),0.6864499217173594,18.0,0.05555555555555555,0,0,0,0
+swat,test,swat_41,LENS-R T2 (no drift correction),0.6864499217173594,30.0,0.03333333333333333,0,0,0,0
+swat,test,swat_41,LENS-R T2 (no sparse repair),0.6864499217173594,26.0,0.038461538461538464,0,0,0,0
+swat,test,swat_41,LENS-R T2 (classic single-tag RBC),0.6864499217173594,4.0,0.25,0,0,0,1
+swat,test,swat_41,LENS-R SPE (full),0.6864499217173594,20.0,0.05,0,0,0,0
+swat,test,swat_41,LENS-R SPE (no drift correction),0.6864499217173594,18.0,0.05555555555555555,0,0,0,0
+swat,test,swat_41,LENS-R SPE (no sparse repair),0.6864499217173594,17.0,0.058823529411764705,0,0,0,0
+swat,test,swat_41,LENS-R SPE (classic single-tag RBC),0.6864499217173594,31.0,0.03225806451612903,0,0,0,0
+hai,train,hai_A101,LENS v2 without CUSUM,0.9751494225092525,2.0,0.5,0,0,1,1
+hai,train,hai_A101,Conditional reference (CondAttr-style kNN),0.9751494225092525,18.0,0.05555555555555555,1,0,0,0
+hai,train,hai_A101,Linear forecast residual (GDN-style),0.9751494225092525,2.0,0.5,1,0,1,1
+hai,train,hai_A101,Simple fix: sliding-baseline deviation,0.9751494225092525,22.0,0.045454545454545456,1,0,0,0
+hai,train,hai_A101,"LENS-U (original, label-free)",0.9751494225092525,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A101,"LENS-SW (state-switched, exploratory)",0.9751494225092525,1.0,1.0,1,1,1,1
+hai,train,hai_A101,Raw deviation |z|,0.9751494225092525,2.0,0.5,1,0,1,1
+hai,train,hai_A101,LENS-R T2 (full),0.9751494225092525,2.0,0.5,1,0,1,1
+hai,train,hai_A101,LENS-R T2 (no drift correction),0.9751494225092525,2.0,0.5,1,0,1,1
+hai,train,hai_A101,LENS-R T2 (no sparse repair),0.9751494225092525,4.0,0.25,1,0,0,1
+hai,train,hai_A101,LENS-R T2 (classic single-tag RBC),0.9751494225092525,4.0,0.25,1,0,0,1
+hai,train,hai_A101,LENS-R SPE (full),0.9751494225092525,10.0,0.1,0,0,0,0
+hai,train,hai_A101,LENS-R SPE (no drift correction),0.9751494225092525,10.0,0.1,0,0,0,0
+hai,train,hai_A101,LENS-R SPE (no sparse repair),0.9751494225092525,10.0,0.1,0,0,0,0
+hai,train,hai_A101,LENS-R SPE (classic single-tag RBC),0.9751494225092525,10.0,0.1,0,0,0,0
+hai,train,hai_A102,LENS v2 without CUSUM,0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,Conditional reference (CondAttr-style kNN),0.95860603808643,9.0,0.1111111111111111,1,0,0,0
+hai,train,hai_A102,Linear forecast residual (GDN-style),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,Simple fix: sliding-baseline deviation,0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,"LENS-U (original, label-free)",0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A102,"LENS-SW (state-switched, exploratory)",0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,Raw deviation |z|,0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A102,LENS-R T2 (full),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,LENS-R T2 (no drift correction),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,LENS-R T2 (no sparse repair),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,LENS-R T2 (classic single-tag RBC),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,LENS-R SPE (full),0.95860603808643,2.0,0.5,0,0,1,1
+hai,train,hai_A102,LENS-R SPE (no drift correction),0.95860603808643,2.0,0.5,0,0,1,1
+hai,train,hai_A102,LENS-R SPE (no sparse repair),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A102,LENS-R SPE (classic single-tag RBC),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A103,LENS v2 without CUSUM,0.9818706234298671,1.0,1.0,1,1,1,1
+hai,train,hai_A103,Conditional reference (CondAttr-style kNN),0.9818706234298671,11.0,0.09090909090909091,1,0,0,0
+hai,train,hai_A103,Linear forecast residual (GDN-style),0.9818706234298671,2.0,0.5,1,0,1,1
+hai,train,hai_A103,Simple fix: sliding-baseline deviation,0.9818706234298671,10.0,0.1,0,0,0,0
+hai,train,hai_A103,"LENS-U (original, label-free)",0.9818706234298671,8.0,0.125,1,0,0,0
+hai,train,hai_A103,"LENS-SW (state-switched, exploratory)",0.9818706234298671,5.0,0.2,1,0,0,1
+hai,train,hai_A103,Raw deviation |z|,0.9818706234298671,17.0,0.058823529411764705,1,0,0,0
+hai,train,hai_A103,LENS-R T2 (full),0.9818706234298671,5.0,0.2,1,0,0,1
+hai,train,hai_A103,LENS-R T2 (no drift correction),0.9818706234298671,5.0,0.2,1,0,0,1
+hai,train,hai_A103,LENS-R T2 (no sparse repair),0.9818706234298671,4.0,0.25,1,0,0,1
+hai,train,hai_A103,LENS-R T2 (classic single-tag RBC),0.9818706234298671,4.0,0.25,1,0,0,1
+hai,train,hai_A103,LENS-R SPE (full),0.9818706234298671,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A103,LENS-R SPE (no drift correction),0.9818706234298671,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A103,LENS-R SPE (no sparse repair),0.9818706234298671,8.0,0.125,1,0,0,0
+hai,train,hai_A103,LENS-R SPE (classic single-tag RBC),0.9818706234298671,8.0,0.125,1,0,0,0
+hai,train,hai_A104,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A104,Conditional reference (CondAttr-style kNN),0.9813381875565497,17.0,0.058823529411764705,0,0,0,0
+hai,train,hai_A104,Linear forecast residual (GDN-style),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A104,Simple fix: sliding-baseline deviation,0.9813381875565497,45.0,0.022222222222222223,0,0,0,0
+hai,train,hai_A104,"LENS-U (original, label-free)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A104,"LENS-SW (state-switched, exploratory)",0.9813381875565497,2.0,0.5,0,0,1,1
+hai,train,hai_A104,Raw deviation |z|,0.9813381875565497,64.0,0.015625,0,0,0,0
+hai,train,hai_A104,LENS-R T2 (full),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,train,hai_A104,LENS-R T2 (no drift correction),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,train,hai_A104,LENS-R T2 (no sparse repair),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,train,hai_A104,LENS-R T2 (classic single-tag RBC),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,train,hai_A104,LENS-R SPE (full),0.9813381875565497,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A104,LENS-R SPE (no drift correction),0.9813381875565497,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A104,LENS-R SPE (no sparse repair),0.9813381875565497,23.0,0.043478260869565216,0,0,0,0
+hai,train,hai_A104,LENS-R SPE (classic single-tag RBC),0.9813381875565497,23.0,0.043478260869565216,0,0,0,0
+hai,train,hai_A105,LENS v2 without CUSUM,0.965929508719311,24.0,0.041666666666666664,1,0,0,0
+hai,train,hai_A105,Conditional reference (CondAttr-style kNN),0.965929508719311,10.0,0.1,1,0,0,0
+hai,train,hai_A105,Linear forecast residual (GDN-style),0.965929508719311,55.0,0.01818181818181818,1,0,0,0
+hai,train,hai_A105,Simple fix: sliding-baseline deviation,0.965929508719311,13.0,0.07692307692307693,1,0,0,0
+hai,train,hai_A105,"LENS-U (original, label-free)",0.965929508719311,40.0,0.025,1,0,0,0
+hai,train,hai_A105,"LENS-SW (state-switched, exploratory)",0.965929508719311,44.0,0.022727272727272728,1,0,0,0
+hai,train,hai_A105,Raw deviation |z|,0.965929508719311,16.0,0.0625,1,0,0,0
+hai,train,hai_A105,LENS-R T2 (full),0.965929508719311,30.0,0.03333333333333333,1,0,0,0
+hai,train,hai_A105,LENS-R T2 (no drift correction),0.965929508719311,30.0,0.03333333333333333,1,0,0,0
+hai,train,hai_A105,LENS-R T2 (no sparse repair),0.965929508719311,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A105,LENS-R T2 (classic single-tag RBC),0.965929508719311,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A105,LENS-R SPE (full),0.965929508719311,46.0,0.021739130434782608,0,0,0,0
+hai,train,hai_A105,LENS-R SPE (no drift correction),0.965929508719311,46.0,0.021739130434782608,0,0,0,0
+hai,train,hai_A105,LENS-R SPE (no sparse repair),0.965929508719311,53.0,0.018867924528301886,0,0,0,0
+hai,train,hai_A105,LENS-R SPE (classic single-tag RBC),0.965929508719311,53.0,0.018867924528301886,0,0,0,0
+hai,train,hai_A106,LENS v2 without CUSUM,0.4186078478221398,4.0,0.25,1,0,0,1
+hai,train,hai_A106,Conditional reference (CondAttr-style kNN),0.4186078478221398,5.0,0.2,1,0,0,1
+hai,train,hai_A106,Linear forecast residual (GDN-style),0.4186078478221398,3.0,0.3333333333333333,1,0,1,1
+hai,train,hai_A106,Simple fix: sliding-baseline deviation,0.4186078478221398,15.0,0.06666666666666667,0,0,0,0
+hai,train,hai_A106,"LENS-U (original, label-free)",0.4186078478221398,27.0,0.037037037037037035,1,0,0,0
+hai,train,hai_A106,"LENS-SW (state-switched, exploratory)",0.4186078478221398,23.0,0.043478260869565216,1,0,0,0
+hai,train,hai_A106,Raw deviation |z|,0.4186078478221398,28.0,0.03571428571428571,1,0,0,0
+hai,train,hai_A106,LENS-R T2 (full),0.4186078478221398,4.0,0.25,1,0,0,1
+hai,train,hai_A106,LENS-R T2 (no drift correction),0.4186078478221398,4.0,0.25,1,0,0,1
+hai,train,hai_A106,LENS-R T2 (no sparse repair),0.4186078478221398,5.0,0.2,1,0,0,1
+hai,train,hai_A106,LENS-R T2 (classic single-tag RBC),0.4186078478221398,5.0,0.2,1,0,0,1
+hai,train,hai_A106,LENS-R SPE (full),0.4186078478221398,5.0,0.2,0,0,0,1
+hai,train,hai_A106,LENS-R SPE (no drift correction),0.4186078478221398,5.0,0.2,0,0,0,1
+hai,train,hai_A106,LENS-R SPE (no sparse repair),0.4186078478221398,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A106,LENS-R SPE (classic single-tag RBC),0.4186078478221398,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A107,LENS v2 without CUSUM,0.9828391331278157,23.0,0.043478260869565216,1,0,0,0
+hai,train,hai_A107,Conditional reference (CondAttr-style kNN),0.9828391331278157,32.0,0.03125,1,0,0,0
+hai,train,hai_A107,Linear forecast residual (GDN-style),0.9828391331278157,13.0,0.07692307692307693,1,0,0,0
+hai,train,hai_A107,Simple fix: sliding-baseline deviation,0.9828391331278157,44.0,0.022727272727272728,0,0,0,0
+hai,train,hai_A107,"LENS-U (original, label-free)",0.9828391331278157,38.0,0.02631578947368421,0,0,0,0
+hai,train,hai_A107,"LENS-SW (state-switched, exploratory)",0.9828391331278157,35.0,0.02857142857142857,1,0,0,0
+hai,train,hai_A107,Raw deviation |z|,0.9828391331278157,15.0,0.06666666666666667,0,0,0,0
+hai,train,hai_A107,LENS-R T2 (full),0.9828391331278157,55.0,0.01818181818181818,1,0,0,0
+hai,train,hai_A107,LENS-R T2 (no drift correction),0.9828391331278157,55.0,0.01818181818181818,1,0,0,0
+hai,train,hai_A107,LENS-R T2 (no sparse repair),0.9828391331278157,56.0,0.017857142857142856,1,0,0,0
+hai,train,hai_A107,LENS-R T2 (classic single-tag RBC),0.9828391331278157,56.0,0.017857142857142856,1,0,0,0
+hai,train,hai_A107,LENS-R SPE (full),0.9828391331278157,62.0,0.016129032258064516,0,0,0,0
+hai,train,hai_A107,LENS-R SPE (no drift correction),0.9828391331278157,62.0,0.016129032258064516,0,0,0,0
+hai,train,hai_A107,LENS-R SPE (no sparse repair),0.9828391331278157,60.0,0.016666666666666666,1,0,0,0
+hai,train,hai_A107,LENS-R SPE (classic single-tag RBC),0.9828391331278157,60.0,0.016666666666666666,1,0,0,0
+hai,train,hai_A201,LENS v2 without CUSUM,0.9783601824292069,56.0,0.017857142857142856,1,0,0,0
+hai,train,hai_A201,Conditional reference (CondAttr-style kNN),0.9783601824292069,45.0,0.022222222222222223,1,0,0,0
+hai,train,hai_A201,Linear forecast residual (GDN-style),0.9783601824292069,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A201,Simple fix: sliding-baseline deviation,0.9783601824292069,13.0,0.07692307692307693,1,0,0,0
+hai,train,hai_A201,"LENS-U (original, label-free)",0.9783601824292069,27.0,0.037037037037037035,1,0,0,0
+hai,train,hai_A201,"LENS-SW (state-switched, exploratory)",0.9783601824292069,15.0,0.06666666666666667,1,0,0,0
+hai,train,hai_A201,Raw deviation |z|,0.9783601824292069,47.0,0.02127659574468085,1,0,0,0
+hai,train,hai_A201,LENS-R T2 (full),0.9783601824292069,26.0,0.038461538461538464,0,0,0,0
+hai,train,hai_A201,LENS-R T2 (no drift correction),0.9783601824292069,26.0,0.038461538461538464,0,0,0,0
+hai,train,hai_A201,LENS-R T2 (no sparse repair),0.9783601824292069,24.0,0.041666666666666664,1,0,0,0
+hai,train,hai_A201,LENS-R T2 (classic single-tag RBC),0.9783601824292069,24.0,0.041666666666666664,1,0,0,0
+hai,train,hai_A201,LENS-R SPE (full),0.9783601824292069,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A201,LENS-R SPE (no drift correction),0.9783601824292069,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A201,LENS-R SPE (no sparse repair),0.9783601824292069,44.0,0.022727272727272728,1,0,0,0
+hai,train,hai_A201,LENS-R SPE (classic single-tag RBC),0.9783601824292069,44.0,0.022727272727272728,1,0,0,0
+hai,train,hai_A202,LENS v2 without CUSUM,0.9562794632186791,23.0,0.043478260869565216,1,0,0,0
+hai,train,hai_A202,Conditional reference (CondAttr-style kNN),0.9562794632186791,34.0,0.029411764705882353,1,0,0,0
+hai,train,hai_A202,Linear forecast residual (GDN-style),0.9562794632186791,3.0,0.3333333333333333,1,0,1,1
+hai,train,hai_A202,Simple fix: sliding-baseline deviation,0.9562794632186791,40.0,0.025,1,0,0,0
+hai,train,hai_A202,"LENS-U (original, label-free)",0.9562794632186791,51.0,0.0196078431372549,0,0,0,0
+hai,train,hai_A202,"LENS-SW (state-switched, exploratory)",0.9562794632186791,49.0,0.02040816326530612,0,0,0,0
+hai,train,hai_A202,Raw deviation |z|,0.9562794632186791,52.0,0.019230769230769232,1,0,0,0
+hai,train,hai_A202,LENS-R T2 (full),0.9562794632186791,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A202,LENS-R T2 (no drift correction),0.9562794632186791,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A202,LENS-R T2 (no sparse repair),0.9562794632186791,32.0,0.03125,1,0,0,0
+hai,train,hai_A202,LENS-R T2 (classic single-tag RBC),0.9562794632186791,32.0,0.03125,1,0,0,0
+hai,train,hai_A202,LENS-R SPE (full),0.9562794632186791,49.0,0.02040816326530612,1,0,0,0
+hai,train,hai_A202,LENS-R SPE (no drift correction),0.9562794632186791,49.0,0.02040816326530612,1,0,0,0
+hai,train,hai_A202,LENS-R SPE (no sparse repair),0.9562794632186791,53.0,0.018867924528301886,1,0,0,0
+hai,train,hai_A202,LENS-R SPE (classic single-tag RBC),0.9562794632186791,53.0,0.018867924528301886,1,0,0,0
+hai,train,hai_A203,LENS v2 without CUSUM,0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A203,Conditional reference (CondAttr-style kNN),0.7979302535985738,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A203,Linear forecast residual (GDN-style),0.7979302535985738,59.0,0.01694915254237288,1,0,0,0
+hai,train,hai_A203,Simple fix: sliding-baseline deviation,0.7979302535985738,69.0,0.014492753623188406,0,0,0,0
+hai,train,hai_A203,"LENS-U (original, label-free)",0.7979302535985738,40.0,0.025,0,0,0,0
+hai,train,hai_A203,"LENS-SW (state-switched, exploratory)",0.7979302535985738,37.0,0.02702702702702703,0,0,0,0
+hai,train,hai_A203,Raw deviation |z|,0.7979302535985738,40.0,0.025,0,0,0,0
+hai,train,hai_A203,LENS-R T2 (full),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A203,LENS-R T2 (no drift correction),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A203,LENS-R T2 (no sparse repair),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A203,LENS-R T2 (classic single-tag RBC),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A203,LENS-R SPE (full),0.7979302535985738,4.0,0.25,0,0,0,1
+hai,train,hai_A203,LENS-R SPE (no drift correction),0.7979302535985738,4.0,0.25,0,0,0,1
+hai,train,hai_A203,LENS-R SPE (no sparse repair),0.7979302535985738,5.0,0.2,0,0,0,1
+hai,train,hai_A203,LENS-R SPE (classic single-tag RBC),0.7979302535985738,5.0,0.2,0,0,0,1
+hai,train,hai_A204,LENS v2 without CUSUM,0.9825599515953805,2.0,0.5,1,0,1,1
+hai,train,hai_A204,Conditional reference (CondAttr-style kNN),0.9825599515953805,10.0,0.1,0,0,0,0
+hai,train,hai_A204,Linear forecast residual (GDN-style),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,train,hai_A204,Simple fix: sliding-baseline deviation,0.9825599515953805,25.0,0.04,1,0,0,0
+hai,train,hai_A204,"LENS-U (original, label-free)",0.9825599515953805,18.0,0.05555555555555555,0,0,0,0
+hai,train,hai_A204,"LENS-SW (state-switched, exploratory)",0.9825599515953805,4.0,0.25,1,0,0,1
+hai,train,hai_A204,Raw deviation |z|,0.9825599515953805,43.0,0.023255813953488372,1,0,0,0
+hai,train,hai_A204,LENS-R T2 (full),0.9825599515953805,7.0,0.14285714285714285,1,0,0,0
+hai,train,hai_A204,LENS-R T2 (no drift correction),0.9825599515953805,7.0,0.14285714285714285,1,0,0,0
+hai,train,hai_A204,LENS-R T2 (no sparse repair),0.9825599515953805,2.0,0.5,1,0,1,1
+hai,train,hai_A204,LENS-R T2 (classic single-tag RBC),0.9825599515953805,2.0,0.5,1,0,1,1
+hai,train,hai_A204,LENS-R SPE (full),0.9825599515953805,10.0,0.1,1,0,0,0
+hai,train,hai_A204,LENS-R SPE (no drift correction),0.9825599515953805,10.0,0.1,1,0,0,0
+hai,train,hai_A204,LENS-R SPE (no sparse repair),0.9825599515953805,10.0,0.1,1,0,0,0
+hai,train,hai_A204,LENS-R SPE (classic single-tag RBC),0.9825599515953805,10.0,0.1,1,0,0,0
+hai,train,hai_A205,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A205,Conditional reference (CondAttr-style kNN),0.9813381875565497,21.0,0.047619047619047616,0,0,0,0
+hai,train,hai_A205,Linear forecast residual (GDN-style),0.9813381875565497,8.0,0.125,0,0,0,0
+hai,train,hai_A205,Simple fix: sliding-baseline deviation,0.9813381875565497,40.0,0.025,0,0,0,0
+hai,train,hai_A205,"LENS-U (original, label-free)",0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A205,"LENS-SW (state-switched, exploratory)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A205,Raw deviation |z|,0.9813381875565497,61.0,0.01639344262295082,0,0,0,0
+hai,train,hai_A205,LENS-R T2 (full),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A205,LENS-R T2 (no drift correction),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A205,LENS-R T2 (no sparse repair),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A205,LENS-R T2 (classic single-tag RBC),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A205,LENS-R SPE (full),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A205,LENS-R SPE (no drift correction),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A205,LENS-R SPE (no sparse repair),0.9813381875565497,13.0,0.07692307692307693,0,0,0,0
+hai,train,hai_A205,LENS-R SPE (classic single-tag RBC),0.9813381875565497,13.0,0.07692307692307693,0,0,0,0
+hai,train,hai_A206,LENS v2 without CUSUM,0.9814887018155619,1.0,1.0,1,1,1,1
+hai,train,hai_A206,Conditional reference (CondAttr-style kNN),0.9814887018155619,9.0,0.1111111111111111,1,0,0,0
+hai,train,hai_A206,Linear forecast residual (GDN-style),0.9814887018155619,11.0,0.09090909090909091,1,0,0,0
+hai,train,hai_A206,Simple fix: sliding-baseline deviation,0.9814887018155619,27.0,0.037037037037037035,1,0,0,0
+hai,train,hai_A206,"LENS-U (original, label-free)",0.9814887018155619,41.0,0.024390243902439025,1,0,0,0
+hai,train,hai_A206,"LENS-SW (state-switched, exploratory)",0.9814887018155619,32.0,0.03125,1,0,0,0
+hai,train,hai_A206,Raw deviation |z|,0.9814887018155619,44.0,0.022727272727272728,1,0,0,0
+hai,train,hai_A206,LENS-R T2 (full),0.9814887018155619,32.0,0.03125,1,0,0,0
+hai,train,hai_A206,LENS-R T2 (no drift correction),0.9814887018155619,32.0,0.03125,1,0,0,0
+hai,train,hai_A206,LENS-R T2 (no sparse repair),0.9814887018155619,10.0,0.1,1,0,0,0
+hai,train,hai_A206,LENS-R T2 (classic single-tag RBC),0.9814887018155619,10.0,0.1,1,0,0,0
+hai,train,hai_A206,LENS-R SPE (full),0.9814887018155619,19.0,0.05263157894736842,1,0,0,0
+hai,train,hai_A206,LENS-R SPE (no drift correction),0.9814887018155619,19.0,0.05263157894736842,1,0,0,0
+hai,train,hai_A206,LENS-R SPE (no sparse repair),0.9814887018155619,22.0,0.045454545454545456,1,0,0,0
+hai,train,hai_A206,LENS-R SPE (classic single-tag RBC),0.9814887018155619,22.0,0.045454545454545456,1,0,0,0
+hai,train,hai_A207,LENS v2 without CUSUM,0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A207,Conditional reference (CondAttr-style kNN),0.95860603808643,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A207,Linear forecast residual (GDN-style),0.95860603808643,1.0,1.0,1,1,1,1
+hai,train,hai_A207,Simple fix: sliding-baseline deviation,0.95860603808643,3.0,0.3333333333333333,1,0,1,1
+hai,train,hai_A207,"LENS-U (original, label-free)",0.95860603808643,4.0,0.25,1,0,0,1
+hai,train,hai_A207,"LENS-SW (state-switched, exploratory)",0.95860603808643,4.0,0.25,1,0,0,1
+hai,train,hai_A207,Raw deviation |z|,0.95860603808643,3.0,0.3333333333333333,1,0,1,1
+hai,train,hai_A207,LENS-R T2 (full),0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A207,LENS-R T2 (no drift correction),0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A207,LENS-R T2 (no sparse repair),0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A207,LENS-R T2 (classic single-tag RBC),0.95860603808643,2.0,0.5,1,0,1,1
+hai,train,hai_A207,LENS-R SPE (full),0.95860603808643,5.0,0.2,1,0,0,1
+hai,train,hai_A207,LENS-R SPE (no drift correction),0.95860603808643,5.0,0.2,1,0,0,1
+hai,train,hai_A207,LENS-R SPE (no sparse repair),0.95860603808643,10.0,0.1,1,0,0,0
+hai,train,hai_A207,LENS-R SPE (classic single-tag RBC),0.95860603808643,10.0,0.1,1,0,0,0
+hai,train,hai_A208,LENS v2 without CUSUM,0.9825599515953805,2.0,0.5,1,0,1,1
+hai,train,hai_A208,Conditional reference (CondAttr-style kNN),0.9825599515953805,9.0,0.1111111111111111,0,0,0,0
+hai,train,hai_A208,Linear forecast residual (GDN-style),0.9825599515953805,2.0,0.5,0,0,1,1
+hai,train,hai_A208,Simple fix: sliding-baseline deviation,0.9825599515953805,26.0,0.038461538461538464,0,0,0,0
+hai,train,hai_A208,"LENS-U (original, label-free)",0.9825599515953805,21.0,0.047619047619047616,0,0,0,0
+hai,train,hai_A208,"LENS-SW (state-switched, exploratory)",0.9825599515953805,4.0,0.25,0,0,0,1
+hai,train,hai_A208,Raw deviation |z|,0.9825599515953805,47.0,0.02127659574468085,0,0,0,0
+hai,train,hai_A208,LENS-R T2 (full),0.9825599515953805,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A208,LENS-R T2 (no drift correction),0.9825599515953805,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A208,LENS-R T2 (no sparse repair),0.9825599515953805,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A208,LENS-R T2 (classic single-tag RBC),0.9825599515953805,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A208,LENS-R SPE (full),0.9825599515953805,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A208,LENS-R SPE (no drift correction),0.9825599515953805,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A208,LENS-R SPE (no sparse repair),0.9825599515953805,9.0,0.1111111111111111,0,0,0,0
+hai,train,hai_A208,LENS-R SPE (classic single-tag RBC),0.9825599515953805,9.0,0.1111111111111111,0,0,0,0
+hai,train,hai_A209,LENS v2 without CUSUM,0.9783601824292069,28.0,0.03571428571428571,1,0,0,0
+hai,train,hai_A209,Conditional reference (CondAttr-style kNN),0.9783601824292069,47.0,0.02127659574468085,1,0,0,0
+hai,train,hai_A209,Linear forecast residual (GDN-style),0.9783601824292069,16.0,0.0625,1,0,0,0
+hai,train,hai_A209,Simple fix: sliding-baseline deviation,0.9783601824292069,21.0,0.047619047619047616,1,0,0,0
+hai,train,hai_A209,"LENS-U (original, label-free)",0.9783601824292069,32.0,0.03125,0,0,0,0
+hai,train,hai_A209,"LENS-SW (state-switched, exploratory)",0.9783601824292069,25.0,0.04,0,0,0,0
+hai,train,hai_A209,Raw deviation |z|,0.9783601824292069,19.0,0.05263157894736842,1,0,0,0
+hai,train,hai_A209,LENS-R T2 (full),0.9783601824292069,27.0,0.037037037037037035,1,0,0,0
+hai,train,hai_A209,LENS-R T2 (no drift correction),0.9783601824292069,27.0,0.037037037037037035,1,0,0,0
+hai,train,hai_A209,LENS-R T2 (no sparse repair),0.9783601824292069,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A209,LENS-R T2 (classic single-tag RBC),0.9783601824292069,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A209,LENS-R SPE (full),0.9783601824292069,14.0,0.07142857142857142,1,0,0,0
+hai,train,hai_A209,LENS-R SPE (no drift correction),0.9783601824292069,14.0,0.07142857142857142,1,0,0,0
+hai,train,hai_A209,LENS-R SPE (no sparse repair),0.9783601824292069,30.0,0.03333333333333333,1,0,0,0
+hai,train,hai_A209,LENS-R SPE (classic single-tag RBC),0.9783601824292069,30.0,0.03333333333333333,1,0,0,0
+hai,train,hai_A210,LENS v2 without CUSUM,0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,Conditional reference (CondAttr-style kNN),0.7979302535985738,4.0,0.25,0,0,0,1
+hai,train,hai_A210,Linear forecast residual (GDN-style),0.7979302535985738,57.0,0.017543859649122806,1,0,0,0
+hai,train,hai_A210,Simple fix: sliding-baseline deviation,0.7979302535985738,69.5,0.014388489208633094,1,0,0,0
+hai,train,hai_A210,"LENS-U (original, label-free)",0.7979302535985738,20.0,0.05,1,0,0,0
+hai,train,hai_A210,"LENS-SW (state-switched, exploratory)",0.7979302535985738,13.0,0.07692307692307693,1,0,0,0
+hai,train,hai_A210,Raw deviation |z|,0.7979302535985738,30.0,0.03333333333333333,0,0,0,0
+hai,train,hai_A210,LENS-R T2 (full),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R T2 (no drift correction),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R T2 (no sparse repair),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R T2 (classic single-tag RBC),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R SPE (full),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R SPE (no drift correction),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R SPE (no sparse repair),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A210,LENS-R SPE (classic single-tag RBC),0.7979302535985738,1.0,1.0,1,1,1,1
+hai,train,hai_A211,LENS v2 without CUSUM,0.9751494225092525,7.0,0.14285714285714285,0,0,0,0
+hai,train,hai_A211,Conditional reference (CondAttr-style kNN),0.9751494225092525,34.0,0.029411764705882353,1,0,0,0
+hai,train,hai_A211,Linear forecast residual (GDN-style),0.9751494225092525,2.0,0.5,0,0,1,1
+hai,train,hai_A211,Simple fix: sliding-baseline deviation,0.9751494225092525,16.0,0.0625,1,0,0,0
+hai,train,hai_A211,"LENS-U (original, label-free)",0.9751494225092525,25.0,0.04,1,0,0,0
+hai,train,hai_A211,"LENS-SW (state-switched, exploratory)",0.9751494225092525,16.0,0.0625,1,0,0,0
+hai,train,hai_A211,Raw deviation |z|,0.9751494225092525,42.0,0.023809523809523808,1,0,0,0
+hai,train,hai_A211,LENS-R T2 (full),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,train,hai_A211,LENS-R T2 (no drift correction),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,train,hai_A211,LENS-R T2 (no sparse repair),0.9751494225092525,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A211,LENS-R T2 (classic single-tag RBC),0.9751494225092525,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A211,LENS-R SPE (full),0.9751494225092525,18.0,0.05555555555555555,1,0,0,0
+hai,train,hai_A211,LENS-R SPE (no drift correction),0.9751494225092525,18.0,0.05555555555555555,1,0,0,0
+hai,train,hai_A211,LENS-R SPE (no sparse repair),0.9751494225092525,10.0,0.1,1,0,0,0
+hai,train,hai_A211,LENS-R SPE (classic single-tag RBC),0.9751494225092525,10.0,0.1,1,0,0,0
+hai,train,hai_A212,LENS v2 without CUSUM,0.9451289289088738,2.0,0.5,0,0,1,1
+hai,train,hai_A212,Conditional reference (CondAttr-style kNN),0.9451289289088738,24.0,0.041666666666666664,0,0,0,0
+hai,train,hai_A212,Linear forecast residual (GDN-style),0.9451289289088738,4.0,0.25,1,0,0,1
+hai,train,hai_A212,Simple fix: sliding-baseline deviation,0.9451289289088738,34.0,0.029411764705882353,0,0,0,0
+hai,train,hai_A212,"LENS-U (original, label-free)",0.9451289289088738,1.0,1.0,1,1,1,1
+hai,train,hai_A212,"LENS-SW (state-switched, exploratory)",0.9451289289088738,2.0,0.5,0,0,1,1
+hai,train,hai_A212,Raw deviation |z|,0.9451289289088738,53.0,0.018867924528301886,0,0,0,0
+hai,train,hai_A212,LENS-R T2 (full),0.9451289289088738,21.0,0.047619047619047616,0,0,0,0
+hai,train,hai_A212,LENS-R T2 (no drift correction),0.9451289289088738,21.0,0.047619047619047616,0,0,0,0
+hai,train,hai_A212,LENS-R T2 (no sparse repair),0.9451289289088738,4.0,0.25,0,0,0,1
+hai,train,hai_A212,LENS-R T2 (classic single-tag RBC),0.9451289289088738,4.0,0.25,0,0,0,1
+hai,train,hai_A212,LENS-R SPE (full),0.9451289289088738,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A212,LENS-R SPE (no drift correction),0.9451289289088738,6.0,0.16666666666666666,0,0,0,0
+hai,train,hai_A212,LENS-R SPE (no sparse repair),0.9451289289088738,23.0,0.043478260869565216,0,0,0,0
+hai,train,hai_A212,LENS-R SPE (classic single-tag RBC),0.9451289289088738,23.0,0.043478260869565216,0,0,0,0
+hai,train,hai_A213,LENS v2 without CUSUM,0.4186078478221398,50.0,0.02,1,0,0,0
+hai,train,hai_A213,Conditional reference (CondAttr-style kNN),0.4186078478221398,1.5,0.6666666666666666,1,0,1,1
+hai,train,hai_A213,Linear forecast residual (GDN-style),0.4186078478221398,2.0,0.5,1,0,1,1
+hai,train,hai_A213,Simple fix: sliding-baseline deviation,0.4186078478221398,1.0,1.0,1,1,1,1
+hai,train,hai_A213,"LENS-U (original, label-free)",0.4186078478221398,1.0,1.0,1,1,1,1
+hai,train,hai_A213,"LENS-SW (state-switched, exploratory)",0.4186078478221398,1.0,1.0,1,1,1,1
+hai,train,hai_A213,Raw deviation |z|,0.4186078478221398,1.0,1.0,1,1,1,1
+hai,train,hai_A213,LENS-R T2 (full),0.4186078478221398,2.0,0.5,1,0,1,1
+hai,train,hai_A213,LENS-R T2 (no drift correction),0.4186078478221398,2.0,0.5,1,0,1,1
+hai,train,hai_A213,LENS-R T2 (no sparse repair),0.4186078478221398,2.0,0.5,1,0,1,1
+hai,train,hai_A213,LENS-R T2 (classic single-tag RBC),0.4186078478221398,2.0,0.5,1,0,1,1
+hai,train,hai_A213,LENS-R SPE (full),0.4186078478221398,10.0,0.1,0,0,0,0
+hai,train,hai_A213,LENS-R SPE (no drift correction),0.4186078478221398,10.0,0.1,0,0,0,0
+hai,train,hai_A213,LENS-R SPE (no sparse repair),0.4186078478221398,39.0,0.02564102564102564,0,0,0,0
+hai,train,hai_A213,LENS-R SPE (classic single-tag RBC),0.4186078478221398,39.0,0.02564102564102564,0,0,0,0
+hai,train,hai_A214,LENS v2 without CUSUM,0.9813381875565497,4.0,0.25,0,0,0,1
+hai,train,hai_A214,Conditional reference (CondAttr-style kNN),0.9813381875565497,26.0,0.038461538461538464,0,0,0,0
+hai,train,hai_A214,Linear forecast residual (GDN-style),0.9813381875565497,7.0,0.14285714285714285,1,0,0,0
+hai,train,hai_A214,Simple fix: sliding-baseline deviation,0.9813381875565497,5.0,0.2,0,0,0,1
+hai,train,hai_A214,"LENS-U (original, label-free)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A214,"LENS-SW (state-switched, exploratory)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,train,hai_A214,Raw deviation |z|,0.9813381875565497,22.0,0.045454545454545456,0,0,0,0
+hai,train,hai_A214,LENS-R T2 (full),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A214,LENS-R T2 (no drift correction),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A214,LENS-R T2 (no sparse repair),0.9813381875565497,4.0,0.25,0,0,0,1
+hai,train,hai_A214,LENS-R T2 (classic single-tag RBC),0.9813381875565497,4.0,0.25,0,0,0,1
+hai,train,hai_A214,LENS-R SPE (full),0.9813381875565497,18.0,0.05555555555555555,0,0,0,0
+hai,train,hai_A214,LENS-R SPE (no drift correction),0.9813381875565497,18.0,0.05555555555555555,0,0,0,0
+hai,train,hai_A214,LENS-R SPE (no sparse repair),0.9813381875565497,37.0,0.02702702702702703,0,0,0,0
+hai,train,hai_A214,LENS-R SPE (classic single-tag RBC),0.9813381875565497,37.0,0.02702702702702703,0,0,0,0
+hai,train,hai_A215,LENS v2 without CUSUM,0.9818706234298671,2.0,0.5,1,0,1,1
+hai,train,hai_A215,Conditional reference (CondAttr-style kNN),0.9818706234298671,14.0,0.07142857142857142,1,0,0,0
+hai,train,hai_A215,Linear forecast residual (GDN-style),0.9818706234298671,9.0,0.1111111111111111,1,0,0,0
+hai,train,hai_A215,Simple fix: sliding-baseline deviation,0.9818706234298671,39.0,0.02564102564102564,1,0,0,0
+hai,train,hai_A215,"LENS-U (original, label-free)",0.9818706234298671,36.0,0.027777777777777776,1,0,0,0
+hai,train,hai_A215,"LENS-SW (state-switched, exploratory)",0.9818706234298671,29.0,0.034482758620689655,1,0,0,0
+hai,train,hai_A215,Raw deviation |z|,0.9818706234298671,41.0,0.024390243902439025,1,0,0,0
+hai,train,hai_A215,LENS-R T2 (full),0.9818706234298671,19.0,0.05263157894736842,1,0,0,0
+hai,train,hai_A215,LENS-R T2 (no drift correction),0.9818706234298671,19.0,0.05263157894736842,1,0,0,0
+hai,train,hai_A215,LENS-R T2 (no sparse repair),0.9818706234298671,22.0,0.045454545454545456,1,0,0,0
+hai,train,hai_A215,LENS-R T2 (classic single-tag RBC),0.9818706234298671,22.0,0.045454545454545456,1,0,0,0
+hai,train,hai_A215,LENS-R SPE (full),0.9818706234298671,20.0,0.05,0,0,0,0
+hai,train,hai_A215,LENS-R SPE (no drift correction),0.9818706234298671,20.0,0.05,0,0,0,0
+hai,train,hai_A215,LENS-R SPE (no sparse repair),0.9818706234298671,32.0,0.03125,0,0,0,0
+hai,train,hai_A215,LENS-R SPE (classic single-tag RBC),0.9818706234298671,32.0,0.03125,0,0,0,0
+hai,train,hai_A216,LENS v2 without CUSUM,0.9783601824292069,3.0,0.3333333333333333,0,0,1,1
+hai,train,hai_A216,Conditional reference (CondAttr-style kNN),0.9783601824292069,20.0,0.05,1,0,0,0
+hai,train,hai_A216,Linear forecast residual (GDN-style),0.9783601824292069,21.0,0.047619047619047616,1,0,0,0
+hai,train,hai_A216,Simple fix: sliding-baseline deviation,0.9783601824292069,25.0,0.04,1,0,0,0
+hai,train,hai_A216,"LENS-U (original, label-free)",0.9783601824292069,31.0,0.03225806451612903,1,0,0,0
+hai,train,hai_A216,"LENS-SW (state-switched, exploratory)",0.9783601824292069,29.0,0.034482758620689655,1,0,0,0
+hai,train,hai_A216,Raw deviation |z|,0.9783601824292069,43.0,0.023255813953488372,1,0,0,0
+hai,train,hai_A216,LENS-R T2 (full),0.9783601824292069,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A216,LENS-R T2 (no drift correction),0.9783601824292069,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A216,LENS-R T2 (no sparse repair),0.9783601824292069,9.0,0.1111111111111111,1,0,0,0
+hai,train,hai_A216,LENS-R T2 (classic single-tag RBC),0.9783601824292069,9.0,0.1111111111111111,1,0,0,0
+hai,train,hai_A216,LENS-R SPE (full),0.9783601824292069,24.0,0.041666666666666664,1,0,0,0
+hai,train,hai_A216,LENS-R SPE (no drift correction),0.9783601824292069,24.0,0.041666666666666664,1,0,0,0
+hai,train,hai_A216,LENS-R SPE (no sparse repair),0.9783601824292069,40.0,0.025,1,0,0,0
+hai,train,hai_A216,LENS-R SPE (classic single-tag RBC),0.9783601824292069,40.0,0.025,1,0,0,0
+hai,train,hai_A217,LENS v2 without CUSUM,0.9562794632186791,4.0,0.25,1,0,0,1
+hai,train,hai_A217,Conditional reference (CondAttr-style kNN),0.9562794632186791,44.0,0.022727272727272728,1,0,0,0
+hai,train,hai_A217,Linear forecast residual (GDN-style),0.9562794632186791,6.0,0.16666666666666666,1,0,0,0
+hai,train,hai_A217,Simple fix: sliding-baseline deviation,0.9562794632186791,33.0,0.030303030303030304,1,0,0,0
+hai,train,hai_A217,"LENS-U (original, label-free)",0.9562794632186791,46.0,0.021739130434782608,1,0,0,0
+hai,train,hai_A217,"LENS-SW (state-switched, exploratory)",0.9562794632186791,39.0,0.02564102564102564,1,0,0,0
+hai,train,hai_A217,Raw deviation |z|,0.9562794632186791,38.0,0.02631578947368421,1,0,0,0
+hai,train,hai_A217,LENS-R T2 (full),0.9562794632186791,18.0,0.05555555555555555,1,0,0,0
+hai,train,hai_A217,LENS-R T2 (no drift correction),0.9562794632186791,18.0,0.05555555555555555,1,0,0,0
+hai,train,hai_A217,LENS-R T2 (no sparse repair),0.9562794632186791,16.0,0.0625,1,0,0,0
+hai,train,hai_A217,LENS-R T2 (classic single-tag RBC),0.9562794632186791,16.0,0.0625,1,0,0,0
+hai,train,hai_A217,LENS-R SPE (full),0.9562794632186791,17.0,0.058823529411764705,1,0,0,0
+hai,train,hai_A217,LENS-R SPE (no drift correction),0.9562794632186791,17.0,0.058823529411764705,1,0,0,0
+hai,train,hai_A217,LENS-R SPE (no sparse repair),0.9562794632186791,46.0,0.021739130434782608,1,0,0,0
+hai,train,hai_A217,LENS-R SPE (classic single-tag RBC),0.9562794632186791,46.0,0.021739130434782608,1,0,0,0
+hai,val,hai_A301,LENS v2 without CUSUM,0.9813381875565497,17.0,0.058823529411764705,1,0,0,0
+hai,val,hai_A301,Conditional reference (CondAttr-style kNN),0.9813381875565497,10.0,0.1,1,0,0,0
+hai,val,hai_A301,Linear forecast residual (GDN-style),0.9813381875565497,11.0,0.09090909090909091,1,0,0,0
+hai,val,hai_A301,Simple fix: sliding-baseline deviation,0.9813381875565497,12.0,0.08333333333333333,1,0,0,0
+hai,val,hai_A301,"LENS-U (original, label-free)",0.9813381875565497,34.0,0.029411764705882353,1,0,0,0
+hai,val,hai_A301,"LENS-SW (state-switched, exploratory)",0.9813381875565497,30.0,0.03333333333333333,1,0,0,0
+hai,val,hai_A301,Raw deviation |z|,0.9813381875565497,30.0,0.03333333333333333,1,0,0,0
+hai,val,hai_A301,TreeSHAP on RF,0.9813381875565497,24.0,0.041666666666666664,1,0,0,0
+hai,val,hai_A301,LENS-R T2 (full),0.9813381875565497,32.0,0.03125,1,0,0,0
+hai,val,hai_A301,LENS-R T2 (no drift correction),0.9813381875565497,32.0,0.03125,1,0,0,0
+hai,val,hai_A301,LENS-R T2 (no sparse repair),0.9813381875565497,29.0,0.034482758620689655,1,0,0,0
+hai,val,hai_A301,LENS-R T2 (classic single-tag RBC),0.9813381875565497,29.0,0.034482758620689655,1,0,0,0
+hai,val,hai_A301,LENS-R SPE (full),0.9813381875565497,36.0,0.027777777777777776,1,0,0,0
+hai,val,hai_A301,LENS-R SPE (no drift correction),0.9813381875565497,36.0,0.027777777777777776,1,0,0,0
+hai,val,hai_A301,LENS-R SPE (no sparse repair),0.9813381875565497,23.0,0.043478260869565216,1,0,0,0
+hai,val,hai_A301,LENS-R SPE (classic single-tag RBC),0.9813381875565497,23.0,0.043478260869565216,1,0,0,0
+hai,val,hai_A302,LENS v2 without CUSUM,0.9670526970417073,7.0,0.14285714285714285,1,0,0,0
+hai,val,hai_A302,Conditional reference (CondAttr-style kNN),0.9670526970417073,16.0,0.0625,1,0,0,0
+hai,val,hai_A302,Linear forecast residual (GDN-style),0.9670526970417073,1.0,1.0,1,1,1,1
+hai,val,hai_A302,Simple fix: sliding-baseline deviation,0.9670526970417073,4.0,0.25,1,0,0,1
+hai,val,hai_A302,"LENS-U (original, label-free)",0.9670526970417073,13.0,0.07692307692307693,1,0,0,0
+hai,val,hai_A302,"LENS-SW (state-switched, exploratory)",0.9670526970417073,8.0,0.125,1,0,0,0
+hai,val,hai_A302,Raw deviation |z|,0.9670526970417073,17.0,0.058823529411764705,1,0,0,0
+hai,val,hai_A302,TreeSHAP on RF,0.9670526970417073,1.0,1.0,1,1,1,1
+hai,val,hai_A302,LENS-R T2 (full),0.9670526970417073,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A302,LENS-R T2 (no drift correction),0.9670526970417073,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A302,LENS-R T2 (no sparse repair),0.9670526970417073,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A302,LENS-R T2 (classic single-tag RBC),0.9670526970417073,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A302,LENS-R SPE (full),0.9670526970417073,7.0,0.14285714285714285,1,0,0,0
+hai,val,hai_A302,LENS-R SPE (no drift correction),0.9670526970417073,7.0,0.14285714285714285,1,0,0,0
+hai,val,hai_A302,LENS-R SPE (no sparse repair),0.9670526970417073,19.0,0.05263157894736842,1,0,0,0
+hai,val,hai_A302,LENS-R SPE (classic single-tag RBC),0.9670526970417073,19.0,0.05263157894736842,1,0,0,0
+hai,val,hai_A303,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A303,Conditional reference (CondAttr-style kNN),0.9813381875565497,18.0,0.05555555555555555,1,0,0,0
+hai,val,hai_A303,Linear forecast residual (GDN-style),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A303,Simple fix: sliding-baseline deviation,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A303,"LENS-U (original, label-free)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A303,"LENS-SW (state-switched, exploratory)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A303,Raw deviation |z|,0.9813381875565497,4.0,0.25,1,0,0,1
+hai,val,hai_A303,TreeSHAP on RF,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A303,LENS-R T2 (full),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A303,LENS-R T2 (no drift correction),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A303,LENS-R T2 (no sparse repair),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A303,LENS-R T2 (classic single-tag RBC),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A303,LENS-R SPE (full),0.9813381875565497,4.0,0.25,1,0,0,1
+hai,val,hai_A303,LENS-R SPE (no drift correction),0.9813381875565497,4.0,0.25,1,0,0,1
+hai,val,hai_A303,LENS-R SPE (no sparse repair),0.9813381875565497,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A303,LENS-R SPE (classic single-tag RBC),0.9813381875565497,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A304,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A304,Conditional reference (CondAttr-style kNN),0.9813381875565497,16.0,0.0625,1,0,0,0
+hai,val,hai_A304,Linear forecast residual (GDN-style),0.9813381875565497,5.0,0.2,1,0,0,1
+hai,val,hai_A304,Simple fix: sliding-baseline deviation,0.9813381875565497,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A304,"LENS-U (original, label-free)",0.9813381875565497,5.0,0.2,1,0,0,1
+hai,val,hai_A304,"LENS-SW (state-switched, exploratory)",0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A304,Raw deviation |z|,0.9813381875565497,15.0,0.06666666666666667,1,0,0,0
+hai,val,hai_A304,TreeSHAP on RF,0.9813381875565497,10.0,0.1,1,0,0,0
+hai,val,hai_A304,LENS-R T2 (full),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A304,LENS-R T2 (no drift correction),0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A304,LENS-R T2 (no sparse repair),0.9813381875565497,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A304,LENS-R T2 (classic single-tag RBC),0.9813381875565497,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A304,LENS-R SPE (full),0.9813381875565497,6.0,0.16666666666666666,0,0,0,0
+hai,val,hai_A304,LENS-R SPE (no drift correction),0.9813381875565497,6.0,0.16666666666666666,0,0,0,0
+hai,val,hai_A304,LENS-R SPE (no sparse repair),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,val,hai_A304,LENS-R SPE (classic single-tag RBC),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,val,hai_A305,LENS v2 without CUSUM,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,Conditional reference (CondAttr-style kNN),0.9813381875565497,5.0,0.2,1,0,0,1
+hai,val,hai_A305,Linear forecast residual (GDN-style),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,Simple fix: sliding-baseline deviation,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,"LENS-U (original, label-free)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,"LENS-SW (state-switched, exploratory)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,Raw deviation |z|,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,TreeSHAP on RF,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R T2 (full),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R T2 (no drift correction),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R T2 (no sparse repair),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R T2 (classic single-tag RBC),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R SPE (full),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R SPE (no drift correction),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R SPE (no sparse repair),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A305,LENS-R SPE (classic single-tag RBC),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A306,LENS v2 without CUSUM,0.9751494225092525,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A306,Conditional reference (CondAttr-style kNN),0.9751494225092525,26.0,0.038461538461538464,1,0,0,0
+hai,val,hai_A306,Linear forecast residual (GDN-style),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A306,Simple fix: sliding-baseline deviation,0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A306,"LENS-U (original, label-free)",0.9751494225092525,18.0,0.05555555555555555,1,0,0,0
+hai,val,hai_A306,"LENS-SW (state-switched, exploratory)",0.9751494225092525,13.0,0.07692307692307693,1,0,0,0
+hai,val,hai_A306,Raw deviation |z|,0.9751494225092525,10.0,0.1,1,0,0,0
+hai,val,hai_A306,TreeSHAP on RF,0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A306,LENS-R T2 (full),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A306,LENS-R T2 (no drift correction),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A306,LENS-R T2 (no sparse repair),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A306,LENS-R T2 (classic single-tag RBC),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A306,LENS-R SPE (full),0.9751494225092525,9.0,0.1111111111111111,1,0,0,0
+hai,val,hai_A306,LENS-R SPE (no drift correction),0.9751494225092525,9.0,0.1111111111111111,1,0,0,0
+hai,val,hai_A306,LENS-R SPE (no sparse repair),0.9751494225092525,17.0,0.058823529411764705,1,0,0,0
+hai,val,hai_A306,LENS-R SPE (classic single-tag RBC),0.9751494225092525,17.0,0.058823529411764705,1,0,0,0
+hai,val,hai_A307,LENS v2 without CUSUM,0.9828391331278157,13.0,0.07692307692307693,1,0,0,0
+hai,val,hai_A307,Conditional reference (CondAttr-style kNN),0.9828391331278157,12.0,0.08333333333333333,1,0,0,0
+hai,val,hai_A307,Linear forecast residual (GDN-style),0.9828391331278157,33.0,0.030303030303030304,1,0,0,0
+hai,val,hai_A307,Simple fix: sliding-baseline deviation,0.9828391331278157,45.0,0.022222222222222223,1,0,0,0
+hai,val,hai_A307,"LENS-U (original, label-free)",0.9828391331278157,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A307,"LENS-SW (state-switched, exploratory)",0.9828391331278157,8.0,0.125,1,0,0,0
+hai,val,hai_A307,Raw deviation |z|,0.9828391331278157,12.0,0.08333333333333333,1,0,0,0
+hai,val,hai_A307,TreeSHAP on RF,0.9828391331278157,15.0,0.06666666666666667,1,0,0,0
+hai,val,hai_A307,LENS-R T2 (full),0.9828391331278157,44.0,0.022727272727272728,1,0,0,0
+hai,val,hai_A307,LENS-R T2 (no drift correction),0.9828391331278157,44.0,0.022727272727272728,1,0,0,0
+hai,val,hai_A307,LENS-R T2 (no sparse repair),0.9828391331278157,37.0,0.02702702702702703,1,0,0,0
+hai,val,hai_A307,LENS-R T2 (classic single-tag RBC),0.9828391331278157,37.0,0.02702702702702703,1,0,0,0
+hai,val,hai_A307,LENS-R SPE (full),0.9828391331278157,51.0,0.0196078431372549,1,0,0,0
+hai,val,hai_A307,LENS-R SPE (no drift correction),0.9828391331278157,51.0,0.0196078431372549,1,0,0,0
+hai,val,hai_A307,LENS-R SPE (no sparse repair),0.9828391331278157,24.0,0.041666666666666664,1,0,0,0
+hai,val,hai_A307,LENS-R SPE (classic single-tag RBC),0.9828391331278157,24.0,0.041666666666666664,1,0,0,0
+hai,val,hai_A308,LENS v2 without CUSUM,0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A308,Conditional reference (CondAttr-style kNN),0.9751494225092525,6.0,0.16666666666666666,1,0,0,0
+hai,val,hai_A308,Linear forecast residual (GDN-style),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A308,Simple fix: sliding-baseline deviation,0.9751494225092525,2.0,0.5,0,0,1,1
+hai,val,hai_A308,"LENS-U (original, label-free)",0.9751494225092525,10.0,0.1,0,0,0,0
+hai,val,hai_A308,"LENS-SW (state-switched, exploratory)",0.9751494225092525,6.0,0.16666666666666666,0,0,0,0
+hai,val,hai_A308,Raw deviation |z|,0.9751494225092525,2.0,0.5,1,0,1,1
+hai,val,hai_A308,TreeSHAP on RF,0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A308,LENS-R T2 (full),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A308,LENS-R T2 (no drift correction),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,val,hai_A308,LENS-R T2 (no sparse repair),0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A308,LENS-R T2 (classic single-tag RBC),0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A308,LENS-R SPE (full),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A308,LENS-R SPE (no drift correction),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A308,LENS-R SPE (no sparse repair),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A308,LENS-R SPE (classic single-tag RBC),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,val,hai_A309,LENS v2 without CUSUM,0.9828391331278157,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A309,Conditional reference (CondAttr-style kNN),0.9828391331278157,14.0,0.07142857142857142,0,0,0,0
+hai,val,hai_A309,Linear forecast residual (GDN-style),0.9828391331278157,18.0,0.05555555555555555,1,0,0,0
+hai,val,hai_A309,Simple fix: sliding-baseline deviation,0.9828391331278157,43.0,0.023255813953488372,1,0,0,0
+hai,val,hai_A309,"LENS-U (original, label-free)",0.9828391331278157,35.0,0.02857142857142857,0,0,0,0
+hai,val,hai_A309,"LENS-SW (state-switched, exploratory)",0.9828391331278157,29.0,0.034482758620689655,0,0,0,0
+hai,val,hai_A309,Raw deviation |z|,0.9828391331278157,11.0,0.09090909090909091,1,0,0,0
+hai,val,hai_A309,TreeSHAP on RF,0.9828391331278157,16.0,0.0625,1,0,0,0
+hai,val,hai_A309,LENS-R T2 (full),0.9828391331278157,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A309,LENS-R T2 (no drift correction),0.9828391331278157,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A309,LENS-R T2 (no sparse repair),0.9828391331278157,4.0,0.25,0,0,0,1
+hai,val,hai_A309,LENS-R T2 (classic single-tag RBC),0.9828391331278157,4.0,0.25,0,0,0,1
+hai,val,hai_A309,LENS-R SPE (full),0.9828391331278157,9.0,0.1111111111111111,1,0,0,0
+hai,val,hai_A309,LENS-R SPE (no drift correction),0.9828391331278157,9.0,0.1111111111111111,1,0,0,0
+hai,val,hai_A309,LENS-R SPE (no sparse repair),0.9828391331278157,15.0,0.06666666666666667,1,0,0,0
+hai,val,hai_A309,LENS-R SPE (classic single-tag RBC),0.9828391331278157,15.0,0.06666666666666667,1,0,0,0
+hai,val,hai_A310,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A310,Conditional reference (CondAttr-style kNN),0.9813381875565497,24.0,0.041666666666666664,0,0,0,0
+hai,val,hai_A310,Linear forecast residual (GDN-style),0.9813381875565497,3.0,0.3333333333333333,1,0,1,1
+hai,val,hai_A310,Simple fix: sliding-baseline deviation,0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A310,"LENS-U (original, label-free)",0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A310,"LENS-SW (state-switched, exploratory)",0.9813381875565497,2.0,0.5,1,0,1,1
+hai,val,hai_A310,Raw deviation |z|,0.9813381875565497,11.0,0.09090909090909091,0,0,0,0
+hai,val,hai_A310,TreeSHAP on RF,0.9813381875565497,14.0,0.07142857142857142,0,0,0,0
+hai,val,hai_A310,LENS-R T2 (full),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A310,LENS-R T2 (no drift correction),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A310,LENS-R T2 (no sparse repair),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A310,LENS-R T2 (classic single-tag RBC),0.9813381875565497,1.0,1.0,1,1,1,1
+hai,val,hai_A310,LENS-R SPE (full),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A310,LENS-R SPE (no drift correction),0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,val,hai_A310,LENS-R SPE (no sparse repair),0.9813381875565497,8.0,0.125,0,0,0,0
+hai,val,hai_A310,LENS-R SPE (classic single-tag RBC),0.9813381875565497,8.0,0.125,0,0,0,0
+hai,test,hai_A401,LENS v2 without CUSUM,0.5172338615521719,2.0,0.5,1,0,1,1
+hai,test,hai_A401,Conditional reference (CondAttr-style kNN),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,Linear forecast residual (GDN-style),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,Simple fix: sliding-baseline deviation,0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,"LENS-U (original, label-free)",0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,"LENS-SW (state-switched, exploratory)",0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,Raw deviation |z|,0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,TreeSHAP on RF,0.5172338615521719,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A401,LENS-R T2 (full),0.5172338615521719,2.0,0.5,1,0,1,1
+hai,test,hai_A401,LENS-R T2 (no drift correction),0.5172338615521719,2.0,0.5,1,0,1,1
+hai,test,hai_A401,LENS-R T2 (no sparse repair),0.5172338615521719,2.0,0.5,1,0,1,1
+hai,test,hai_A401,LENS-R T2 (classic single-tag RBC),0.5172338615521719,2.0,0.5,1,0,1,1
+hai,test,hai_A401,LENS-R SPE (full),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,LENS-R SPE (no drift correction),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,LENS-R SPE (no sparse repair),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A401,LENS-R SPE (classic single-tag RBC),0.5172338615521719,1.0,1.0,1,1,1,1
+hai,test,hai_A402,LENS v2 without CUSUM,0.9828391331278157,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A402,Conditional reference (CondAttr-style kNN),0.9828391331278157,39.0,0.02564102564102564,0,0,0,0
+hai,test,hai_A402,Linear forecast residual (GDN-style),0.9828391331278157,4.0,0.25,1,0,0,1
+hai,test,hai_A402,Simple fix: sliding-baseline deviation,0.9828391331278157,39.0,0.02564102564102564,0,0,0,0
+hai,test,hai_A402,"LENS-U (original, label-free)",0.9828391331278157,26.0,0.038461538461538464,1,0,0,0
+hai,test,hai_A402,"LENS-SW (state-switched, exploratory)",0.9828391331278157,21.0,0.047619047619047616,1,0,0,0
+hai,test,hai_A402,Raw deviation |z|,0.9828391331278157,14.0,0.07142857142857142,1,0,0,0
+hai,test,hai_A402,TreeSHAP on RF,0.9828391331278157,26.0,0.038461538461538464,1,0,0,0
+hai,test,hai_A402,LENS-R T2 (full),0.9828391331278157,50.0,0.02,1,0,0,0
+hai,test,hai_A402,LENS-R T2 (no drift correction),0.9828391331278157,50.0,0.02,1,0,0,0
+hai,test,hai_A402,LENS-R T2 (no sparse repair),0.9828391331278157,40.0,0.025,1,0,0,0
+hai,test,hai_A402,LENS-R T2 (classic single-tag RBC),0.9828391331278157,40.0,0.025,1,0,0,0
+hai,test,hai_A402,LENS-R SPE (full),0.9828391331278157,44.0,0.022727272727272728,1,0,0,0
+hai,test,hai_A402,LENS-R SPE (no drift correction),0.9828391331278157,44.0,0.022727272727272728,1,0,0,0
+hai,test,hai_A402,LENS-R SPE (no sparse repair),0.9828391331278157,37.0,0.02702702702702703,1,0,0,0
+hai,test,hai_A402,LENS-R SPE (classic single-tag RBC),0.9828391331278157,37.0,0.02702702702702703,1,0,0,0
+hai,test,hai_A403,LENS v2 without CUSUM,0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,Conditional reference (CondAttr-style kNN),0.99,76.0,0.013157894736842105,0,0,0,0
+hai,test,hai_A403,Linear forecast residual (GDN-style),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,Simple fix: sliding-baseline deviation,0.99,69.5,0.014388489208633094,0,0,0,0
+hai,test,hai_A403,"LENS-U (original, label-free)",0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,"LENS-SW (state-switched, exploratory)",0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,Raw deviation |z|,0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,TreeSHAP on RF,0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R T2 (full),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R T2 (no drift correction),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R T2 (no sparse repair),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R T2 (classic single-tag RBC),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R SPE (full),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R SPE (no drift correction),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R SPE (no sparse repair),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A403,LENS-R SPE (classic single-tag RBC),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A404,LENS v2 without CUSUM,0.9813381875565497,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A404,Conditional reference (CondAttr-style kNN),0.9813381875565497,7.0,0.14285714285714285,0,0,0,0
+hai,test,hai_A404,Linear forecast residual (GDN-style),0.9813381875565497,4.0,0.25,1,0,0,1
+hai,test,hai_A404,Simple fix: sliding-baseline deviation,0.9813381875565497,9.0,0.1111111111111111,0,0,0,0
+hai,test,hai_A404,"LENS-U (original, label-free)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,test,hai_A404,"LENS-SW (state-switched, exploratory)",0.9813381875565497,1.0,1.0,1,1,1,1
+hai,test,hai_A404,Raw deviation |z|,0.9813381875565497,30.0,0.03333333333333333,0,0,0,0
+hai,test,hai_A404,TreeSHAP on RF,0.9813381875565497,1.0,1.0,1,1,1,1
+hai,test,hai_A404,LENS-R T2 (full),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,test,hai_A404,LENS-R T2 (no drift correction),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,test,hai_A404,LENS-R T2 (no sparse repair),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,test,hai_A404,LENS-R T2 (classic single-tag RBC),0.9813381875565497,2.0,0.5,0,0,1,1
+hai,test,hai_A404,LENS-R SPE (full),0.9813381875565497,10.0,0.1,0,0,0,0
+hai,test,hai_A404,LENS-R SPE (no drift correction),0.9813381875565497,10.0,0.1,0,0,0,0
+hai,test,hai_A404,LENS-R SPE (no sparse repair),0.9813381875565497,10.0,0.1,0,0,0,0
+hai,test,hai_A404,LENS-R SPE (classic single-tag RBC),0.9813381875565497,10.0,0.1,0,0,0,0
+hai,test,hai_A405,LENS v2 without CUSUM,0.9813130121200562,61.0,0.01639344262295082,0,0,0,0
+hai,test,hai_A405,Conditional reference (CondAttr-style kNN),0.9813130121200562,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A405,Linear forecast residual (GDN-style),0.9813130121200562,62.0,0.016129032258064516,1,0,0,0
+hai,test,hai_A405,Simple fix: sliding-baseline deviation,0.9813130121200562,69.5,0.014388489208633094,0,0,0,0
+hai,test,hai_A405,"LENS-U (original, label-free)",0.9813130121200562,48.0,0.020833333333333332,0,0,0,0
+hai,test,hai_A405,"LENS-SW (state-switched, exploratory)",0.9813130121200562,42.0,0.023809523809523808,0,0,0,0
+hai,test,hai_A405,Raw deviation |z|,0.9813130121200562,14.0,0.07142857142857142,1,0,0,0
+hai,test,hai_A405,TreeSHAP on RF,0.9813130121200562,8.0,0.125,1,0,0,0
+hai,test,hai_A405,LENS-R T2 (full),0.9813130121200562,56.0,0.017857142857142856,0,0,0,0
+hai,test,hai_A405,LENS-R T2 (no drift correction),0.9813130121200562,56.0,0.017857142857142856,0,0,0,0
+hai,test,hai_A405,LENS-R T2 (no sparse repair),0.9813130121200562,59.0,0.01694915254237288,0,0,0,0
+hai,test,hai_A405,LENS-R T2 (classic single-tag RBC),0.9813130121200562,59.0,0.01694915254237288,0,0,0,0
+hai,test,hai_A405,LENS-R SPE (full),0.9813130121200562,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A405,LENS-R SPE (no drift correction),0.9813130121200562,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A405,LENS-R SPE (no sparse repair),0.9813130121200562,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A405,LENS-R SPE (classic single-tag RBC),0.9813130121200562,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A406,LENS v2 without CUSUM,0.9828391331278157,4.0,0.25,1,0,0,1
+hai,test,hai_A406,Conditional reference (CondAttr-style kNN),0.9828391331278157,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A406,Linear forecast residual (GDN-style),0.9828391331278157,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A406,Simple fix: sliding-baseline deviation,0.9828391331278157,42.0,0.023809523809523808,1,0,0,0
+hai,test,hai_A406,"LENS-U (original, label-free)",0.9828391331278157,26.0,0.038461538461538464,1,0,0,0
+hai,test,hai_A406,"LENS-SW (state-switched, exploratory)",0.9828391331278157,18.0,0.05555555555555555,1,0,0,0
+hai,test,hai_A406,Raw deviation |z|,0.9828391331278157,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A406,TreeSHAP on RF,0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A406,LENS-R T2 (full),0.9828391331278157,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A406,LENS-R T2 (no drift correction),0.9828391331278157,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A406,LENS-R T2 (no sparse repair),0.9828391331278157,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A406,LENS-R T2 (classic single-tag RBC),0.9828391331278157,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A406,LENS-R SPE (full),0.9828391331278157,32.0,0.03125,1,0,0,0
+hai,test,hai_A406,LENS-R SPE (no drift correction),0.9828391331278157,32.0,0.03125,1,0,0,0
+hai,test,hai_A406,LENS-R SPE (no sparse repair),0.9828391331278157,34.0,0.029411764705882353,1,0,0,0
+hai,test,hai_A406,LENS-R SPE (classic single-tag RBC),0.9828391331278157,34.0,0.029411764705882353,1,0,0,0
+hai,test,hai_A407,LENS v2 without CUSUM,0.9562794632186791,10.0,0.1,1,0,0,0
+hai,test,hai_A407,Conditional reference (CondAttr-style kNN),0.9562794632186791,39.0,0.02564102564102564,1,0,0,0
+hai,test,hai_A407,Linear forecast residual (GDN-style),0.9562794632186791,2.0,0.5,1,0,1,1
+hai,test,hai_A407,Simple fix: sliding-baseline deviation,0.9562794632186791,43.0,0.023255813953488372,1,0,0,0
+hai,test,hai_A407,"LENS-U (original, label-free)",0.9562794632186791,46.0,0.021739130434782608,1,0,0,0
+hai,test,hai_A407,"LENS-SW (state-switched, exploratory)",0.9562794632186791,35.0,0.02857142857142857,0,0,0,0
+hai,test,hai_A407,Raw deviation |z|,0.9562794632186791,61.0,0.01639344262295082,1,0,0,0
+hai,test,hai_A407,TreeSHAP on RF,0.9562794632186791,23.0,0.043478260869565216,1,0,0,0
+hai,test,hai_A407,LENS-R T2 (full),0.9562794632186791,13.0,0.07692307692307693,1,0,0,0
+hai,test,hai_A407,LENS-R T2 (no drift correction),0.9562794632186791,13.0,0.07692307692307693,1,0,0,0
+hai,test,hai_A407,LENS-R T2 (no sparse repair),0.9562794632186791,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A407,LENS-R T2 (classic single-tag RBC),0.9562794632186791,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A407,LENS-R SPE (full),0.9562794632186791,12.0,0.08333333333333333,1,0,0,0
+hai,test,hai_A407,LENS-R SPE (no drift correction),0.9562794632186791,12.0,0.08333333333333333,1,0,0,0
+hai,test,hai_A407,LENS-R SPE (no sparse repair),0.9562794632186791,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A407,LENS-R SPE (classic single-tag RBC),0.9562794632186791,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A408,LENS v2 without CUSUM,0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A408,Conditional reference (CondAttr-style kNN),0.9751494225092525,20.0,0.05,1,0,0,0
+hai,test,hai_A408,Linear forecast residual (GDN-style),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A408,Simple fix: sliding-baseline deviation,0.9751494225092525,14.0,0.07142857142857142,0,0,0,0
+hai,test,hai_A408,"LENS-U (original, label-free)",0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A408,"LENS-SW (state-switched, exploratory)",0.9751494225092525,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A408,Raw deviation |z|,0.9751494225092525,4.0,0.25,1,0,0,1
+hai,test,hai_A408,TreeSHAP on RF,0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A408,LENS-R T2 (full),0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A408,LENS-R T2 (no drift correction),0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A408,LENS-R T2 (no sparse repair),0.9751494225092525,4.0,0.25,1,0,0,1
+hai,test,hai_A408,LENS-R T2 (classic single-tag RBC),0.9751494225092525,4.0,0.25,1,0,0,1
+hai,test,hai_A408,LENS-R SPE (full),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,test,hai_A408,LENS-R SPE (no drift correction),0.9751494225092525,5.0,0.2,1,0,0,1
+hai,test,hai_A408,LENS-R SPE (no sparse repair),0.9751494225092525,16.0,0.0625,1,0,0,0
+hai,test,hai_A408,LENS-R SPE (classic single-tag RBC),0.9751494225092525,16.0,0.0625,1,0,0,0
+hai,test,hai_A409,LENS v2 without CUSUM,0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,Conditional reference (CondAttr-style kNN),0.9828391331278157,8.0,0.125,1,0,0,0
+hai,test,hai_A409,Linear forecast residual (GDN-style),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,Simple fix: sliding-baseline deviation,0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,"LENS-U (original, label-free)",0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,"LENS-SW (state-switched, exploratory)",0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,Raw deviation |z|,0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,TreeSHAP on RF,0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R T2 (full),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R T2 (no drift correction),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R T2 (no sparse repair),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R T2 (classic single-tag RBC),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R SPE (full),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R SPE (no drift correction),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R SPE (no sparse repair),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A409,LENS-R SPE (classic single-tag RBC),0.9828391331278157,1.0,1.0,1,1,1,1
+hai,test,hai_A410,LENS v2 without CUSUM,0.9818706234298671,2.0,0.5,1,0,1,1
+hai,test,hai_A410,Conditional reference (CondAttr-style kNN),0.9818706234298671,2.0,0.5,1,0,1,1
+hai,test,hai_A410,Linear forecast residual (GDN-style),0.9818706234298671,2.0,0.5,1,0,1,1
+hai,test,hai_A410,Simple fix: sliding-baseline deviation,0.9818706234298671,25.0,0.04,1,0,0,0
+hai,test,hai_A410,"LENS-U (original, label-free)",0.9818706234298671,6.0,0.16666666666666666,0,0,0,0
+hai,test,hai_A410,"LENS-SW (state-switched, exploratory)",0.9818706234298671,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A410,Raw deviation |z|,0.9818706234298671,18.0,0.05555555555555555,1,0,0,0
+hai,test,hai_A410,TreeSHAP on RF,0.9818706234298671,4.0,0.25,1,0,0,1
+hai,test,hai_A410,LENS-R T2 (full),0.9818706234298671,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A410,LENS-R T2 (no drift correction),0.9818706234298671,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A410,LENS-R T2 (no sparse repair),0.9818706234298671,4.0,0.25,1,0,0,1
+hai,test,hai_A410,LENS-R T2 (classic single-tag RBC),0.9818706234298671,4.0,0.25,1,0,0,1
+hai,test,hai_A410,LENS-R SPE (full),0.9818706234298671,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A410,LENS-R SPE (no drift correction),0.9818706234298671,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A410,LENS-R SPE (no sparse repair),0.9818706234298671,9.0,0.1111111111111111,1,0,0,0
+hai,test,hai_A410,LENS-R SPE (classic single-tag RBC),0.9818706234298671,9.0,0.1111111111111111,1,0,0,0
+hai,test,hai_A411,LENS v2 without CUSUM,0.99,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A411,Conditional reference (CondAttr-style kNN),0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A411,Linear forecast residual (GDN-style),0.99,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A411,Simple fix: sliding-baseline deviation,0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A411,"LENS-U (original, label-free)",0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A411,"LENS-SW (state-switched, exploratory)",0.99,2.0,0.5,1,0,1,1
+hai,test,hai_A411,Raw deviation |z|,0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A411,TreeSHAP on RF,0.99,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A411,LENS-R T2 (full),0.99,2.0,0.5,1,0,1,1
+hai,test,hai_A411,LENS-R T2 (no drift correction),0.99,2.0,0.5,1,0,1,1
+hai,test,hai_A411,LENS-R T2 (no sparse repair),0.99,2.0,0.5,1,0,1,1
+hai,test,hai_A411,LENS-R T2 (classic single-tag RBC),0.99,2.0,0.5,1,0,1,1
+hai,test,hai_A411,LENS-R SPE (full),0.99,28.0,0.03571428571428571,0,0,0,0
+hai,test,hai_A411,LENS-R SPE (no drift correction),0.99,28.0,0.03571428571428571,0,0,0,0
+hai,test,hai_A411,LENS-R SPE (no sparse repair),0.99,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A411,LENS-R SPE (classic single-tag RBC),0.99,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A412,LENS v2 without CUSUM,0.9828391331278157,21.0,0.047619047619047616,1,0,0,0
+hai,test,hai_A412,Conditional reference (CondAttr-style kNN),0.9828391331278157,10.0,0.1,1,0,0,0
+hai,test,hai_A412,Linear forecast residual (GDN-style),0.9828391331278157,29.0,0.034482758620689655,1,0,0,0
+hai,test,hai_A412,Simple fix: sliding-baseline deviation,0.9828391331278157,12.0,0.08333333333333333,0,0,0,0
+hai,test,hai_A412,"LENS-U (original, label-free)",0.9828391331278157,4.0,0.25,1,0,0,1
+hai,test,hai_A412,"LENS-SW (state-switched, exploratory)",0.9828391331278157,12.0,0.08333333333333333,0,0,0,0
+hai,test,hai_A412,Raw deviation |z|,0.9828391331278157,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A412,TreeSHAP on RF,0.9828391331278157,5.0,0.2,1,0,0,1
+hai,test,hai_A412,LENS-R T2 (full),0.9828391331278157,36.0,0.027777777777777776,0,0,0,0
+hai,test,hai_A412,LENS-R T2 (no drift correction),0.9828391331278157,33.0,0.030303030303030304,1,0,0,0
+hai,test,hai_A412,LENS-R T2 (no sparse repair),0.9828391331278157,34.0,0.029411764705882353,0,0,0,0
+hai,test,hai_A412,LENS-R T2 (classic single-tag RBC),0.9828391331278157,36.0,0.027777777777777776,1,0,0,0
+hai,test,hai_A412,LENS-R SPE (full),0.9828391331278157,40.0,0.025,0,0,0,0
+hai,test,hai_A412,LENS-R SPE (no drift correction),0.9828391331278157,50.0,0.02,0,0,0,0
+hai,test,hai_A412,LENS-R SPE (no sparse repair),0.9828391331278157,39.0,0.02564102564102564,0,0,0,0
+hai,test,hai_A412,LENS-R SPE (classic single-tag RBC),0.9828391331278157,37.0,0.02702702702702703,0,0,0,0
+hai,test,hai_A413,LENS v2 without CUSUM,0.9814887018155619,2.0,0.5,1,0,1,1
+hai,test,hai_A413,Conditional reference (CondAttr-style kNN),0.9814887018155619,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A413,Linear forecast residual (GDN-style),0.9814887018155619,2.0,0.5,1,0,1,1
+hai,test,hai_A413,Simple fix: sliding-baseline deviation,0.9814887018155619,4.0,0.25,0,0,0,1
+hai,test,hai_A413,"LENS-U (original, label-free)",0.9814887018155619,2.0,0.5,0,0,1,1
+hai,test,hai_A413,"LENS-SW (state-switched, exploratory)",0.9814887018155619,1.0,1.0,1,1,1,1
+hai,test,hai_A413,Raw deviation |z|,0.9814887018155619,4.0,0.25,0,0,0,1
+hai,test,hai_A413,TreeSHAP on RF,0.9814887018155619,4.0,0.25,1,0,0,1
+hai,test,hai_A413,LENS-R T2 (full),0.9814887018155619,4.0,0.25,1,0,0,1
+hai,test,hai_A413,LENS-R T2 (no drift correction),0.9814887018155619,4.0,0.25,1,0,0,1
+hai,test,hai_A413,LENS-R T2 (no sparse repair),0.9814887018155619,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A413,LENS-R T2 (classic single-tag RBC),0.9814887018155619,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A413,LENS-R SPE (full),0.9814887018155619,4.0,0.25,1,0,0,1
+hai,test,hai_A413,LENS-R SPE (no drift correction),0.9814887018155619,4.0,0.25,1,0,0,1
+hai,test,hai_A413,LENS-R SPE (no sparse repair),0.9814887018155619,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A413,LENS-R SPE (classic single-tag RBC),0.9814887018155619,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A414,LENS v2 without CUSUM,0.99,2.0,0.5,0,0,1,1
+hai,test,hai_A414,Conditional reference (CondAttr-style kNN),0.99,32.0,0.03125,0,0,0,0
+hai,test,hai_A414,Linear forecast residual (GDN-style),0.99,5.0,0.2,1,0,0,1
+hai,test,hai_A414,Simple fix: sliding-baseline deviation,0.99,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A414,"LENS-U (original, label-free)",0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A414,"LENS-SW (state-switched, exploratory)",0.99,1.0,1.0,1,1,1,1
+hai,test,hai_A414,Raw deviation |z|,0.99,38.0,0.02631578947368421,1,0,0,0
+hai,test,hai_A414,TreeSHAP on RF,0.99,19.0,0.05263157894736842,0,0,0,0
+hai,test,hai_A414,LENS-R T2 (full),0.99,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A414,LENS-R T2 (no drift correction),0.99,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A414,LENS-R T2 (no sparse repair),0.99,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A414,LENS-R T2 (classic single-tag RBC),0.99,3.0,0.3333333333333333,0,0,1,1
+hai,test,hai_A414,LENS-R SPE (full),0.99,4.0,0.25,1,0,0,1
+hai,test,hai_A414,LENS-R SPE (no drift correction),0.99,4.0,0.25,1,0,0,1
+hai,test,hai_A414,LENS-R SPE (no sparse repair),0.99,9.0,0.1111111111111111,1,0,0,0
+hai,test,hai_A414,LENS-R SPE (classic single-tag RBC),0.99,9.0,0.1111111111111111,1,0,0,0
+hai,test,hai_A415,LENS v2 without CUSUM,0.99,77.5,0.012903225806451613,1,0,0,0
+hai,test,hai_A415,Conditional reference (CondAttr-style kNN),0.99,76.0,0.013157894736842105,0,0,0,0
+hai,test,hai_A415,Linear forecast residual (GDN-style),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,Simple fix: sliding-baseline deviation,0.99,69.5,0.014388489208633094,0,0,0,0
+hai,test,hai_A415,"LENS-U (original, label-free)",0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,"LENS-SW (state-switched, exploratory)",0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,Raw deviation |z|,0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,TreeSHAP on RF,0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R T2 (full),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R T2 (no drift correction),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R T2 (no sparse repair),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R T2 (classic single-tag RBC),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R SPE (full),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R SPE (no drift correction),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R SPE (no sparse repair),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A415,LENS-R SPE (classic single-tag RBC),0.99,77.5,0.012903225806451613,0,0,0,0
+hai,test,hai_A416,LENS v2 without CUSUM,0.9818706234298671,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A416,Conditional reference (CondAttr-style kNN),0.9818706234298671,15.0,0.06666666666666667,1,0,0,0
+hai,test,hai_A416,Linear forecast residual (GDN-style),0.9818706234298671,2.0,0.5,1,0,1,1
+hai,test,hai_A416,Simple fix: sliding-baseline deviation,0.9818706234298671,28.0,0.03571428571428571,1,0,0,0
+hai,test,hai_A416,"LENS-U (original, label-free)",0.9818706234298671,45.0,0.022222222222222223,1,0,0,0
+hai,test,hai_A416,"LENS-SW (state-switched, exploratory)",0.9818706234298671,35.0,0.02857142857142857,1,0,0,0
+hai,test,hai_A416,Raw deviation |z|,0.9818706234298671,34.0,0.029411764705882353,1,0,0,0
+hai,test,hai_A416,TreeSHAP on RF,0.9818706234298671,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A416,LENS-R T2 (full),0.9818706234298671,18.0,0.05555555555555555,1,0,0,0
+hai,test,hai_A416,LENS-R T2 (no drift correction),0.9818706234298671,18.0,0.05555555555555555,1,0,0,0
+hai,test,hai_A416,LENS-R T2 (no sparse repair),0.9818706234298671,20.0,0.05,1,0,0,0
+hai,test,hai_A416,LENS-R T2 (classic single-tag RBC),0.9818706234298671,20.0,0.05,1,0,0,0
+hai,test,hai_A416,LENS-R SPE (full),0.9818706234298671,24.0,0.041666666666666664,1,0,0,0
+hai,test,hai_A416,LENS-R SPE (no drift correction),0.9818706234298671,24.0,0.041666666666666664,1,0,0,0
+hai,test,hai_A416,LENS-R SPE (no sparse repair),0.9818706234298671,29.0,0.034482758620689655,1,0,0,0
+hai,test,hai_A416,LENS-R SPE (classic single-tag RBC),0.9818706234298671,29.0,0.034482758620689655,1,0,0,0
+hai,test,hai_A417,LENS v2 without CUSUM,0.41378804576620964,24.0,0.041666666666666664,0,0,0,0
+hai,test,hai_A417,Conditional reference (CondAttr-style kNN),0.41378804576620964,26.0,0.038461538461538464,1,0,0,0
+hai,test,hai_A417,Linear forecast residual (GDN-style),0.41378804576620964,64.0,0.015625,1,0,0,0
+hai,test,hai_A417,Simple fix: sliding-baseline deviation,0.41378804576620964,69.5,0.014388489208633094,1,0,0,0
+hai,test,hai_A417,"LENS-U (original, label-free)",0.41378804576620964,52.0,0.019230769230769232,1,0,0,0
+hai,test,hai_A417,"LENS-SW (state-switched, exploratory)",0.41378804576620964,50.0,0.02,0,0,0,0
+hai,test,hai_A417,Raw deviation |z|,0.41378804576620964,48.0,0.020833333333333332,1,0,0,0
+hai,test,hai_A417,TreeSHAP on RF,0.41378804576620964,4.0,0.25,1,0,0,1
+hai,test,hai_A417,LENS-R T2 (full),0.41378804576620964,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A417,LENS-R T2 (no drift correction),0.41378804576620964,11.0,0.09090909090909091,1,0,0,0
+hai,test,hai_A417,LENS-R T2 (no sparse repair),0.41378804576620964,17.0,0.058823529411764705,1,0,0,0
+hai,test,hai_A417,LENS-R T2 (classic single-tag RBC),0.41378804576620964,17.0,0.058823529411764705,1,0,0,0
+hai,test,hai_A417,LENS-R SPE (full),0.41378804576620964,30.0,0.03333333333333333,1,0,0,0
+hai,test,hai_A417,LENS-R SPE (no drift correction),0.41378804576620964,30.0,0.03333333333333333,1,0,0,0
+hai,test,hai_A417,LENS-R SPE (no sparse repair),0.41378804576620964,8.0,0.125,1,0,0,0
+hai,test,hai_A417,LENS-R SPE (classic single-tag RBC),0.41378804576620964,8.0,0.125,1,0,0,0
+hai,test,hai_A418,LENS v2 without CUSUM,0.9783601824292069,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A418,Conditional reference (CondAttr-style kNN),0.9783601824292069,30.0,0.03333333333333333,1,0,0,0
+hai,test,hai_A418,Linear forecast residual (GDN-style),0.9783601824292069,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A418,Simple fix: sliding-baseline deviation,0.9783601824292069,27.0,0.037037037037037035,1,0,0,0
+hai,test,hai_A418,"LENS-U (original, label-free)",0.9783601824292069,45.0,0.022222222222222223,0,0,0,0
+hai,test,hai_A418,"LENS-SW (state-switched, exploratory)",0.9783601824292069,41.0,0.024390243902439025,1,0,0,0
+hai,test,hai_A418,Raw deviation |z|,0.9783601824292069,60.0,0.016666666666666666,1,0,0,0
+hai,test,hai_A418,TreeSHAP on RF,0.9783601824292069,43.0,0.023255813953488372,1,0,0,0
+hai,test,hai_A418,LENS-R T2 (full),0.9783601824292069,34.0,0.029411764705882353,1,0,0,0
+hai,test,hai_A418,LENS-R T2 (no drift correction),0.9783601824292069,34.0,0.029411764705882353,1,0,0,0
+hai,test,hai_A418,LENS-R T2 (no sparse repair),0.9783601824292069,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A418,LENS-R T2 (classic single-tag RBC),0.9783601824292069,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A418,LENS-R SPE (full),0.9783601824292069,30.0,0.03333333333333333,0,0,0,0
+hai,test,hai_A418,LENS-R SPE (no drift correction),0.9783601824292069,30.0,0.03333333333333333,0,0,0,0
+hai,test,hai_A418,LENS-R SPE (no sparse repair),0.9783601824292069,22.0,0.045454545454545456,0,0,0,0
+hai,test,hai_A418,LENS-R SPE (classic single-tag RBC),0.9783601824292069,22.0,0.045454545454545456,0,0,0,0
+hai,test,hai_A419,LENS v2 without CUSUM,0.9783601824292069,4.0,0.25,1,0,0,1
+hai,test,hai_A419,Conditional reference (CondAttr-style kNN),0.9783601824292069,22.0,0.045454545454545456,0,0,0,0
+hai,test,hai_A419,Linear forecast residual (GDN-style),0.9783601824292069,2.0,0.5,1,0,1,1
+hai,test,hai_A419,Simple fix: sliding-baseline deviation,0.9783601824292069,20.0,0.05,1,0,0,0
+hai,test,hai_A419,"LENS-U (original, label-free)",0.9783601824292069,1.0,1.0,1,1,1,1
+hai,test,hai_A419,"LENS-SW (state-switched, exploratory)",0.9783601824292069,1.0,1.0,1,1,1,1
+hai,test,hai_A419,Raw deviation |z|,0.9783601824292069,32.0,0.03125,1,0,0,0
+hai,test,hai_A419,TreeSHAP on RF,0.9783601824292069,31.0,0.03225806451612903,1,0,0,0
+hai,test,hai_A419,LENS-R T2 (full),0.9783601824292069,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A419,LENS-R T2 (no drift correction),0.9783601824292069,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A419,LENS-R T2 (no sparse repair),0.9783601824292069,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A419,LENS-R T2 (classic single-tag RBC),0.9783601824292069,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A419,LENS-R SPE (full),0.9783601824292069,6.0,0.16666666666666666,0,0,0,0
+hai,test,hai_A419,LENS-R SPE (no drift correction),0.9783601824292069,6.0,0.16666666666666666,0,0,0,0
+hai,test,hai_A419,LENS-R SPE (no sparse repair),0.9783601824292069,8.0,0.125,1,0,0,0
+hai,test,hai_A419,LENS-R SPE (classic single-tag RBC),0.9783601824292069,8.0,0.125,1,0,0,0
+hai,test,hai_A420,LENS v2 without CUSUM,0.9751494225092525,2.0,0.5,1,0,1,1
+hai,test,hai_A420,Conditional reference (CondAttr-style kNN),0.9751494225092525,16.0,0.0625,1,0,0,0
+hai,test,hai_A420,Linear forecast residual (GDN-style),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,Simple fix: sliding-baseline deviation,0.9751494225092525,12.0,0.08333333333333333,1,0,0,0
+hai,test,hai_A420,"LENS-U (original, label-free)",0.9751494225092525,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A420,"LENS-SW (state-switched, exploratory)",0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,Raw deviation |z|,0.9751494225092525,12.0,0.08333333333333333,1,0,0,0
+hai,test,hai_A420,TreeSHAP on RF,0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,LENS-R T2 (full),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,LENS-R T2 (no drift correction),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,LENS-R T2 (no sparse repair),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,LENS-R T2 (classic single-tag RBC),0.9751494225092525,1.0,1.0,1,1,1,1
+hai,test,hai_A420,LENS-R SPE (full),0.9751494225092525,5.0,0.2,0,0,0,1
+hai,test,hai_A420,LENS-R SPE (no drift correction),0.9751494225092525,5.0,0.2,0,0,0,1
+hai,test,hai_A420,LENS-R SPE (no sparse repair),0.9751494225092525,7.0,0.14285714285714285,0,0,0,0
+hai,test,hai_A420,LENS-R SPE (classic single-tag RBC),0.9751494225092525,7.0,0.14285714285714285,0,0,0,0
+hai,test,hai_A421,LENS v2 without CUSUM,0.9825599515953805,2.0,0.5,1,0,1,1
+hai,test,hai_A421,Conditional reference (CondAttr-style kNN),0.9825599515953805,4.0,0.25,1,0,0,1
+hai,test,hai_A421,Linear forecast residual (GDN-style),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,Simple fix: sliding-baseline deviation,0.9825599515953805,5.0,0.2,0,0,0,1
+hai,test,hai_A421,"LENS-U (original, label-free)",0.9825599515953805,24.0,0.041666666666666664,0,0,0,0
+hai,test,hai_A421,"LENS-SW (state-switched, exploratory)",0.9825599515953805,8.0,0.125,0,0,0,0
+hai,test,hai_A421,Raw deviation |z|,0.9825599515953805,25.0,0.04,0,0,0,0
+hai,test,hai_A421,TreeSHAP on RF,0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,LENS-R T2 (full),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,LENS-R T2 (no drift correction),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,LENS-R T2 (no sparse repair),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,LENS-R T2 (classic single-tag RBC),0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A421,LENS-R SPE (full),0.9825599515953805,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A421,LENS-R SPE (no drift correction),0.9825599515953805,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A421,LENS-R SPE (no sparse repair),0.9825599515953805,14.0,0.07142857142857142,1,0,0,0
+hai,test,hai_A421,LENS-R SPE (classic single-tag RBC),0.9825599515953805,14.0,0.07142857142857142,1,0,0,0
+hai,test,hai_A422,LENS v2 without CUSUM,0.9783601824292069,2.0,0.5,0,0,1,1
+hai,test,hai_A422,Conditional reference (CondAttr-style kNN),0.9783601824292069,5.0,0.2,1,0,0,1
+hai,test,hai_A422,Linear forecast residual (GDN-style),0.9783601824292069,11.0,0.09090909090909091,0,0,0,0
+hai,test,hai_A422,Simple fix: sliding-baseline deviation,0.9783601824292069,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A422,"LENS-U (original, label-free)",0.9783601824292069,36.0,0.027777777777777776,1,0,0,0
+hai,test,hai_A422,"LENS-SW (state-switched, exploratory)",0.9783601824292069,31.0,0.03225806451612903,1,0,0,0
+hai,test,hai_A422,Raw deviation |z|,0.9783601824292069,30.0,0.03333333333333333,1,0,0,0
+hai,test,hai_A422,TreeSHAP on RF,0.9783601824292069,12.0,0.08333333333333333,1,0,0,0
+hai,test,hai_A422,LENS-R T2 (full),0.9783601824292069,13.0,0.07692307692307693,1,0,0,0
+hai,test,hai_A422,LENS-R T2 (no drift correction),0.9783601824292069,13.0,0.07692307692307693,1,0,0,0
+hai,test,hai_A422,LENS-R T2 (no sparse repair),0.9783601824292069,16.0,0.0625,1,0,0,0
+hai,test,hai_A422,LENS-R T2 (classic single-tag RBC),0.9783601824292069,16.0,0.0625,1,0,0,0
+hai,test,hai_A422,LENS-R SPE (full),0.9783601824292069,14.0,0.07142857142857142,0,0,0,0
+hai,test,hai_A422,LENS-R SPE (no drift correction),0.9783601824292069,14.0,0.07142857142857142,0,0,0,0
+hai,test,hai_A422,LENS-R SPE (no sparse repair),0.9783601824292069,17.0,0.058823529411764705,0,0,0,0
+hai,test,hai_A422,LENS-R SPE (classic single-tag RBC),0.9783601824292069,17.0,0.058823529411764705,0,0,0,0
+hai,test,hai_A423,LENS v2 without CUSUM,0.9825599515953805,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A423,Conditional reference (CondAttr-style kNN),0.9825599515953805,4.0,0.25,1,0,0,1
+hai,test,hai_A423,Linear forecast residual (GDN-style),0.9825599515953805,8.0,0.125,1,0,0,0
+hai,test,hai_A423,Simple fix: sliding-baseline deviation,0.9825599515953805,16.0,0.0625,1,0,0,0
+hai,test,hai_A423,"LENS-U (original, label-free)",0.9825599515953805,17.0,0.058823529411764705,1,0,0,0
+hai,test,hai_A423,"LENS-SW (state-switched, exploratory)",0.9825599515953805,5.0,0.2,1,0,0,1
+hai,test,hai_A423,Raw deviation |z|,0.9825599515953805,30.0,0.03333333333333333,1,0,0,0
+hai,test,hai_A423,TreeSHAP on RF,0.9825599515953805,1.0,1.0,1,1,1,1
+hai,test,hai_A423,LENS-R T2 (full),0.9825599515953805,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A423,LENS-R T2 (no drift correction),0.9825599515953805,3.0,0.3333333333333333,1,0,1,1
+hai,test,hai_A423,LENS-R T2 (no sparse repair),0.9825599515953805,4.0,0.25,1,0,0,1
+hai,test,hai_A423,LENS-R T2 (classic single-tag RBC),0.9825599515953805,4.0,0.25,1,0,0,1
+hai,test,hai_A423,LENS-R SPE (full),0.9825599515953805,10.0,0.1,0,0,0,0
+hai,test,hai_A423,LENS-R SPE (no drift correction),0.9825599515953805,10.0,0.1,0,0,0,0
+hai,test,hai_A423,LENS-R SPE (no sparse repair),0.9825599515953805,15.0,0.06666666666666667,0,0,0,0
+hai,test,hai_A423,LENS-R SPE (classic single-tag RBC),0.9825599515953805,15.0,0.06666666666666667,0,0,0,0
+hai,test,hai_A424,LENS v2 without CUSUM,0.9562794632186791,5.0,0.2,1,0,0,1
+hai,test,hai_A424,Conditional reference (CondAttr-style kNN),0.9562794632186791,5.0,0.2,0,0,0,1
+hai,test,hai_A424,Linear forecast residual (GDN-style),0.9562794632186791,1.0,1.0,1,1,1,1
+hai,test,hai_A424,Simple fix: sliding-baseline deviation,0.9562794632186791,12.0,0.08333333333333333,0,0,0,0
+hai,test,hai_A424,"LENS-U (original, label-free)",0.9562794632186791,2.0,0.5,1,0,1,1
+hai,test,hai_A424,"LENS-SW (state-switched, exploratory)",0.9562794632186791,4.0,0.25,1,0,0,1
+hai,test,hai_A424,Raw deviation |z|,0.9562794632186791,14.0,0.07142857142857142,1,0,0,0
+hai,test,hai_A424,TreeSHAP on RF,0.9562794632186791,36.0,0.027777777777777776,1,0,0,0
+hai,test,hai_A424,LENS-R T2 (full),0.9562794632186791,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A424,LENS-R T2 (no drift correction),0.9562794632186791,6.0,0.16666666666666666,1,0,0,0
+hai,test,hai_A424,LENS-R T2 (no sparse repair),0.9562794632186791,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A424,LENS-R T2 (classic single-tag RBC),0.9562794632186791,7.0,0.14285714285714285,1,0,0,0
+hai,test,hai_A424,LENS-R SPE (full),0.9562794632186791,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A424,LENS-R SPE (no drift correction),0.9562794632186791,19.0,0.05263157894736842,1,0,0,0
+hai,test,hai_A424,LENS-R SPE (no sparse repair),0.9562794632186791,46.0,0.021739130434782608,1,0,0,0
+hai,test,hai_A424,LENS-R SPE (classic single-tag RBC),0.9562794632186791,46.0,0.021739130434782608,1,0,0,0

@@ -1,0 +1,79 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+1,LENS-R T2 (full),93.0,0.010752688172043012,0,0,0,0
+1,LENS-R without drift correction,93.0,0.010752688172043012,0,0,0,0
+1,GDN-style forecast residual,73.0,0.0136986301369863,0,0,0,0
+1,Simple drift fix,96.0,0.010416666666666666,0,0,0,0
+1,CondAttr-style kNN,67.0,0.014925373134328358,0,0,0,0
+1,Raw deviation |z|,37.0,0.02702702702702703,0,0,0,0
+2,LENS-R T2 (full),2.0,0.5,0,0,1,1
+2,LENS-R without drift correction,2.0,0.5,0,0,1,1
+2,GDN-style forecast residual,1.0,1.0,1,1,1,1
+2,Simple drift fix,3.0,0.3333333333333333,0,0,1,1
+2,CondAttr-style kNN,3.0,0.3333333333333333,0,0,1,1
+2,Raw deviation |z|,18.0,0.05555555555555555,0,0,0,0
+3-4,LENS-R T2 (full),29.0,0.034482758620689655,1,0,0,0
+3-4,LENS-R without drift correction,29.0,0.034482758620689655,1,0,0,0
+3-4,GDN-style forecast residual,8.0,0.125,0,0,0,0
+3-4,Simple drift fix,26.0,0.038461538461538464,1,0,0,0
+3-4,CondAttr-style kNN,43.0,0.023255813953488372,0,0,0,0
+3-4,Raw deviation |z|,29.0,0.034482758620689655,1,0,0,0
+5,LENS-R T2 (full),20.0,0.05,0,0,0,0
+5,LENS-R without drift correction,18.0,0.05555555555555555,1,0,0,0
+5,GDN-style forecast residual,28.0,0.03571428571428571,1,0,0,0
+5,Simple drift fix,27.0,0.037037037037037035,0,0,0,0
+5,CondAttr-style kNN,15.0,0.06666666666666667,1,0,0,0
+5,Raw deviation |z|,19.0,0.05263157894736842,1,0,0,0
+6,LENS-R T2 (full),47.0,0.02127659574468085,1,0,0,0
+6,LENS-R without drift correction,47.0,0.02127659574468085,1,0,0,0
+6,GDN-style forecast residual,34.0,0.029411764705882353,1,0,0,0
+6,Simple drift fix,27.0,0.037037037037037035,0,0,0,0
+6,CondAttr-style kNN,66.0,0.015151515151515152,1,0,0,0
+6,Raw deviation |z|,40.0,0.025,0,0,0,0
+7,LENS-R T2 (full),3.0,0.3333333333333333,1,0,1,1
+7,LENS-R without drift correction,3.0,0.3333333333333333,1,0,1,1
+7,GDN-style forecast residual,3.0,0.3333333333333333,1,0,1,1
+7,Simple drift fix,2.0,0.5,1,0,1,1
+7,CondAttr-style kNN,3.0,0.3333333333333333,1,0,1,1
+7,Raw deviation |z|,2.0,0.5,1,0,1,1
+8,LENS-R T2 (full),108.5,0.009216589861751152,0,0,0,0
+8,LENS-R without drift correction,108.5,0.009216589861751152,0,0,0,0
+8,GDN-style forecast residual,108.5,0.009216589861751152,0,0,0,0
+8,Simple drift fix,75.5,0.013245033112582781,0,0,0,0
+8,CondAttr-style kNN,106.0,0.009433962264150943,0,0,0,0
+8,Raw deviation |z|,108.5,0.009216589861751152,0,0,0,0
+9,LENS-R T2 (full),1.0,1.0,1,1,1,1
+9,LENS-R without drift correction,1.0,1.0,1,1,1,1
+9,GDN-style forecast residual,40.0,0.025,1,0,0,0
+9,Simple drift fix,1.5,0.6666666666666666,1,0,1,1
+9,CondAttr-style kNN,2.5,0.4,1,0,1,1
+9,Raw deviation |z|,1.5,0.6666666666666666,1,0,1,1
+10,LENS-R T2 (full),3.0,0.3333333333333333,1,0,1,1
+10,LENS-R without drift correction,2.0,0.5,0,0,1,1
+10,GDN-style forecast residual,39.0,0.02564102564102564,1,0,0,0
+10,Simple drift fix,15.0,0.06666666666666667,1,0,0,0
+10,CondAttr-style kNN,15.0,0.06666666666666667,0,0,0,0
+10,Raw deviation |z|,13.0,0.07692307692307693,0,0,0,0
+11,LENS-R T2 (full),108.5,0.009216589861751152,1,0,0,0
+11,LENS-R without drift correction,108.5,0.009216589861751152,0,0,0,0
+11,GDN-style forecast residual,108.5,0.009216589861751152,0,0,0,0
+11,Simple drift fix,97.5,0.010256410256410256,0,0,0,0
+11,CondAttr-style kNN,106.0,0.009433962264150943,1,0,0,0
+11,Raw deviation |z|,108.5,0.009216589861751152,0,0,0,0
+12,LENS-R T2 (full),1.0,1.0,1,1,1,1
+12,LENS-R without drift correction,1.0,1.0,1,1,1,1
+12,GDN-style forecast residual,39.5,0.02531645569620253,0,0,0,0
+12,Simple drift fix,1.0,1.0,1,1,1,1
+12,CondAttr-style kNN,4.0,0.25,0,0,0,1
+12,Raw deviation |z|,1.5,0.6666666666666666,1,0,1,1
+13,LENS-R T2 (full),2.0,0.5,1,0,1,1
+13,LENS-R without drift correction,2.0,0.5,0,0,1,1
+13,GDN-style forecast residual,86.0,0.011627906976744186,0,0,0,0
+13,Simple drift fix,2.0,0.5,1,0,1,1
+13,CondAttr-style kNN,11.0,0.09090909090909091,0,0,0,0
+13,Raw deviation |z|,2.0,0.5,0,0,1,1
+15,LENS-R T2 (full),12.0,0.08333333333333333,0,0,0,0
+15,LENS-R without drift correction,18.0,0.05555555555555555,0,0,0,0
+15,GDN-style forecast residual,39.0,0.02564102564102564,1,0,0,0
+15,Simple drift fix,7.0,0.14285714285714285,0,0,0,0
+15,CondAttr-style kNN,17.0,0.058823529411764705,0,0,0,0
+15,Raw deviation |z|,18.0,0.05555555555555555,0,0,0,0

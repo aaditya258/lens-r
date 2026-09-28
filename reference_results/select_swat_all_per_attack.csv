@@ -1,0 +1,217 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+1,"LENS-U (original, label-free)",11.0,0.09090909090909091,0,0,0,0
+1,Simple fix: sliding-baseline deviation,13.0,0.07692307692307693,0,0,0,0
+1,LENS-DA (drift-aware),5.0,0.2,0,0,0,1
+1,LENS-SW (state-switched),6.0,0.16666666666666666,0,0,0,0
+1,Raw deviation |z|,16.0,0.0625,0,0,0,0
+1,RF Gini (static),29.0,0.034482758620689655,1,0,0,0
+2,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+2,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+2,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+2,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+2,Raw deviation |z|,1.0,1.0,1,1,1,1
+2,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+3,"LENS-U (original, label-free)",4.0,0.25,0,0,0,1
+3,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,1,0,0,0
+3,LENS-DA (drift-aware),13.0,0.07692307692307693,1,0,0,0
+3,LENS-SW (state-switched),3.0,0.3333333333333333,1,0,1,1
+3,Raw deviation |z|,32.0,0.03125,0,0,0,0
+3,RF Gini (static),1.0,1.0,1,1,1,1
+6,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+6,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+6,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+6,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+6,Raw deviation |z|,1.0,1.0,1,1,1,1
+6,RF Gini (static),13.0,0.07692307692307693,0,0,0,0
+7,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+7,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+7,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+7,LENS-SW (state-switched),2.0,0.5,0,0,1,1
+7,Raw deviation |z|,1.0,1.0,1,1,1,1
+7,RF Gini (static),2.0,0.5,0,0,1,1
+8,"LENS-U (original, label-free)",8.0,0.125,0,0,0,0
+8,Simple fix: sliding-baseline deviation,5.0,0.2,0,0,0,1
+8,LENS-DA (drift-aware),7.0,0.14285714285714285,0,0,0,0
+8,LENS-SW (state-switched),5.0,0.2,0,0,0,1
+8,Raw deviation |z|,5.0,0.2,0,0,0,1
+8,RF Gini (static),4.0,0.25,0,0,0,1
+10+11,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+10+11,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+10+11,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+10+11,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+10+11,Raw deviation |z|,1.0,1.0,1,1,1,1
+10+11,RF Gini (static),8.0,0.125,0,0,0,0
+13,"LENS-U (original, label-free)",16.0,0.0625,0,0,0,0
+13,Simple fix: sliding-baseline deviation,13.0,0.07692307692307693,0,0,0,0
+13,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+13,LENS-SW (state-switched),15.0,0.06666666666666667,0,0,0,0
+13,Raw deviation |z|,27.0,0.037037037037037035,0,0,0,0
+13,RF Gini (static),37.0,0.02702702702702703,0,0,0,0
+14,"LENS-U (original, label-free)",32.0,0.03125,0,0,0,0
+14,Simple fix: sliding-baseline deviation,6.0,0.16666666666666666,0,0,0,0
+14,LENS-DA (drift-aware),8.0,0.125,0,0,0,0
+14,LENS-SW (state-switched),32.0,0.03125,0,0,0,0
+14,Raw deviation |z|,31.0,0.03225806451612903,0,0,0,0
+14,RF Gini (static),30.0,0.03333333333333333,0,0,0,0
+16,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+16,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+16,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+16,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+16,Raw deviation |z|,10.0,0.1,0,0,0,0
+16,RF Gini (static),2.0,0.5,0,0,1,1
+17,"LENS-U (original, label-free)",33.0,0.030303030303030304,0,0,0,0
+17,Simple fix: sliding-baseline deviation,41.5,0.024096385542168676,0,0,0,0
+17,LENS-DA (drift-aware),35.0,0.02857142857142857,0,0,0,0
+17,LENS-SW (state-switched),33.0,0.030303030303030304,0,0,0,0
+17,Raw deviation |z|,32.0,0.03125,0,0,0,0
+17,RF Gini (static),30.0,0.03333333333333333,0,0,0,0
+19,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+19,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+19,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+19,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+19,Raw deviation |z|,1.0,1.0,1,1,1,1
+19,RF Gini (static),3.0,0.3333333333333333,0,0,1,1
+20,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+20,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+20,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+20,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+20,Raw deviation |z|,1.0,1.0,1,1,1,1
+20,RF Gini (static),3.0,0.3333333333333333,0,0,1,1
+21,"LENS-U (original, label-free)",2.0,0.5,0,0,1,1
+21,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+21,LENS-DA (drift-aware),4.0,0.25,0,0,0,1
+21,LENS-SW (state-switched),4.0,0.25,0,0,0,1
+21,Raw deviation |z|,12.0,0.08333333333333333,0,0,0,0
+21,RF Gini (static),1.0,1.0,1,1,1,1
+22,"LENS-U (original, label-free)",11.5,0.08695652173913043,1,0,0,0
+22,Simple fix: sliding-baseline deviation,2.5,0.4,1,0,1,1
+22,LENS-DA (drift-aware),9.5,0.10526315789473684,1,0,0,0
+22,LENS-SW (state-switched),6.5,0.15384615384615385,1,0,0,0
+22,Raw deviation |z|,2.5,0.4,1,0,1,1
+22,RF Gini (static),17.0,0.058823529411764705,0,0,0,0
+23,"LENS-U (original, label-free)",4.0,0.25,0,0,0,1
+23,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+23,LENS-DA (drift-aware),2.0,0.5,1,0,1,1
+23,LENS-SW (state-switched),2.0,0.5,1,0,1,1
+23,TreeSHAP on RF,1.0,1.0,1,1,1,1
+23,Raw deviation |z|,2.0,0.5,0,0,1,1
+23,RF Gini (static),4.0,0.25,0,0,0,1
+24,"LENS-U (original, label-free)",6.0,0.16666666666666666,1,0,0,0
+24,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,1,0,1,1
+24,LENS-DA (drift-aware),3.0,0.3333333333333333,1,0,1,1
+24,LENS-SW (state-switched),3.0,0.3333333333333333,1,0,1,1
+24,TreeSHAP on RF,24.0,0.041666666666666664,0,0,0,0
+24,Raw deviation |z|,8.0,0.125,1,0,0,0
+24,RF Gini (static),31.0,0.03225806451612903,0,0,0,0
+25,"LENS-U (original, label-free)",3.0,0.3333333333333333,0,0,1,1
+25,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+25,LENS-DA (drift-aware),4.0,0.25,0,0,0,1
+25,LENS-SW (state-switched),9.0,0.1111111111111111,0,0,0,0
+25,TreeSHAP on RF,2.0,0.5,0,0,1,1
+25,Raw deviation |z|,10.0,0.1,0,0,0,0
+25,RF Gini (static),9.0,0.1111111111111111,0,0,0,0
+26,"LENS-U (original, label-free)",16.0,0.0625,1,0,0,0
+26,Simple fix: sliding-baseline deviation,5.0,0.2,1,0,0,1
+26,LENS-DA (drift-aware),15.0,0.06666666666666667,1,0,0,0
+26,LENS-SW (state-switched),13.0,0.07692307692307693,1,0,0,0
+26,TreeSHAP on RF,4.0,0.25,0,0,0,1
+26,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+26,RF Gini (static),2.0,0.5,1,0,1,1
+27+28,"LENS-U (original, label-free)",4.0,0.25,0,0,0,1
+27+28,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+27+28,LENS-DA (drift-aware),2.0,0.5,0,0,1,1
+27+28,LENS-SW (state-switched),4.0,0.25,0,0,0,1
+27+28,TreeSHAP on RF,1.0,1.0,1,1,1,1
+27+28,Raw deviation |z|,2.0,0.5,0,0,1,1
+27+28,RF Gini (static),9.0,0.1111111111111111,0,0,0,0
+29,"LENS-U (original, label-free)",27.0,0.037037037037037035,1,0,0,0
+29,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+29,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+29,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+29,TreeSHAP on RF,30.0,0.03333333333333333,0,0,0,0
+29,Raw deviation |z|,13.0,0.07692307692307693,1,0,0,0
+29,RF Gini (static),31.0,0.03225806451612903,0,0,0,0
+30,"LENS-U (original, label-free)",7.0,0.14285714285714285,1,0,0,0
+30,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,1,0,0,0
+30,LENS-DA (drift-aware),15.0,0.06666666666666667,1,0,0,0
+30,LENS-SW (state-switched),11.0,0.09090909090909091,1,0,0,0
+30,TreeSHAP on RF,4.0,0.25,1,0,0,1
+30,Raw deviation |z|,17.0,0.058823529411764705,1,0,0,0
+30,RF Gini (static),1.0,1.0,1,1,1,1
+31,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+31,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+31,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+31,LENS-SW (state-switched),6.0,0.16666666666666666,0,0,0,0
+31,TreeSHAP on RF,1.0,1.0,1,1,1,1
+31,Raw deviation |z|,2.0,0.5,0,0,1,1
+31,RF Gini (static),9.0,0.1111111111111111,0,0,0,0
+32,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+32,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+32,LENS-DA (drift-aware),17.0,0.058823529411764705,0,0,0,0
+32,LENS-SW (state-switched),11.0,0.09090909090909091,0,0,0,0
+32,TreeSHAP on RF,22.0,0.045454545454545456,0,0,0,0
+32,Raw deviation |z|,14.0,0.07142857142857142,0,0,0,0
+32,RF Gini (static),2.0,0.5,0,0,1,1
+33,"LENS-U (original, label-free)",20.0,0.05,0,0,0,0
+33,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,0,0,1,1
+33,LENS-DA (drift-aware),17.0,0.058823529411764705,0,0,0,0
+33,LENS-SW (state-switched),17.0,0.058823529411764705,0,0,0,0
+33,TreeSHAP on RF,6.0,0.16666666666666666,0,0,0,0
+33,Raw deviation |z|,16.0,0.0625,0,0,0,0
+33,RF Gini (static),1.0,1.0,1,1,1,1
+34,"LENS-U (original, label-free)",25.0,0.04,0,0,0,0
+34,Simple fix: sliding-baseline deviation,8.0,0.125,0,0,0,0
+34,LENS-DA (drift-aware),23.0,0.043478260869565216,0,0,0,0
+34,LENS-SW (state-switched),25.0,0.04,0,0,0,0
+34,TreeSHAP on RF,31.0,0.03225806451612903,0,0,0,0
+34,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+34,RF Gini (static),35.0,0.02857142857142857,1,0,0,0
+35,"LENS-U (original, label-free)",32.0,0.03125,0,0,0,0
+35,Simple fix: sliding-baseline deviation,1.5,0.6666666666666666,1,0,1,1
+35,LENS-DA (drift-aware),4.5,0.2222222222222222,0,0,0,1
+35,LENS-SW (state-switched),1.5,0.6666666666666666,1,0,1,1
+35,TreeSHAP on RF,30.0,0.03333333333333333,0,0,0,0
+35,Raw deviation |z|,31.0,0.03225806451612903,0,0,0,0
+35,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+36,"LENS-U (original, label-free)",7.0,0.14285714285714285,0,0,0,0
+36,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+36,LENS-DA (drift-aware),18.0,0.05555555555555555,0,0,0,0
+36,LENS-SW (state-switched),11.0,0.09090909090909091,0,0,0,0
+36,TreeSHAP on RF,7.0,0.14285714285714285,0,0,0,0
+36,Raw deviation |z|,33.0,0.030303030303030304,0,0,0,0
+36,RF Gini (static),1.0,1.0,1,1,1,1
+37,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+37,Simple fix: sliding-baseline deviation,16.0,0.0625,0,0,0,0
+37,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+37,LENS-SW (state-switched),3.0,0.3333333333333333,1,0,1,1
+37,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+37,Raw deviation |z|,24.0,0.041666666666666664,0,0,0,0
+37,RF Gini (static),25.0,0.04,0,0,0,0
+38,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+38,Simple fix: sliding-baseline deviation,33.0,0.030303030303030304,1,0,0,0
+38,LENS-DA (drift-aware),7.0,0.14285714285714285,1,0,0,0
+38,LENS-SW (state-switched),16.0,0.0625,1,0,0,0
+38,TreeSHAP on RF,6.0,0.16666666666666666,1,0,0,0
+38,Raw deviation |z|,5.0,0.2,0,0,0,1
+38,RF Gini (static),14.0,0.07142857142857142,0,0,0,0
+39,"LENS-U (original, label-free)",21.0,0.047619047619047616,0,0,0,0
+39,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+39,LENS-DA (drift-aware),4.0,0.25,1,0,0,1
+39,LENS-SW (state-switched),5.0,0.2,1,0,0,1
+39,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+39,Raw deviation |z|,9.0,0.1111111111111111,0,0,0,0
+39,RF Gini (static),8.0,0.125,0,0,0,0
+40,"LENS-U (original, label-free)",13.0,0.07692307692307693,0,0,0,0
+40,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+40,LENS-DA (drift-aware),2.0,0.5,0,0,1,1
+40,LENS-SW (state-switched),2.0,0.5,0,0,1,1
+40,TreeSHAP on RF,23.0,0.043478260869565216,0,0,0,0
+40,Raw deviation |z|,35.0,0.02857142857142857,0,0,0,0
+40,RF Gini (static),8.0,0.125,0,0,0,0
+41,"LENS-U (original, label-free)",3.0,0.3333333333333333,0,0,1,1
+41,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+41,LENS-DA (drift-aware),14.0,0.07142857142857142,1,0,0,0
+41,LENS-SW (state-switched),3.0,0.3333333333333333,0,0,1,1
+41,TreeSHAP on RF,12.0,0.08333333333333333,0,0,0,0
+41,Raw deviation |z|,36.0,0.027777777777777776,0,0,0,0
+41,RF Gini (static),2.0,0.5,0,0,1,1

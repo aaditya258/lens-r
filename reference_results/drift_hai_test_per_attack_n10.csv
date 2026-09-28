@@ -1,0 +1,529 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+A401,Raw deviation |z|,1.0,1.0,1,1,1,1
+A401,Entropy H only,12.0,0.08333333333333333,0,0,0,0
+A401,Belief B only (label-free),12.0,0.08333333333333333,0,0,0,0
+A401,Relevance R only (label-free),9.0,0.1111111111111111,1,0,0,0
+A401,"Relevance R only (supervised, static)",30.0,0.03333333333333333,0,0,0,0
+A401,RF Gini (static),50.0,0.02,0,0,0,0
+A401,XGBoost gain (static),29.0,0.034482758620689655,0,0,0,0
+A401,TreeSHAP on RF,15.0,0.06666666666666667,1,0,0,0
+A401,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A401,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A401,LENS fixed (tuned),1.0,1.0,1,1,1,1
+A401,"LENS (tuned, mode-switched)",1.0,1.0,1,1,1,1
+A401,"LENS (tuned, switched, XGB alarms)",1.0,1.0,1,1,1,1
+A401,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A401,Level change C only,1.0,1.0,1,1,1,1
+A401,Relational change RC only,2.0,0.5,1,0,1,1
+A401,LENS-DA (full),1.0,1.0,1,1,1,1
+A401,LENS-DA without drift gate (D_abs),1.0,1.0,1,1,1,1
+A401,LENS-DA without relational change,1.0,1.0,1,1,1,1
+A401,LENS-DA without level change,1.0,1.0,1,1,1,1
+A401,LENS-DA without entropy,1.0,1.0,1,1,1,1
+A401,LENS-DA without abs deviation,1.0,1.0,1,1,1,1
+A402,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A402,Entropy H only,22.0,0.045454545454545456,0,0,0,0
+A402,Belief B only (label-free),28.0,0.03571428571428571,0,0,0,0
+A402,Relevance R only (label-free),25.0,0.04,1,0,0,0
+A402,"Relevance R only (supervised, static)",14.0,0.07142857142857142,1,0,0,0
+A402,RF Gini (static),34.0,0.029411764705882353,1,0,0,0
+A402,XGBoost gain (static),42.0,0.023809523809523808,1,0,0,0
+A402,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+A402,LENS-U fixed (equal),26.0,0.038461538461538464,1,0,0,0
+A402,"LENS-U (equal, mode-switched)",26.0,0.038461538461538464,1,0,0,0
+A402,LENS fixed (tuned),15.0,0.06666666666666667,0,0,0,0
+A402,"LENS (tuned, mode-switched)",15.0,0.06666666666666667,0,0,0,0
+A402,"LENS (tuned, switched, XGB alarms)",15.0,0.06666666666666667,0,0,0,0
+A402,Simple fix: sliding-baseline deviation,39.0,0.02564102564102564,0,0,0,0
+A402,Level change C only,11.0,0.09090909090909091,1,0,0,0
+A402,Relational change RC only,48.0,0.020833333333333332,1,0,0,0
+A402,LENS-DA (full),23.0,0.043478260869565216,1,0,0,0
+A402,LENS-DA without drift gate (D_abs),23.0,0.043478260869565216,1,0,0,0
+A402,LENS-DA without relational change,19.0,0.05263157894736842,0,0,0,0
+A402,LENS-DA without level change,23.0,0.043478260869565216,1,0,0,0
+A402,LENS-DA without entropy,17.0,0.058823529411764705,1,0,0,0
+A402,LENS-DA without abs deviation,28.0,0.03571428571428571,1,0,0,0
+A403,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+A403,Entropy H only,60.0,0.016666666666666666,0,0,0,0
+A403,Belief B only (label-free),77.5,0.012903225806451613,0,0,0,0
+A403,Relevance R only (label-free),77.5,0.012903225806451613,0,0,0,0
+A403,"Relevance R only (supervised, static)",77.5,0.012903225806451613,0,0,0,0
+A403,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+A403,XGBoost gain (static),73.5,0.013605442176870748,0,0,0,0
+A403,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+A403,LENS-U fixed (equal),77.5,0.012903225806451613,0,0,0,0
+A403,"LENS-U (equal, mode-switched)",77.5,0.012903225806451613,0,0,0,0
+A403,LENS fixed (tuned),77.5,0.012903225806451613,0,0,0,0
+A403,"LENS (tuned, mode-switched)",77.5,0.012903225806451613,0,0,0,0
+A403,"LENS (tuned, switched, XGB alarms)",77.5,0.012903225806451613,0,0,0,0
+A403,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A403,Level change C only,69.5,0.014388489208633094,0,0,0,0
+A403,Relational change RC only,77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA (full),77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA without drift gate (D_abs),77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA without relational change,77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA without level change,77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA without entropy,77.5,0.012903225806451613,0,0,0,0
+A403,LENS-DA without abs deviation,77.5,0.012903225806451613,0,0,0,0
+A404,Raw deviation |z|,30.0,0.03333333333333333,0,0,0,0
+A404,Entropy H only,2.0,0.5,1,0,1,1
+A404,Belief B only (label-free),5.0,0.2,1,0,0,1
+A404,Relevance R only (label-free),1.0,1.0,1,1,1,1
+A404,"Relevance R only (supervised, static)",59.0,0.01694915254237288,0,0,0,0
+A404,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A404,XGBoost gain (static),3.0,0.3333333333333333,0,0,1,1
+A404,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A404,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A404,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A404,LENS fixed (tuned),8.0,0.125,1,0,0,0
+A404,"LENS (tuned, mode-switched)",8.0,0.125,1,0,0,0
+A404,"LENS (tuned, switched, XGB alarms)",8.0,0.125,1,0,0,0
+A404,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+A404,Level change C only,38.0,0.02631578947368421,0,0,0,0
+A404,Relational change RC only,5.0,0.2,0,0,0,1
+A404,LENS-DA (full),3.0,0.3333333333333333,0,0,1,1
+A404,LENS-DA without drift gate (D_abs),3.0,0.3333333333333333,0,0,1,1
+A404,LENS-DA without relational change,1.0,1.0,1,1,1,1
+A404,LENS-DA without level change,1.0,1.0,1,1,1,1
+A404,LENS-DA without entropy,13.0,0.07692307692307693,0,0,0,0
+A404,LENS-DA without abs deviation,3.0,0.3333333333333333,0,0,1,1
+A405,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A405,Entropy H only,54.5,0.01834862385321101,0,0,0,0
+A405,Belief B only (label-free),28.0,0.03571428571428571,1,0,0,0
+A405,Relevance R only (label-free),58.0,0.017241379310344827,0,0,0,0
+A405,"Relevance R only (supervised, static)",2.0,0.5,1,0,1,1
+A405,RF Gini (static),37.0,0.02702702702702703,1,0,0,0
+A405,XGBoost gain (static),1.0,1.0,1,1,1,1
+A405,TreeSHAP on RF,8.0,0.125,1,0,0,0
+A405,LENS-U fixed (equal),48.0,0.020833333333333332,0,0,0,0
+A405,"LENS-U (equal, mode-switched)",48.0,0.020833333333333332,0,0,0,0
+A405,LENS fixed (tuned),15.0,0.06666666666666667,1,0,0,0
+A405,"LENS (tuned, mode-switched)",15.0,0.06666666666666667,1,0,0,0
+A405,"LENS (tuned, switched, XGB alarms)",15.0,0.06666666666666667,1,0,0,0
+A405,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A405,Level change C only,69.5,0.014388489208633094,1,0,0,0
+A405,Relational change RC only,61.0,0.01639344262295082,1,0,0,0
+A405,LENS-DA (full),39.0,0.02564102564102564,1,0,0,0
+A405,LENS-DA without drift gate (D_abs),39.0,0.02564102564102564,1,0,0,0
+A405,LENS-DA without relational change,34.0,0.029411764705882353,0,0,0,0
+A405,LENS-DA without level change,37.0,0.02702702702702703,0,0,0,0
+A405,LENS-DA without entropy,29.0,0.034482758620689655,1,0,0,0
+A405,LENS-DA without abs deviation,61.0,0.01639344262295082,1,0,0,0
+A406,Raw deviation |z|,11.0,0.09090909090909091,1,0,0,0
+A406,Entropy H only,9.0,0.1111111111111111,0,0,0,0
+A406,Belief B only (label-free),22.0,0.045454545454545456,0,0,0,0
+A406,Relevance R only (label-free),10.0,0.1,1,0,0,0
+A406,"Relevance R only (supervised, static)",8.0,0.125,1,0,0,0
+A406,RF Gini (static),26.0,0.038461538461538464,1,0,0,0
+A406,XGBoost gain (static),4.0,0.25,1,0,0,1
+A406,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A406,LENS-U fixed (equal),26.0,0.038461538461538464,1,0,0,0
+A406,"LENS-U (equal, mode-switched)",26.0,0.038461538461538464,1,0,0,0
+A406,LENS fixed (tuned),19.0,0.05263157894736842,1,0,0,0
+A406,"LENS (tuned, mode-switched)",19.0,0.05263157894736842,1,0,0,0
+A406,"LENS (tuned, switched, XGB alarms)",19.0,0.05263157894736842,1,0,0,0
+A406,Simple fix: sliding-baseline deviation,42.0,0.023809523809523808,1,0,0,0
+A406,Level change C only,23.0,0.043478260869565216,1,0,0,0
+A406,Relational change RC only,13.0,0.07692307692307693,1,0,0,0
+A406,LENS-DA (full),18.0,0.05555555555555555,1,0,0,0
+A406,LENS-DA without drift gate (D_abs),18.0,0.05555555555555555,1,0,0,0
+A406,LENS-DA without relational change,17.0,0.058823529411764705,1,0,0,0
+A406,LENS-DA without level change,16.0,0.0625,1,0,0,0
+A406,LENS-DA without entropy,17.0,0.058823529411764705,1,0,0,0
+A406,LENS-DA without abs deviation,12.0,0.08333333333333333,1,0,0,0
+A407,Raw deviation |z|,61.0,0.01639344262295082,1,0,0,0
+A407,Entropy H only,25.0,0.04,0,0,0,0
+A407,Belief B only (label-free),54.0,0.018518518518518517,0,0,0,0
+A407,Relevance R only (label-free),9.0,0.1111111111111111,1,0,0,0
+A407,"Relevance R only (supervised, static)",29.0,0.034482758620689655,1,0,0,0
+A407,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A407,XGBoost gain (static),35.0,0.02857142857142857,1,0,0,0
+A407,TreeSHAP on RF,23.0,0.043478260869565216,1,0,0,0
+A407,LENS-U fixed (equal),46.0,0.021739130434782608,1,0,0,0
+A407,"LENS-U (equal, mode-switched)",46.0,0.021739130434782608,1,0,0,0
+A407,LENS fixed (tuned),49.0,0.02040816326530612,1,0,0,0
+A407,"LENS (tuned, mode-switched)",49.0,0.02040816326530612,1,0,0,0
+A407,"LENS (tuned, switched, XGB alarms)",49.0,0.02040816326530612,1,0,0,0
+A407,Simple fix: sliding-baseline deviation,43.0,0.023255813953488372,1,0,0,0
+A407,Level change C only,47.0,0.02127659574468085,1,0,0,0
+A407,Relational change RC only,31.0,0.03225806451612903,1,0,0,0
+A407,LENS-DA (full),47.0,0.02127659574468085,1,0,0,0
+A407,LENS-DA without drift gate (D_abs),47.0,0.02127659574468085,1,0,0,0
+A407,LENS-DA without relational change,49.0,0.02040816326530612,1,0,0,0
+A407,LENS-DA without level change,47.0,0.02127659574468085,0,0,0,0
+A407,LENS-DA without entropy,58.0,0.017241379310344827,1,0,0,0
+A407,LENS-DA without abs deviation,39.0,0.02564102564102564,1,0,0,0
+A408,Raw deviation |z|,4.0,0.25,1,0,0,1
+A408,Entropy H only,15.0,0.06666666666666667,0,0,0,0
+A408,Belief B only (label-free),6.0,0.16666666666666666,1,0,0,0
+A408,Relevance R only (label-free),4.0,0.25,1,0,0,1
+A408,"Relevance R only (supervised, static)",20.0,0.05,1,0,0,0
+A408,RF Gini (static),2.0,0.5,1,0,1,1
+A408,XGBoost gain (static),14.0,0.07142857142857142,1,0,0,0
+A408,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A408,LENS-U fixed (equal),3.0,0.3333333333333333,1,0,1,1
+A408,"LENS-U (equal, mode-switched)",3.0,0.3333333333333333,1,0,1,1
+A408,LENS fixed (tuned),6.0,0.16666666666666666,0,0,0,0
+A408,"LENS (tuned, mode-switched)",6.0,0.16666666666666666,0,0,0,0
+A408,"LENS (tuned, switched, XGB alarms)",6.0,0.16666666666666666,0,0,0,0
+A408,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+A408,Level change C only,17.0,0.058823529411764705,1,0,0,0
+A408,Relational change RC only,6.0,0.16666666666666666,1,0,0,0
+A408,LENS-DA (full),9.0,0.1111111111111111,0,0,0,0
+A408,LENS-DA without drift gate (D_abs),9.0,0.1111111111111111,0,0,0,0
+A408,LENS-DA without relational change,8.0,0.125,0,0,0,0
+A408,LENS-DA without level change,5.0,0.2,0,0,0,1
+A408,LENS-DA without entropy,8.0,0.125,1,0,0,0
+A408,LENS-DA without abs deviation,11.0,0.09090909090909091,1,0,0,0
+A409,Raw deviation |z|,1.0,1.0,1,1,1,1
+A409,Entropy H only,5.0,0.2,0,0,0,1
+A409,Belief B only (label-free),3.0,0.3333333333333333,0,0,1,1
+A409,Relevance R only (label-free),1.0,1.0,1,1,1,1
+A409,"Relevance R only (supervised, static)",14.0,0.07142857142857142,1,0,0,0
+A409,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A409,XGBoost gain (static),42.0,0.023809523809523808,1,0,0,0
+A409,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A409,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A409,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A409,LENS fixed (tuned),1.0,1.0,1,1,1,1
+A409,"LENS (tuned, mode-switched)",1.0,1.0,1,1,1,1
+A409,"LENS (tuned, switched, XGB alarms)",1.0,1.0,1,1,1,1
+A409,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A409,Level change C only,6.0,0.16666666666666666,1,0,0,0
+A409,Relational change RC only,2.0,0.5,1,0,1,1
+A409,LENS-DA (full),1.0,1.0,1,1,1,1
+A409,LENS-DA without drift gate (D_abs),1.0,1.0,1,1,1,1
+A409,LENS-DA without relational change,1.0,1.0,1,1,1,1
+A409,LENS-DA without level change,1.0,1.0,1,1,1,1
+A409,LENS-DA without entropy,1.0,1.0,1,1,1,1
+A409,LENS-DA without abs deviation,1.0,1.0,1,1,1,1
+A410,Raw deviation |z|,18.0,0.05555555555555555,1,0,0,0
+A410,Entropy H only,12.0,0.08333333333333333,0,0,0,0
+A410,Belief B only (label-free),11.0,0.09090909090909091,1,0,0,0
+A410,Relevance R only (label-free),9.0,0.1111111111111111,1,0,0,0
+A410,"Relevance R only (supervised, static)",8.0,0.125,1,0,0,0
+A410,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A410,XGBoost gain (static),3.0,0.3333333333333333,1,0,1,1
+A410,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A410,LENS-U fixed (equal),6.0,0.16666666666666666,0,0,0,0
+A410,"LENS-U (equal, mode-switched)",6.0,0.16666666666666666,0,0,0,0
+A410,LENS fixed (tuned),26.0,0.038461538461538464,1,0,0,0
+A410,"LENS (tuned, mode-switched)",26.0,0.038461538461538464,1,0,0,0
+A410,"LENS (tuned, switched, XGB alarms)",26.0,0.038461538461538464,1,0,0,0
+A410,Simple fix: sliding-baseline deviation,25.0,0.04,1,0,0,0
+A410,Level change C only,18.0,0.05555555555555555,1,0,0,0
+A410,Relational change RC only,8.0,0.125,1,0,0,0
+A410,LENS-DA (full),27.0,0.037037037037037035,1,0,0,0
+A410,LENS-DA without drift gate (D_abs),27.0,0.037037037037037035,1,0,0,0
+A410,LENS-DA without relational change,39.0,0.02564102564102564,1,0,0,0
+A410,LENS-DA without level change,20.0,0.05,0,0,0,0
+A410,LENS-DA without entropy,14.0,0.07142857142857142,1,0,0,0
+A410,LENS-DA without abs deviation,22.0,0.045454545454545456,1,0,0,0
+A411,Raw deviation |z|,1.0,1.0,1,1,1,1
+A411,Entropy H only,30.0,0.03333333333333333,1,0,0,0
+A411,Belief B only (label-free),3.0,0.3333333333333333,1,0,1,1
+A411,Relevance R only (label-free),9.0,0.1111111111111111,1,0,0,0
+A411,"Relevance R only (supervised, static)",10.0,0.1,1,0,0,0
+A411,RF Gini (static),1.0,1.0,1,1,1,1
+A411,XGBoost gain (static),13.0,0.07692307692307693,1,0,0,0
+A411,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+A411,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A411,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A411,LENS fixed (tuned),1.0,1.0,1,1,1,1
+A411,"LENS (tuned, mode-switched)",1.0,1.0,1,1,1,1
+A411,"LENS (tuned, switched, XGB alarms)",1.0,1.0,1,1,1,1
+A411,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A411,Level change C only,1.0,1.0,1,1,1,1
+A411,Relational change RC only,3.0,0.3333333333333333,1,0,1,1
+A411,LENS-DA (full),1.0,1.0,1,1,1,1
+A411,LENS-DA without drift gate (D_abs),1.0,1.0,1,1,1,1
+A411,LENS-DA without relational change,1.0,1.0,1,1,1,1
+A411,LENS-DA without level change,1.0,1.0,1,1,1,1
+A411,LENS-DA without entropy,1.0,1.0,1,1,1,1
+A411,LENS-DA without abs deviation,2.0,0.5,1,0,1,1
+A412,Raw deviation |z|,3.0,0.3333333333333333,1,0,1,1
+A412,Entropy H only,10.0,0.1,0,0,0,0
+A412,Belief B only (label-free),8.0,0.125,1,0,0,0
+A412,Relevance R only (label-free),13.0,0.07692307692307693,1,0,0,0
+A412,"Relevance R only (supervised, static)",4.0,0.25,1,0,0,1
+A412,RF Gini (static),17.0,0.058823529411764705,1,0,0,0
+A412,XGBoost gain (static),17.0,0.058823529411764705,1,0,0,0
+A412,TreeSHAP on RF,5.0,0.2,1,0,0,1
+A412,LENS-U fixed (equal),4.0,0.25,1,0,0,1
+A412,"LENS-U (equal, mode-switched)",4.0,0.25,1,0,0,1
+A412,LENS fixed (tuned),5.0,0.2,1,0,0,1
+A412,"LENS (tuned, mode-switched)",5.0,0.2,1,0,0,1
+A412,"LENS (tuned, switched, XGB alarms)",5.0,0.2,1,0,0,1
+A412,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+A412,Level change C only,15.0,0.06666666666666667,1,0,0,0
+A412,Relational change RC only,44.0,0.022727272727272728,0,0,0,0
+A412,LENS-DA (full),12.0,0.08333333333333333,1,0,0,0
+A412,LENS-DA without drift gate (D_abs),12.0,0.08333333333333333,1,0,0,0
+A412,LENS-DA without relational change,9.0,0.1111111111111111,1,0,0,0
+A412,LENS-DA without level change,10.0,0.1,1,0,0,0
+A412,LENS-DA without entropy,12.0,0.08333333333333333,1,0,0,0
+A412,LENS-DA without abs deviation,18.0,0.05555555555555555,0,0,0,0
+A413,Raw deviation |z|,4.0,0.25,0,0,0,1
+A413,Entropy H only,16.0,0.0625,1,0,0,0
+A413,Belief B only (label-free),6.0,0.16666666666666666,1,0,0,0
+A413,Relevance R only (label-free),5.0,0.2,1,0,0,1
+A413,"Relevance R only (supervised, static)",20.0,0.05,1,0,0,0
+A413,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A413,XGBoost gain (static),3.0,0.3333333333333333,1,0,1,1
+A413,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A413,LENS-U fixed (equal),2.0,0.5,0,0,1,1
+A413,"LENS-U (equal, mode-switched)",2.0,0.5,0,0,1,1
+A413,LENS fixed (tuned),1.0,1.0,1,1,1,1
+A413,"LENS (tuned, mode-switched)",1.0,1.0,1,1,1,1
+A413,"LENS (tuned, switched, XGB alarms)",1.0,1.0,1,1,1,1
+A413,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+A413,Level change C only,19.0,0.05263157894736842,1,0,0,0
+A413,Relational change RC only,3.0,0.3333333333333333,1,0,1,1
+A413,LENS-DA (full),3.0,0.3333333333333333,1,0,1,1
+A413,LENS-DA without drift gate (D_abs),3.0,0.3333333333333333,1,0,1,1
+A413,LENS-DA without relational change,3.0,0.3333333333333333,0,0,1,1
+A413,LENS-DA without level change,2.0,0.5,0,0,1,1
+A413,LENS-DA without entropy,3.0,0.3333333333333333,1,0,1,1
+A413,LENS-DA without abs deviation,13.0,0.07692307692307693,1,0,0,0
+A414,Raw deviation |z|,38.0,0.02631578947368421,1,0,0,0
+A414,Entropy H only,1.0,1.0,1,1,1,1
+A414,Belief B only (label-free),3.0,0.3333333333333333,0,0,1,1
+A414,Relevance R only (label-free),2.0,0.5,0,0,1,1
+A414,"Relevance R only (supervised, static)",47.0,0.02127659574468085,0,0,0,0
+A414,RF Gini (static),10.0,0.1,0,0,0,0
+A414,XGBoost gain (static),31.0,0.03225806451612903,0,0,0,0
+A414,TreeSHAP on RF,19.0,0.05263157894736842,0,0,0,0
+A414,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A414,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A414,LENS fixed (tuned),5.0,0.2,0,0,0,1
+A414,"LENS (tuned, mode-switched)",5.0,0.2,0,0,0,1
+A414,"LENS (tuned, switched, XGB alarms)",5.0,0.2,0,0,0,1
+A414,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+A414,Level change C only,29.0,0.034482758620689655,0,0,0,0
+A414,Relational change RC only,3.0,0.3333333333333333,0,0,1,1
+A414,LENS-DA (full),3.0,0.3333333333333333,0,0,1,1
+A414,LENS-DA without drift gate (D_abs),3.0,0.3333333333333333,0,0,1,1
+A414,LENS-DA without relational change,3.0,0.3333333333333333,0,0,1,1
+A414,LENS-DA without level change,2.0,0.5,0,0,1,1
+A414,LENS-DA without entropy,22.0,0.045454545454545456,0,0,0,0
+A414,LENS-DA without abs deviation,2.0,0.5,0,0,1,1
+A415,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+A415,Entropy H only,56.5,0.017699115044247787,0,0,0,0
+A415,Belief B only (label-free),77.5,0.012903225806451613,0,0,0,0
+A415,Relevance R only (label-free),77.5,0.012903225806451613,0,0,0,0
+A415,"Relevance R only (supervised, static)",77.5,0.012903225806451613,0,0,0,0
+A415,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+A415,XGBoost gain (static),73.5,0.013605442176870748,0,0,0,0
+A415,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+A415,LENS-U fixed (equal),77.5,0.012903225806451613,0,0,0,0
+A415,"LENS-U (equal, mode-switched)",77.5,0.012903225806451613,0,0,0,0
+A415,LENS fixed (tuned),77.5,0.012903225806451613,0,0,0,0
+A415,"LENS (tuned, mode-switched)",77.5,0.012903225806451613,0,0,0,0
+A415,"LENS (tuned, switched, XGB alarms)",77.5,0.012903225806451613,0,0,0,0
+A415,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A415,Level change C only,69.5,0.014388489208633094,0,0,0,0
+A415,Relational change RC only,77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA (full),77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA without drift gate (D_abs),77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA without relational change,77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA without level change,77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA without entropy,77.5,0.012903225806451613,0,0,0,0
+A415,LENS-DA without abs deviation,77.5,0.012903225806451613,0,0,0,0
+A416,Raw deviation |z|,34.0,0.029411764705882353,1,0,0,0
+A416,Entropy H only,22.0,0.045454545454545456,0,0,0,0
+A416,Belief B only (label-free),15.0,0.06666666666666667,1,0,0,0
+A416,Relevance R only (label-free),25.0,0.04,1,0,0,0
+A416,"Relevance R only (supervised, static)",8.0,0.125,1,0,0,0
+A416,RF Gini (static),5.0,0.2,1,0,0,1
+A416,XGBoost gain (static),4.0,0.25,1,0,0,1
+A416,TreeSHAP on RF,3.0,0.3333333333333333,1,0,1,1
+A416,LENS-U fixed (equal),45.0,0.022222222222222223,1,0,0,0
+A416,"LENS-U (equal, mode-switched)",45.0,0.022222222222222223,1,0,0,0
+A416,LENS fixed (tuned),39.0,0.02564102564102564,1,0,0,0
+A416,"LENS (tuned, mode-switched)",39.0,0.02564102564102564,1,0,0,0
+A416,"LENS (tuned, switched, XGB alarms)",39.0,0.02564102564102564,1,0,0,0
+A416,Simple fix: sliding-baseline deviation,28.0,0.03571428571428571,1,0,0,0
+A416,Level change C only,14.0,0.07142857142857142,1,0,0,0
+A416,Relational change RC only,16.0,0.0625,1,0,0,0
+A416,LENS-DA (full),40.0,0.025,1,0,0,0
+A416,LENS-DA without drift gate (D_abs),40.0,0.025,1,0,0,0
+A416,LENS-DA without relational change,39.0,0.02564102564102564,1,0,0,0
+A416,LENS-DA without level change,39.0,0.02564102564102564,1,0,0,0
+A416,LENS-DA without entropy,35.0,0.02857142857142857,1,0,0,0
+A416,LENS-DA without abs deviation,25.0,0.04,1,0,0,0
+A417,Raw deviation |z|,48.0,0.020833333333333332,1,0,0,0
+A417,Entropy H only,58.0,0.017241379310344827,0,0,0,0
+A417,Belief B only (label-free),44.0,0.022727272727272728,1,0,0,0
+A417,Relevance R only (label-free),23.0,0.043478260869565216,1,0,0,0
+A417,"Relevance R only (supervised, static)",13.0,0.07692307692307693,1,0,0,0
+A417,RF Gini (static),42.0,0.023809523809523808,1,0,0,0
+A417,XGBoost gain (static),2.0,0.5,1,0,1,1
+A417,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A417,LENS-U fixed (equal),52.0,0.019230769230769232,1,0,0,0
+A417,"LENS-U (equal, mode-switched)",52.0,0.019230769230769232,1,0,0,0
+A417,LENS fixed (tuned),47.0,0.02127659574468085,1,0,0,0
+A417,"LENS (tuned, mode-switched)",47.0,0.02127659574468085,1,0,0,0
+A417,"LENS (tuned, switched, XGB alarms)",47.0,0.02127659574468085,1,0,0,0
+A417,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,1,0,0,0
+A417,Level change C only,69.5,0.014388489208633094,1,0,0,0
+A417,Relational change RC only,39.0,0.02564102564102564,1,0,0,0
+A417,LENS-DA (full),56.0,0.017857142857142856,1,0,0,0
+A417,LENS-DA without drift gate (D_abs),56.0,0.017857142857142856,1,0,0,0
+A417,LENS-DA without relational change,56.0,0.017857142857142856,1,0,0,0
+A417,LENS-DA without level change,56.0,0.017857142857142856,1,0,0,0
+A417,LENS-DA without entropy,51.0,0.0196078431372549,1,0,0,0
+A417,LENS-DA without abs deviation,56.0,0.017857142857142856,1,0,0,0
+A418,Raw deviation |z|,60.0,0.016666666666666666,1,0,0,0
+A418,Entropy H only,19.0,0.05263157894736842,0,0,0,0
+A418,Belief B only (label-free),10.0,0.1,1,0,0,0
+A418,Relevance R only (label-free),18.0,0.05555555555555555,0,0,0,0
+A418,"Relevance R only (supervised, static)",33.0,0.030303030303030304,1,0,0,0
+A418,RF Gini (static),23.0,0.043478260869565216,1,0,0,0
+A418,XGBoost gain (static),6.0,0.16666666666666666,1,0,0,0
+A418,TreeSHAP on RF,43.0,0.023255813953488372,1,0,0,0
+A418,LENS-U fixed (equal),45.0,0.022222222222222223,0,0,0,0
+A418,"LENS-U (equal, mode-switched)",45.0,0.022222222222222223,0,0,0,0
+A418,LENS fixed (tuned),45.0,0.022222222222222223,1,0,0,0
+A418,"LENS (tuned, mode-switched)",45.0,0.022222222222222223,1,0,0,0
+A418,"LENS (tuned, switched, XGB alarms)",45.0,0.022222222222222223,1,0,0,0
+A418,Simple fix: sliding-baseline deviation,27.0,0.037037037037037035,1,0,0,0
+A418,Level change C only,32.0,0.03125,1,0,0,0
+A418,Relational change RC only,22.0,0.045454545454545456,1,0,0,0
+A418,LENS-DA (full),43.0,0.023255813953488372,1,0,0,0
+A418,LENS-DA without drift gate (D_abs),43.0,0.023255813953488372,1,0,0,0
+A418,LENS-DA without relational change,45.0,0.022222222222222223,1,0,0,0
+A418,LENS-DA without level change,43.0,0.023255813953488372,0,0,0,0
+A418,LENS-DA without entropy,53.0,0.018867924528301886,1,0,0,0
+A418,LENS-DA without abs deviation,27.0,0.037037037037037035,1,0,0,0
+A419,Raw deviation |z|,32.0,0.03125,1,0,0,0
+A419,Entropy H only,1.0,1.0,1,1,1,1
+A419,Belief B only (label-free),5.0,0.2,1,0,0,1
+A419,Relevance R only (label-free),9.0,0.1111111111111111,1,0,0,0
+A419,"Relevance R only (supervised, static)",39.0,0.02564102564102564,1,0,0,0
+A419,RF Gini (static),38.0,0.02631578947368421,1,0,0,0
+A419,XGBoost gain (static),17.0,0.058823529411764705,1,0,0,0
+A419,TreeSHAP on RF,31.0,0.03225806451612903,1,0,0,0
+A419,LENS-U fixed (equal),1.0,1.0,1,1,1,1
+A419,"LENS-U (equal, mode-switched)",1.0,1.0,1,1,1,1
+A419,LENS fixed (tuned),9.0,0.1111111111111111,1,0,0,0
+A419,"LENS (tuned, mode-switched)",9.0,0.1111111111111111,1,0,0,0
+A419,"LENS (tuned, switched, XGB alarms)",9.0,0.1111111111111111,1,0,0,0
+A419,Simple fix: sliding-baseline deviation,20.0,0.05,1,0,0,0
+A419,Level change C only,39.0,0.02564102564102564,1,0,0,0
+A419,Relational change RC only,7.0,0.14285714285714285,1,0,0,0
+A419,LENS-DA (full),6.0,0.16666666666666666,1,0,0,0
+A419,LENS-DA without drift gate (D_abs),6.0,0.16666666666666666,1,0,0,0
+A419,LENS-DA without relational change,4.0,0.25,1,0,0,1
+A419,LENS-DA without level change,2.0,0.5,1,0,1,1
+A419,LENS-DA without entropy,29.0,0.034482758620689655,1,0,0,0
+A419,LENS-DA without abs deviation,4.0,0.25,1,0,0,1
+A420,Raw deviation |z|,12.0,0.08333333333333333,1,0,0,0
+A420,Entropy H only,9.0,0.1111111111111111,0,0,0,0
+A420,Belief B only (label-free),18.0,0.05555555555555555,1,0,0,0
+A420,Relevance R only (label-free),1.0,1.0,1,1,1,1
+A420,"Relevance R only (supervised, static)",49.0,0.02040816326530612,1,0,0,0
+A420,RF Gini (static),2.0,0.5,1,0,1,1
+A420,XGBoost gain (static),16.0,0.0625,1,0,0,0
+A420,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A420,LENS-U fixed (equal),3.0,0.3333333333333333,1,0,1,1
+A420,"LENS-U (equal, mode-switched)",3.0,0.3333333333333333,1,0,1,1
+A420,LENS fixed (tuned),4.0,0.25,1,0,0,1
+A420,"LENS (tuned, mode-switched)",4.0,0.25,1,0,0,1
+A420,"LENS (tuned, switched, XGB alarms)",4.0,0.25,1,0,0,1
+A420,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,1,0,0,0
+A420,Level change C only,15.0,0.06666666666666667,1,0,0,0
+A420,Relational change RC only,2.0,0.5,1,0,1,1
+A420,LENS-DA (full),3.0,0.3333333333333333,1,0,1,1
+A420,LENS-DA without drift gate (D_abs),3.0,0.3333333333333333,1,0,1,1
+A420,LENS-DA without relational change,7.0,0.14285714285714285,1,0,0,0
+A420,LENS-DA without level change,2.0,0.5,1,0,1,1
+A420,LENS-DA without entropy,5.0,0.2,1,0,0,1
+A420,LENS-DA without abs deviation,4.0,0.25,1,0,0,1
+A421,Raw deviation |z|,25.0,0.04,0,0,0,0
+A421,Entropy H only,27.0,0.037037037037037035,0,0,0,0
+A421,Belief B only (label-free),37.0,0.02702702702702703,0,0,0,0
+A421,Relevance R only (label-free),1.0,1.0,1,1,1,1
+A421,"Relevance R only (supervised, static)",10.0,0.1,1,0,0,0
+A421,RF Gini (static),1.0,1.0,1,1,1,1
+A421,XGBoost gain (static),9.0,0.1111111111111111,1,0,0,0
+A421,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A421,LENS-U fixed (equal),24.0,0.041666666666666664,0,0,0,0
+A421,"LENS-U (equal, mode-switched)",24.0,0.041666666666666664,0,0,0,0
+A421,LENS fixed (tuned),46.0,0.021739130434782608,0,0,0,0
+A421,"LENS (tuned, mode-switched)",46.0,0.021739130434782608,0,0,0,0
+A421,"LENS (tuned, switched, XGB alarms)",46.0,0.021739130434782608,0,0,0,0
+A421,Simple fix: sliding-baseline deviation,5.0,0.2,0,0,0,1
+A421,Level change C only,2.0,0.5,1,0,1,1
+A421,Relational change RC only,3.0,0.3333333333333333,1,0,1,1
+A421,LENS-DA (full),6.0,0.16666666666666666,1,0,0,0
+A421,LENS-DA without drift gate (D_abs),6.0,0.16666666666666666,1,0,0,0
+A421,LENS-DA without relational change,10.0,0.1,0,0,0,0
+A421,LENS-DA without level change,19.0,0.05263157894736842,0,0,0,0
+A421,LENS-DA without entropy,2.0,0.5,1,0,1,1
+A421,LENS-DA without abs deviation,2.0,0.5,1,0,1,1
+A422,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+A422,Entropy H only,14.0,0.07142857142857142,0,0,0,0
+A422,Belief B only (label-free),39.0,0.02564102564102564,1,0,0,0
+A422,Relevance R only (label-free),24.0,0.041666666666666664,1,0,0,0
+A422,"Relevance R only (supervised, static)",38.0,0.02631578947368421,1,0,0,0
+A422,RF Gini (static),9.0,0.1111111111111111,1,0,0,0
+A422,XGBoost gain (static),3.0,0.3333333333333333,1,0,1,1
+A422,TreeSHAP on RF,12.0,0.08333333333333333,1,0,0,0
+A422,LENS-U fixed (equal),36.0,0.027777777777777776,1,0,0,0
+A422,"LENS-U (equal, mode-switched)",36.0,0.027777777777777776,1,0,0,0
+A422,LENS fixed (tuned),32.0,0.03125,1,0,0,0
+A422,"LENS (tuned, mode-switched)",32.0,0.03125,1,0,0,0
+A422,"LENS (tuned, switched, XGB alarms)",32.0,0.03125,1,0,0,0
+A422,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+A422,Level change C only,35.0,0.02857142857142857,1,0,0,0
+A422,Relational change RC only,10.0,0.1,1,0,0,0
+A422,LENS-DA (full),24.0,0.041666666666666664,1,0,0,0
+A422,LENS-DA without drift gate (D_abs),24.0,0.041666666666666664,1,0,0,0
+A422,LENS-DA without relational change,23.0,0.043478260869565216,1,0,0,0
+A422,LENS-DA without level change,24.0,0.041666666666666664,1,0,0,0
+A422,LENS-DA without entropy,28.0,0.03571428571428571,1,0,0,0
+A422,LENS-DA without abs deviation,20.0,0.05,1,0,0,0
+A423,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+A423,Entropy H only,16.0,0.0625,0,0,0,0
+A423,Belief B only (label-free),33.0,0.030303030303030304,1,0,0,0
+A423,Relevance R only (label-free),7.0,0.14285714285714285,1,0,0,0
+A423,"Relevance R only (supervised, static)",9.0,0.1111111111111111,1,0,0,0
+A423,RF Gini (static),8.0,0.125,1,0,0,0
+A423,XGBoost gain (static),9.0,0.1111111111111111,1,0,0,0
+A423,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A423,LENS-U fixed (equal),17.0,0.058823529411764705,1,0,0,0
+A423,"LENS-U (equal, mode-switched)",17.0,0.058823529411764705,1,0,0,0
+A423,LENS fixed (tuned),29.0,0.034482758620689655,1,0,0,0
+A423,"LENS (tuned, mode-switched)",29.0,0.034482758620689655,1,0,0,0
+A423,"LENS (tuned, switched, XGB alarms)",29.0,0.034482758620689655,1,0,0,0
+A423,Simple fix: sliding-baseline deviation,16.0,0.0625,1,0,0,0
+A423,Level change C only,7.0,0.14285714285714285,1,0,0,0
+A423,Relational change RC only,6.0,0.16666666666666666,1,0,0,0
+A423,LENS-DA (full),13.0,0.07692307692307693,1,0,0,0
+A423,LENS-DA without drift gate (D_abs),13.0,0.07692307692307693,1,0,0,0
+A423,LENS-DA without relational change,12.0,0.08333333333333333,1,0,0,0
+A423,LENS-DA without level change,14.0,0.07142857142857142,1,0,0,0
+A423,LENS-DA without entropy,8.0,0.125,1,0,0,0
+A423,LENS-DA without abs deviation,12.0,0.08333333333333333,1,0,0,0
+A424,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A424,Entropy H only,7.0,0.14285714285714285,0,0,0,0
+A424,Belief B only (label-free),1.0,1.0,1,1,1,1
+A424,Relevance R only (label-free),15.0,0.06666666666666667,1,0,0,0
+A424,"Relevance R only (supervised, static)",10.0,0.1,1,0,0,0
+A424,RF Gini (static),1.0,1.0,1,1,1,1
+A424,XGBoost gain (static),13.0,0.07692307692307693,1,0,0,0
+A424,TreeSHAP on RF,36.0,0.027777777777777776,1,0,0,0
+A424,LENS-U fixed (equal),2.0,0.5,1,0,1,1
+A424,"LENS-U (equal, mode-switched)",2.0,0.5,1,0,1,1
+A424,LENS fixed (tuned),2.0,0.5,1,0,1,1
+A424,"LENS (tuned, mode-switched)",2.0,0.5,1,0,1,1
+A424,"LENS (tuned, switched, XGB alarms)",2.0,0.5,1,0,1,1
+A424,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+A424,Level change C only,2.0,0.5,1,0,1,1
+A424,Relational change RC only,4.0,0.25,1,0,0,1
+A424,LENS-DA (full),2.0,0.5,1,0,1,1
+A424,LENS-DA without drift gate (D_abs),2.0,0.5,1,0,1,1
+A424,LENS-DA without relational change,2.0,0.5,1,0,1,1
+A424,LENS-DA without level change,4.0,0.25,1,0,0,1
+A424,LENS-DA without entropy,2.0,0.5,1,0,1,1
+A424,LENS-DA without abs deviation,2.0,0.5,1,0,1,1

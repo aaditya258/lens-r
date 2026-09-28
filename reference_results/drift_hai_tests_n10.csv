@@ -1,0 +1,11 @@
+a,b,n,mean_diff,wins,losses,ties,p,split
+LENS-DA (full),Simple fix: sliding-baseline deviation,24,0.059,12,8,4,0.0251,test
+LENS-DA (full),LENS-U fixed (equal),24,-0.111,8,9,7,0.2273,test
+LENS-DA (full),Raw deviation |z|,24,0.049,11,8,5,0.2049,test
+LENS-DA (full),TreeSHAP on RF,24,-0.131,7,13,4,0.1913,test
+LENS-DA (full),Relational change RC only,24,0.06,9,11,4,0.7369,test
+LENS-DA (full),Simple fix: sliding-baseline deviation,58,0.028,27,23,8,0.0978,all
+LENS-DA (full),LENS-U fixed (equal),58,-0.076,24,25,9,0.2365,all
+LENS-DA (full),Raw deviation |z|,58,0.059,31,20,7,0.0104,all
+LENS-DA (full),TreeSHAP on RF,34,-0.156,8,20,6,0.0463,all
+LENS-DA (full),Relational change RC only,58,-0.035,18,33,7,0.0796,all

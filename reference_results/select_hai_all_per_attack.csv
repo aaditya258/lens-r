@@ -1,0 +1,383 @@
+attack,method,best_rank,rr,stage_hit,top1,top3,top5
+A101,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+A101,Simple fix: sliding-baseline deviation,22.0,0.045454545454545456,1,0,0,0
+A101,LENS-DA (drift-aware),9.0,0.1111111111111111,1,0,0,0
+A101,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A101,Raw deviation |z|,2.0,0.5,1,0,1,1
+A101,RF Gini (static),2.0,0.5,1,0,1,1
+A102,"LENS-U (original, label-free)",2.0,0.5,1,0,1,1
+A102,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A102,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A102,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A102,Raw deviation |z|,2.0,0.5,1,0,1,1
+A102,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A103,"LENS-U (original, label-free)",8.0,0.125,1,0,0,0
+A103,Simple fix: sliding-baseline deviation,10.0,0.1,0,0,0,0
+A103,LENS-DA (drift-aware),3.0,0.3333333333333333,1,0,1,1
+A103,LENS-SW (state-switched),5.0,0.2,1,0,0,1
+A103,Raw deviation |z|,17.0,0.058823529411764705,1,0,0,0
+A103,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A104,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A104,Simple fix: sliding-baseline deviation,45.0,0.022222222222222223,0,0,0,0
+A104,LENS-DA (drift-aware),4.0,0.25,0,0,0,1
+A104,LENS-SW (state-switched),2.0,0.5,0,0,1,1
+A104,Raw deviation |z|,64.0,0.015625,0,0,0,0
+A104,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A105,"LENS-U (original, label-free)",40.0,0.025,1,0,0,0
+A105,Simple fix: sliding-baseline deviation,13.0,0.07692307692307693,1,0,0,0
+A105,LENS-DA (drift-aware),24.0,0.041666666666666664,1,0,0,0
+A105,LENS-SW (state-switched),44.0,0.022727272727272728,1,0,0,0
+A105,Raw deviation |z|,16.0,0.0625,1,0,0,0
+A105,RF Gini (static),23.0,0.043478260869565216,1,0,0,0
+A106,"LENS-U (original, label-free)",27.0,0.037037037037037035,1,0,0,0
+A106,Simple fix: sliding-baseline deviation,15.0,0.06666666666666667,0,0,0,0
+A106,LENS-DA (drift-aware),6.0,0.16666666666666666,1,0,0,0
+A106,LENS-SW (state-switched),23.0,0.043478260869565216,1,0,0,0
+A106,Raw deviation |z|,28.0,0.03571428571428571,1,0,0,0
+A106,RF Gini (static),1.0,1.0,1,1,1,1
+A107,"LENS-U (original, label-free)",38.0,0.02631578947368421,0,0,0,0
+A107,Simple fix: sliding-baseline deviation,44.0,0.022727272727272728,0,0,0,0
+A107,LENS-DA (drift-aware),36.0,0.027777777777777776,1,0,0,0
+A107,LENS-SW (state-switched),35.0,0.02857142857142857,1,0,0,0
+A107,Raw deviation |z|,15.0,0.06666666666666667,0,0,0,0
+A107,RF Gini (static),34.0,0.029411764705882353,1,0,0,0
+A201,"LENS-U (original, label-free)",27.0,0.037037037037037035,1,0,0,0
+A201,Simple fix: sliding-baseline deviation,13.0,0.07692307692307693,1,0,0,0
+A201,LENS-DA (drift-aware),16.0,0.0625,1,0,0,0
+A201,LENS-SW (state-switched),15.0,0.06666666666666667,1,0,0,0
+A201,Raw deviation |z|,47.0,0.02127659574468085,1,0,0,0
+A201,RF Gini (static),46.0,0.021739130434782608,1,0,0,0
+A202,"LENS-U (original, label-free)",51.0,0.0196078431372549,0,0,0,0
+A202,Simple fix: sliding-baseline deviation,40.0,0.025,1,0,0,0
+A202,LENS-DA (drift-aware),59.0,0.01694915254237288,1,0,0,0
+A202,LENS-SW (state-switched),49.0,0.02040816326530612,0,0,0,0
+A202,Raw deviation |z|,52.0,0.019230769230769232,1,0,0,0
+A202,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A203,"LENS-U (original, label-free)",40.0,0.025,0,0,0,0
+A203,Simple fix: sliding-baseline deviation,69.0,0.014492753623188406,0,0,0,0
+A203,LENS-DA (drift-aware),14.0,0.07142857142857142,0,0,0,0
+A203,LENS-SW (state-switched),37.0,0.02702702702702703,0,0,0,0
+A203,Raw deviation |z|,40.0,0.025,0,0,0,0
+A203,RF Gini (static),30.0,0.03333333333333333,0,0,0,0
+A204,"LENS-U (original, label-free)",18.0,0.05555555555555555,0,0,0,0
+A204,Simple fix: sliding-baseline deviation,25.0,0.04,1,0,0,0
+A204,LENS-DA (drift-aware),22.0,0.045454545454545456,1,0,0,0
+A204,LENS-SW (state-switched),4.0,0.25,1,0,0,1
+A204,Raw deviation |z|,43.0,0.023255813953488372,1,0,0,0
+A204,RF Gini (static),2.0,0.5,1,0,1,1
+A205,"LENS-U (original, label-free)",3.0,0.3333333333333333,0,0,1,1
+A205,Simple fix: sliding-baseline deviation,40.0,0.025,0,0,0,0
+A205,LENS-DA (drift-aware),9.0,0.1111111111111111,0,0,0,0
+A205,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A205,Raw deviation |z|,61.0,0.01639344262295082,0,0,0,0
+A205,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A206,"LENS-U (original, label-free)",41.0,0.024390243902439025,1,0,0,0
+A206,Simple fix: sliding-baseline deviation,27.0,0.037037037037037035,1,0,0,0
+A206,LENS-DA (drift-aware),27.0,0.037037037037037035,1,0,0,0
+A206,LENS-SW (state-switched),32.0,0.03125,1,0,0,0
+A206,Raw deviation |z|,44.0,0.022727272727272728,1,0,0,0
+A206,RF Gini (static),9.0,0.1111111111111111,1,0,0,0
+A207,"LENS-U (original, label-free)",4.0,0.25,1,0,0,1
+A207,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,1,0,1,1
+A207,LENS-DA (drift-aware),8.0,0.125,1,0,0,0
+A207,LENS-SW (state-switched),4.0,0.25,1,0,0,1
+A207,Raw deviation |z|,3.0,0.3333333333333333,1,0,1,1
+A207,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A208,"LENS-U (original, label-free)",21.0,0.047619047619047616,0,0,0,0
+A208,Simple fix: sliding-baseline deviation,26.0,0.038461538461538464,0,0,0,0
+A208,LENS-DA (drift-aware),14.0,0.07142857142857142,0,0,0,0
+A208,LENS-SW (state-switched),4.0,0.25,0,0,0,1
+A208,Raw deviation |z|,47.0,0.02127659574468085,0,0,0,0
+A208,RF Gini (static),8.0,0.125,0,0,0,0
+A209,"LENS-U (original, label-free)",32.0,0.03125,0,0,0,0
+A209,Simple fix: sliding-baseline deviation,21.0,0.047619047619047616,1,0,0,0
+A209,LENS-DA (drift-aware),23.0,0.043478260869565216,1,0,0,0
+A209,LENS-SW (state-switched),25.0,0.04,0,0,0,0
+A209,Raw deviation |z|,19.0,0.05263157894736842,1,0,0,0
+A209,RF Gini (static),9.0,0.1111111111111111,1,0,0,0
+A210,"LENS-U (original, label-free)",20.0,0.05,1,0,0,0
+A210,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,1,0,0,0
+A210,LENS-DA (drift-aware),11.0,0.09090909090909091,1,0,0,0
+A210,LENS-SW (state-switched),13.0,0.07692307692307693,1,0,0,0
+A210,Raw deviation |z|,30.0,0.03333333333333333,0,0,0,0
+A210,RF Gini (static),30.0,0.03333333333333333,0,0,0,0
+A211,"LENS-U (original, label-free)",25.0,0.04,1,0,0,0
+A211,Simple fix: sliding-baseline deviation,16.0,0.0625,1,0,0,0
+A211,LENS-DA (drift-aware),20.0,0.05,1,0,0,0
+A211,LENS-SW (state-switched),16.0,0.0625,1,0,0,0
+A211,Raw deviation |z|,42.0,0.023809523809523808,1,0,0,0
+A211,RF Gini (static),2.0,0.5,1,0,1,1
+A212,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A212,Simple fix: sliding-baseline deviation,34.0,0.029411764705882353,0,0,0,0
+A212,LENS-DA (drift-aware),4.0,0.25,0,0,0,1
+A212,LENS-SW (state-switched),2.0,0.5,0,0,1,1
+A212,Raw deviation |z|,53.0,0.018867924528301886,0,0,0,0
+A212,RF Gini (static),38.0,0.02631578947368421,0,0,0,0
+A213,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A213,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A213,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A213,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A213,Raw deviation |z|,1.0,1.0,1,1,1,1
+A213,RF Gini (static),1.0,1.0,1,1,1,1
+A214,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A214,Simple fix: sliding-baseline deviation,5.0,0.2,0,0,0,1
+A214,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+A214,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A214,Raw deviation |z|,22.0,0.045454545454545456,0,0,0,0
+A214,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A215,"LENS-U (original, label-free)",36.0,0.027777777777777776,1,0,0,0
+A215,Simple fix: sliding-baseline deviation,39.0,0.02564102564102564,1,0,0,0
+A215,LENS-DA (drift-aware),49.0,0.02040816326530612,1,0,0,0
+A215,LENS-SW (state-switched),29.0,0.034482758620689655,1,0,0,0
+A215,Raw deviation |z|,41.0,0.024390243902439025,1,0,0,0
+A215,RF Gini (static),26.0,0.038461538461538464,1,0,0,0
+A216,"LENS-U (original, label-free)",31.0,0.03225806451612903,1,0,0,0
+A216,Simple fix: sliding-baseline deviation,25.0,0.04,1,0,0,0
+A216,LENS-DA (drift-aware),34.0,0.029411764705882353,1,0,0,0
+A216,LENS-SW (state-switched),29.0,0.034482758620689655,1,0,0,0
+A216,Raw deviation |z|,43.0,0.023255813953488372,1,0,0,0
+A216,RF Gini (static),27.0,0.037037037037037035,1,0,0,0
+A217,"LENS-U (original, label-free)",46.0,0.021739130434782608,1,0,0,0
+A217,Simple fix: sliding-baseline deviation,33.0,0.030303030303030304,1,0,0,0
+A217,LENS-DA (drift-aware),44.0,0.022727272727272728,1,0,0,0
+A217,LENS-SW (state-switched),39.0,0.02564102564102564,1,0,0,0
+A217,Raw deviation |z|,38.0,0.02631578947368421,1,0,0,0
+A217,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A301,"LENS-U (original, label-free)",34.0,0.029411764705882353,1,0,0,0
+A301,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,1,0,0,0
+A301,LENS-DA (drift-aware),41.0,0.024390243902439025,1,0,0,0
+A301,LENS-SW (state-switched),30.0,0.03333333333333333,1,0,0,0
+A301,TreeSHAP on RF,24.0,0.041666666666666664,1,0,0,0
+A301,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+A301,RF Gini (static),6.0,0.16666666666666666,1,0,0,0
+A302,"LENS-U (original, label-free)",13.0,0.07692307692307693,1,0,0,0
+A302,Simple fix: sliding-baseline deviation,4.0,0.25,1,0,0,1
+A302,LENS-DA (drift-aware),11.0,0.09090909090909091,1,0,0,0
+A302,LENS-SW (state-switched),8.0,0.125,1,0,0,0
+A302,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A302,Raw deviation |z|,17.0,0.058823529411764705,1,0,0,0
+A302,RF Gini (static),5.0,0.2,1,0,0,1
+A303,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A303,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A303,LENS-DA (drift-aware),2.0,0.5,1,0,1,1
+A303,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A303,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A303,Raw deviation |z|,4.0,0.25,1,0,0,1
+A303,RF Gini (static),5.0,0.2,1,0,0,1
+A304,"LENS-U (original, label-free)",5.0,0.2,1,0,0,1
+A304,Simple fix: sliding-baseline deviation,6.0,0.16666666666666666,1,0,0,0
+A304,LENS-DA (drift-aware),11.0,0.09090909090909091,1,0,0,0
+A304,LENS-SW (state-switched),3.0,0.3333333333333333,0,0,1,1
+A304,TreeSHAP on RF,10.0,0.1,1,0,0,0
+A304,Raw deviation |z|,15.0,0.06666666666666667,1,0,0,0
+A304,RF Gini (static),5.0,0.2,1,0,0,1
+A305,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A305,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A305,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A305,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A305,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A305,Raw deviation |z|,1.0,1.0,1,1,1,1
+A305,RF Gini (static),6.0,0.16666666666666666,1,0,0,0
+A306,"LENS-U (original, label-free)",18.0,0.05555555555555555,1,0,0,0
+A306,Simple fix: sliding-baseline deviation,3.0,0.3333333333333333,1,0,1,1
+A306,LENS-DA (drift-aware),22.0,0.045454545454545456,1,0,0,0
+A306,LENS-SW (state-switched),13.0,0.07692307692307693,1,0,0,0
+A306,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A306,Raw deviation |z|,10.0,0.1,1,0,0,0
+A306,RF Gini (static),2.0,0.5,1,0,1,1
+A307,"LENS-U (original, label-free)",3.0,0.3333333333333333,1,0,1,1
+A307,Simple fix: sliding-baseline deviation,45.0,0.022222222222222223,1,0,0,0
+A307,LENS-DA (drift-aware),23.0,0.043478260869565216,1,0,0,0
+A307,LENS-SW (state-switched),8.0,0.125,1,0,0,0
+A307,TreeSHAP on RF,15.0,0.06666666666666667,1,0,0,0
+A307,Raw deviation |z|,12.0,0.08333333333333333,1,0,0,0
+A307,RF Gini (static),17.0,0.058823529411764705,1,0,0,0
+A308,"LENS-U (original, label-free)",10.0,0.1,0,0,0,0
+A308,Simple fix: sliding-baseline deviation,2.0,0.5,0,0,1,1
+A308,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A308,LENS-SW (state-switched),6.0,0.16666666666666666,0,0,0,0
+A308,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A308,Raw deviation |z|,2.0,0.5,1,0,1,1
+A308,RF Gini (static),1.0,1.0,1,1,1,1
+A309,"LENS-U (original, label-free)",35.0,0.02857142857142857,0,0,0,0
+A309,Simple fix: sliding-baseline deviation,43.0,0.023255813953488372,1,0,0,0
+A309,LENS-DA (drift-aware),30.0,0.03333333333333333,1,0,0,0
+A309,LENS-SW (state-switched),29.0,0.034482758620689655,0,0,0,0
+A309,TreeSHAP on RF,16.0,0.0625,1,0,0,0
+A309,Raw deviation |z|,11.0,0.09090909090909091,1,0,0,0
+A309,RF Gini (static),27.0,0.037037037037037035,1,0,0,0
+A310,"LENS-U (original, label-free)",2.0,0.5,1,0,1,1
+A310,Simple fix: sliding-baseline deviation,2.0,0.5,1,0,1,1
+A310,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+A310,LENS-SW (state-switched),2.0,0.5,1,0,1,1
+A310,TreeSHAP on RF,14.0,0.07142857142857142,0,0,0,0
+A310,Raw deviation |z|,11.0,0.09090909090909091,0,0,0,0
+A310,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A401,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A401,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A401,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A401,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A401,TreeSHAP on RF,15.0,0.06666666666666667,1,0,0,0
+A401,Raw deviation |z|,1.0,1.0,1,1,1,1
+A401,RF Gini (static),50.0,0.02,0,0,0,0
+A402,"LENS-U (original, label-free)",26.0,0.038461538461538464,1,0,0,0
+A402,Simple fix: sliding-baseline deviation,39.0,0.02564102564102564,0,0,0,0
+A402,LENS-DA (drift-aware),23.0,0.043478260869565216,1,0,0,0
+A402,LENS-SW (state-switched),21.0,0.047619047619047616,1,0,0,0
+A402,TreeSHAP on RF,26.0,0.038461538461538464,1,0,0,0
+A402,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A402,RF Gini (static),34.0,0.029411764705882353,1,0,0,0
+A403,"LENS-U (original, label-free)",77.5,0.012903225806451613,0,0,0,0
+A403,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A403,LENS-DA (drift-aware),77.5,0.012903225806451613,0,0,0,0
+A403,LENS-SW (state-switched),77.5,0.012903225806451613,0,0,0,0
+A403,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+A403,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+A403,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+A404,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A404,Simple fix: sliding-baseline deviation,9.0,0.1111111111111111,0,0,0,0
+A404,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+A404,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A404,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A404,Raw deviation |z|,30.0,0.03333333333333333,0,0,0,0
+A404,RF Gini (static),6.0,0.16666666666666666,0,0,0,0
+A405,"LENS-U (original, label-free)",48.0,0.020833333333333332,0,0,0,0
+A405,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A405,LENS-DA (drift-aware),39.0,0.02564102564102564,1,0,0,0
+A405,LENS-SW (state-switched),42.0,0.023809523809523808,0,0,0,0
+A405,TreeSHAP on RF,8.0,0.125,1,0,0,0
+A405,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A405,RF Gini (static),37.0,0.02702702702702703,1,0,0,0
+A406,"LENS-U (original, label-free)",26.0,0.038461538461538464,1,0,0,0
+A406,Simple fix: sliding-baseline deviation,42.0,0.023809523809523808,1,0,0,0
+A406,LENS-DA (drift-aware),18.0,0.05555555555555555,1,0,0,0
+A406,LENS-SW (state-switched),18.0,0.05555555555555555,1,0,0,0
+A406,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A406,Raw deviation |z|,11.0,0.09090909090909091,1,0,0,0
+A406,RF Gini (static),26.0,0.038461538461538464,1,0,0,0
+A407,"LENS-U (original, label-free)",46.0,0.021739130434782608,1,0,0,0
+A407,Simple fix: sliding-baseline deviation,43.0,0.023255813953488372,1,0,0,0
+A407,LENS-DA (drift-aware),47.0,0.02127659574468085,1,0,0,0
+A407,LENS-SW (state-switched),35.0,0.02857142857142857,0,0,0,0
+A407,TreeSHAP on RF,23.0,0.043478260869565216,1,0,0,0
+A407,Raw deviation |z|,61.0,0.01639344262295082,1,0,0,0
+A407,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A408,"LENS-U (original, label-free)",3.0,0.3333333333333333,1,0,1,1
+A408,Simple fix: sliding-baseline deviation,14.0,0.07142857142857142,0,0,0,0
+A408,LENS-DA (drift-aware),9.0,0.1111111111111111,0,0,0,0
+A408,LENS-SW (state-switched),3.0,0.3333333333333333,0,0,1,1
+A408,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A408,Raw deviation |z|,4.0,0.25,1,0,0,1
+A408,RF Gini (static),2.0,0.5,1,0,1,1
+A409,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A409,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A409,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A409,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A409,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A409,Raw deviation |z|,1.0,1.0,1,1,1,1
+A409,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A410,"LENS-U (original, label-free)",6.0,0.16666666666666666,0,0,0,0
+A410,Simple fix: sliding-baseline deviation,25.0,0.04,1,0,0,0
+A410,LENS-DA (drift-aware),27.0,0.037037037037037035,1,0,0,0
+A410,LENS-SW (state-switched),19.0,0.05263157894736842,1,0,0,0
+A410,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A410,Raw deviation |z|,18.0,0.05555555555555555,1,0,0,0
+A410,RF Gini (static),18.0,0.05555555555555555,1,0,0,0
+A411,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A411,Simple fix: sliding-baseline deviation,1.0,1.0,1,1,1,1
+A411,LENS-DA (drift-aware),1.0,1.0,1,1,1,1
+A411,LENS-SW (state-switched),2.0,0.5,1,0,1,1
+A411,TreeSHAP on RF,11.0,0.09090909090909091,1,0,0,0
+A411,Raw deviation |z|,1.0,1.0,1,1,1,1
+A411,RF Gini (static),1.0,1.0,1,1,1,1
+A412,"LENS-U (original, label-free)",4.0,0.25,1,0,0,1
+A412,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+A412,LENS-DA (drift-aware),12.0,0.08333333333333333,1,0,0,0
+A412,LENS-SW (state-switched),12.0,0.08333333333333333,0,0,0,0
+A412,TreeSHAP on RF,5.0,0.2,1,0,0,1
+A412,Raw deviation |z|,3.0,0.3333333333333333,1,0,1,1
+A412,RF Gini (static),17.0,0.058823529411764705,1,0,0,0
+A413,"LENS-U (original, label-free)",2.0,0.5,0,0,1,1
+A413,Simple fix: sliding-baseline deviation,4.0,0.25,0,0,0,1
+A413,LENS-DA (drift-aware),3.0,0.3333333333333333,1,0,1,1
+A413,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A413,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A413,Raw deviation |z|,4.0,0.25,0,0,0,1
+A413,RF Gini (static),11.0,0.09090909090909091,1,0,0,0
+A414,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A414,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+A414,LENS-DA (drift-aware),3.0,0.3333333333333333,0,0,1,1
+A414,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A414,TreeSHAP on RF,19.0,0.05263157894736842,0,0,0,0
+A414,Raw deviation |z|,38.0,0.02631578947368421,1,0,0,0
+A414,RF Gini (static),10.0,0.1,0,0,0,0
+A415,"LENS-U (original, label-free)",77.5,0.012903225806451613,0,0,0,0
+A415,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,0,0,0,0
+A415,LENS-DA (drift-aware),77.5,0.012903225806451613,0,0,0,0
+A415,LENS-SW (state-switched),77.5,0.012903225806451613,0,0,0,0
+A415,TreeSHAP on RF,77.5,0.012903225806451613,0,0,0,0
+A415,Raw deviation |z|,77.5,0.012903225806451613,0,0,0,0
+A415,RF Gini (static),77.5,0.012903225806451613,0,0,0,0
+A416,"LENS-U (original, label-free)",45.0,0.022222222222222223,1,0,0,0
+A416,Simple fix: sliding-baseline deviation,28.0,0.03571428571428571,1,0,0,0
+A416,LENS-DA (drift-aware),40.0,0.025,1,0,0,0
+A416,LENS-SW (state-switched),35.0,0.02857142857142857,1,0,0,0
+A416,TreeSHAP on RF,3.0,0.3333333333333333,1,0,1,1
+A416,Raw deviation |z|,34.0,0.029411764705882353,1,0,0,0
+A416,RF Gini (static),5.0,0.2,1,0,0,1
+A417,"LENS-U (original, label-free)",52.0,0.019230769230769232,1,0,0,0
+A417,Simple fix: sliding-baseline deviation,69.5,0.014388489208633094,1,0,0,0
+A417,LENS-DA (drift-aware),56.0,0.017857142857142856,1,0,0,0
+A417,LENS-SW (state-switched),50.0,0.02,0,0,0,0
+A417,TreeSHAP on RF,4.0,0.25,1,0,0,1
+A417,Raw deviation |z|,48.0,0.020833333333333332,1,0,0,0
+A417,RF Gini (static),42.0,0.023809523809523808,1,0,0,0
+A418,"LENS-U (original, label-free)",45.0,0.022222222222222223,0,0,0,0
+A418,Simple fix: sliding-baseline deviation,27.0,0.037037037037037035,1,0,0,0
+A418,LENS-DA (drift-aware),43.0,0.023255813953488372,1,0,0,0
+A418,LENS-SW (state-switched),41.0,0.024390243902439025,1,0,0,0
+A418,TreeSHAP on RF,43.0,0.023255813953488372,1,0,0,0
+A418,Raw deviation |z|,60.0,0.016666666666666666,1,0,0,0
+A418,RF Gini (static),23.0,0.043478260869565216,1,0,0,0
+A419,"LENS-U (original, label-free)",1.0,1.0,1,1,1,1
+A419,Simple fix: sliding-baseline deviation,20.0,0.05,1,0,0,0
+A419,LENS-DA (drift-aware),6.0,0.16666666666666666,1,0,0,0
+A419,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A419,TreeSHAP on RF,31.0,0.03225806451612903,1,0,0,0
+A419,Raw deviation |z|,32.0,0.03125,1,0,0,0
+A419,RF Gini (static),38.0,0.02631578947368421,1,0,0,0
+A420,"LENS-U (original, label-free)",3.0,0.3333333333333333,1,0,1,1
+A420,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,1,0,0,0
+A420,LENS-DA (drift-aware),3.0,0.3333333333333333,1,0,1,1
+A420,LENS-SW (state-switched),1.0,1.0,1,1,1,1
+A420,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A420,Raw deviation |z|,12.0,0.08333333333333333,1,0,0,0
+A420,RF Gini (static),2.0,0.5,1,0,1,1
+A421,"LENS-U (original, label-free)",24.0,0.041666666666666664,0,0,0,0
+A421,Simple fix: sliding-baseline deviation,5.0,0.2,0,0,0,1
+A421,LENS-DA (drift-aware),6.0,0.16666666666666666,1,0,0,0
+A421,LENS-SW (state-switched),8.0,0.125,0,0,0,0
+A421,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A421,Raw deviation |z|,25.0,0.04,0,0,0,0
+A421,RF Gini (static),1.0,1.0,1,1,1,1
+A422,"LENS-U (original, label-free)",36.0,0.027777777777777776,1,0,0,0
+A422,Simple fix: sliding-baseline deviation,19.0,0.05263157894736842,1,0,0,0
+A422,LENS-DA (drift-aware),24.0,0.041666666666666664,1,0,0,0
+A422,LENS-SW (state-switched),31.0,0.03225806451612903,1,0,0,0
+A422,TreeSHAP on RF,12.0,0.08333333333333333,1,0,0,0
+A422,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+A422,RF Gini (static),9.0,0.1111111111111111,1,0,0,0
+A423,"LENS-U (original, label-free)",17.0,0.058823529411764705,1,0,0,0
+A423,Simple fix: sliding-baseline deviation,16.0,0.0625,1,0,0,0
+A423,LENS-DA (drift-aware),13.0,0.07692307692307693,1,0,0,0
+A423,LENS-SW (state-switched),5.0,0.2,1,0,0,1
+A423,TreeSHAP on RF,1.0,1.0,1,1,1,1
+A423,Raw deviation |z|,30.0,0.03333333333333333,1,0,0,0
+A423,RF Gini (static),8.0,0.125,1,0,0,0
+A424,"LENS-U (original, label-free)",2.0,0.5,1,0,1,1
+A424,Simple fix: sliding-baseline deviation,12.0,0.08333333333333333,0,0,0,0
+A424,LENS-DA (drift-aware),2.0,0.5,1,0,1,1
+A424,LENS-SW (state-switched),4.0,0.25,1,0,0,1
+A424,TreeSHAP on RF,36.0,0.027777777777777776,1,0,0,0
+A424,Raw deviation |z|,14.0,0.07142857142857142,1,0,0,0
+A424,RF Gini (static),1.0,1.0,1,1,1,1
