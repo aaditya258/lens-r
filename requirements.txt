@@ -1,0 +1,11 @@
+# Tested with Python 3.11
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.2.0
+shap==0.51.0
+matplotlib==3.10.9
+pyarrow==25.0.1
+python-calamine==0.8.2
+openpyxl==3.1.5

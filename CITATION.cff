@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "LENS: Drift-Robust, Label-Free Attack Localisation in Industrial Control Systems via Sensor Reconstruction"
+authors:
+  - family-names: Kumar
+    given-names: Anuj
+  - family-names: Singh
+    given-names: Koushlendra Kumar
+  - family-names: Kumar
+    given-names: Vinay
+repository-code: "https://github.com/aaditya258/lens-r"
+license: MIT
