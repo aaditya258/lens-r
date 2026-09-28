@@ -1,0 +1,17 @@
+{
+ "dataset": "SWaT A1",
+ "attack": "23",
+ "targets": [
+  "P602",
+  "DPIT301",
+  "MV302"
+ ],
+ "time": "2015-12-30T01:42:49.000000",
+ "seconds_after_onset": 15,
+ "theta": 52.587849031933196,
+ "lambda_": 0.01,
+ "slow_window": "[t-1800 s, t-300 s)",
+ "fast_window": "(t-10 s, t]",
+ "max_drift_tags": 10,
+ "fast_steps": 5
+}
